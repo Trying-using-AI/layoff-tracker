@@ -1,0 +1,37 @@
+name: Auto-Update Layoffs
+
+on:
+  schedule:
+    - cron: '*/30 * * * *' # Runs every 30 minutes automatically
+  workflow_dispatch: # Allows you to click a button to run it manually
+
+permissions:
+  contents: write # Allows the bot to save the file to your repo
+
+jobs:
+  run-scraper:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Install AI tools
+        run: pip install google-generativeai
+
+      - name: Run bot to get new data
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python layoff_scraper.py
+
+      - name: Save new data to GitHub
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add layoffs.json
+          git commit -m "Updated layoff data automatically" || exit 0
+          git push
