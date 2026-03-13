@@ -12,10 +12,11 @@ if not API_KEY:
     exit(1)
 
 genai.configure(api_key=API_KEY)
+# Using Gemini 2.5 Flash for fast, accurate text analysis
 model = genai.GenerativeModel('gemini-2.5-flash')
 
 JSON_FILE_PATH = 'layoffs.json'
-# Fetches layoff news from the last 6 months to backfill data
+# Fetches layoff news from the last 6 months
 RSS_URL = 'https://news.google.com/rss/search?q="layoffs"+OR+"job+cuts"+when:6m&hl=en-US&gl=US&ceid=US:en'
 
 def load_data():
@@ -28,6 +29,7 @@ def load_data():
     return []
 
 def save_data(data):
+    # Sort data by date, newest first
     data.sort(key=lambda x: x.get('date', '1970-01-01'), reverse=True)
     with open(JSON_FILE_PATH, 'w', encoding='utf-8') as f:
         json.dump(data, f, indent=2)
@@ -45,7 +47,7 @@ def main():
     data = load_data()
     added = 0
 
-    # Read top 100 articles for a deep backfill
+    # Read top 100 articles
     articles = root.findall('.//item')[:100]
     print(f"Found {len(articles)} articles. Scanning...")
 
@@ -53,23 +55,33 @@ def main():
         title = article.find('title').text
         link = article.find('link').text
         
+        # Get the article snippet/description to give the AI actual context
+        description_node = article.find('description')
+        description = description_node.text if description_node is not None else ""
+        
         # Get publication date to pass to AI for accurate historical dating
         pub_date_node = article.find('pubDate')
         pub_date = pub_date_node.text if pub_date_node is not None else datetime.now().strftime("%Y-%m-%d")
         
-        # Check if we already added a layoff for this exact link
+        # Check if we already processed this exact article link
         if any(item.get('link') == link for item in data):
             continue
 
+        # Upgraded Analyst Prompt
         prompt = f"""
-        Read this news title: {title}
+        You are a Data Analyst tracking corporate layoffs. Read the following news title and article snippet:
+        
+        Title: {title}
+        Snippet: {description}
         Publication Date: {pub_date}
         
-        If it announces a specific company laying off employees, return JSON:
-        {{"id": {int(time.time())}, "company": "Name", "date": "YYYY-MM-DD", "number": 100, "roles": "Roles", "link": "{link}"}}
+        TASK:
+        Evaluate the text carefully. Does it announce a specific company laying off employees or cutting jobs?
+        - If YES: Extract the data. If the text gives a percentage (e.g., "10% of 10,000 employees"), calculate the actual number. If the exact number is completely missing, use null.
+        - If NO (e.g., general economy news, hiring news, or opinion pieces): Return the exact word "null".
         
-        Use the Publication Date to determine the correct 'date' formatted as YYYY-MM-DD. 
-        If no specific company or layoff, return null. ONLY return valid JSON or null.
+        Return ONLY valid JSON matching this schema (no markdown formatting, no backticks, no extra text):
+        {{"id": {int(time.time())}, "company": "Company Name", "date": "YYYY-MM-DD (Convert Publication Date)", "number": 1000, "roles": "Roles impacted (or 'Unknown')", "link": "{link}"}}
         """
         
         try:
@@ -85,11 +97,10 @@ def main():
                 new_item = json.loads(res)
                 company_name = new_item.get('company', '')
                 
-                if company_name:
-                    # Double check company isn't already recently added in the last 30 entries 
-                    # (prevents 5 articles about the same event from creating duplicates)
+                if company_name and company_name.lower() != "unknown":
+                    # Check the last 40 entries to prevent duplicating the same event reported by different news outlets
                     is_duplicate = False
-                    for existing_item in data[:30]:
+                    for existing_item in data[:40]:
                         if existing_item.get('company', '').lower() == company_name.lower():
                             is_duplicate = True
                             break
@@ -97,7 +108,7 @@ def main():
                     if not is_duplicate:
                         data.append(new_item)
                         added += 1
-                        print(f"✅ Added historical layoff: {company_name} (from {new_item.get('date')})")
+                        print(f"✅ Extracted Layoff: {company_name} | Roles: {new_item.get('roles')} | Count: {new_item.get('number')}")
                         
         except Exception as e:
             # Silently skip AI parsing errors to keep the loop moving
@@ -108,9 +119,9 @@ def main():
 
     if added > 0:
         save_data(data)
-        print(f"Successfully updated JSON with {added} historical records.")
+        print(f"Successfully updated JSON with {added} new records.")
     else:
-        print("No new historical layoffs found to add.")
+        print("No new layoffs found to add.")
 
 if __name__ == "__main__":
     main()
