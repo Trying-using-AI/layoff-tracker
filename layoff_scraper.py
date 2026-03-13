@@ -19,11 +19,6 @@ model = genai.GenerativeModel('gemini-2.5-flash')
 
 JSON_FILE_PATH = 'layoffs.json'
 
-# FIX 1: Safely URL-encode the search query so Google News doesn't reject it
-SEARCH_QUERY = 'layoffs OR "job cuts" when:6m'
-ENCODED_QUERY = urllib.parse.quote(SEARCH_QUERY)
-RSS_URL = f'https://news.google.com/rss/search?q={ENCODED_QUERY}&hl=en-US&gl=US&ceid=US:en'
-
 def load_data():
     if os.path.exists(JSON_FILE_PATH):
         with open(JSON_FILE_PATH, 'r', encoding='utf-8') as f:
@@ -42,25 +37,46 @@ def save_data(data):
 def main():
     print("Fetching historical news for the last 6 months...")
     
-    # FIX 2: Use a stronger modern browser User-Agent so Google doesn't block the bot
+    # Use a stronger modern browser User-Agent so Google doesn't block the bot
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
     }
     
-    req = urllib.request.Request(RSS_URL, headers=headers)
-    try:
-        with urllib.request.urlopen(req) as response:
-            root = ET.fromstring(response.read())
-    except Exception as e:
-        print(f"Failed to fetch news: {e}")
-        return
+    # FIX: Use multiple simpler queries to bypass Google News RSS boolean rejections
+    # Pools multiple feeds to guarantee hundreds of results
+    queries = [
+        'tech layoffs when:180d',
+        'startup layoffs when:180d',
+        'corporate job cuts when:180d'
+    ]
+    
+    all_articles = []
+    seen_links = set()
+
+    for query in queries:
+        encoded_query = urllib.parse.quote(query)
+        rss_url = f'https://news.google.com/rss/search?q={encoded_query}&hl=en-US&gl=US&ceid=US:en'
+        
+        try:
+            req = urllib.request.Request(rss_url, headers=headers)
+            with urllib.request.urlopen(req) as response:
+                root = ET.fromstring(response.read())
+                
+                # Extract items and avoid duplicates across the different searches
+                for item in root.findall('.//item'):
+                    link = item.find('link').text
+                    if link not in seen_links:
+                        seen_links.add(link)
+                        all_articles.append(item)
+        except Exception as e:
+            print(f"Failed to fetch news for query '{query}': {e}")
 
     data = load_data()
     added = 0
 
-    # Read top 100 articles
-    articles = root.findall('.//item')[:100]
-    print(f"Found {len(articles)} articles. Scanning...")
+    # Read top 150 unique articles combined from all queries
+    articles = all_articles[:150]
+    print(f"Found {len(articles)} unique articles. Scanning...")
 
     for article in articles:
         title = article.find('title').text
@@ -77,11 +93,11 @@ def main():
         pub_date_node = article.find('pubDate')
         pub_date = pub_date_node.text if pub_date_node is not None else datetime.now().strftime("%Y-%m-%d")
         
-        # Check if we already processed this exact article link
+        # Check if we already processed this exact article link in our database
         if any(item.get('link') == link for item in data):
             continue
 
-        # Upgraded Analyst Prompt with stricter number constraints
+        # Upgraded Analyst Prompt with STRICT number constraints
         prompt = f"""
         You are a Data Analyst tracking corporate layoffs. Read the following news title and clean article snippet:
         
@@ -91,7 +107,7 @@ def main():
         
         TASK:
         Evaluate the text carefully. Does it announce a specific company laying off employees or cutting jobs?
-        - If YES: Extract the data. For "number", you MUST find the actual integer count of employees laid off (e.g., 1600, 4000). If the exact numerical count is completely missing, return null. Do NOT guess.
+        - If YES: Extract the data. For "number", you MUST find the actual integer count of employees laid off (e.g., 1600, 4000). Ignore generic numbers (like "10 years in business"). If the exact numerical layoff count is completely missing or unclear, return null. Do NOT guess.
         - If NO (e.g., general economy news, hiring news, or opinion pieces): Return the exact word "null".
         
         Return ONLY valid JSON matching this schema (no markdown formatting, no backticks, no extra text):
