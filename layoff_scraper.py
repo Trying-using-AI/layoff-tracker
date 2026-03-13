@@ -15,8 +15,8 @@ genai.configure(api_key=API_KEY)
 model = genai.GenerativeModel('gemini-2.5-flash')
 
 JSON_FILE_PATH = 'layoffs.json'
-# Fetches layoff news from the last 24 hours
-RSS_URL = 'https://news.google.com/rss/search?q="layoffs"+OR+"job+cuts"+when:1d&hl=en-US&gl=US&ceid=US:en'
+# Fetches layoff news from the last 6 months to backfill data
+RSS_URL = 'https://news.google.com/rss/search?q="layoffs"+OR+"job+cuts"+when:6m&hl=en-US&gl=US&ceid=US:en'
 
 def load_data():
     if os.path.exists(JSON_FILE_PATH):
@@ -33,7 +33,7 @@ def save_data(data):
         json.dump(data, f, indent=2)
 
 def main():
-    print("Fetching news...")
+    print("Fetching historical news for the last 6 months...")
     req = urllib.request.Request(RSS_URL, headers={'User-Agent': 'Mozilla/5.0'})
     try:
         with urllib.request.urlopen(req) as response:
@@ -44,12 +44,18 @@ def main():
 
     data = load_data()
     added = 0
-    today = datetime.now().strftime("%Y-%m-%d")
 
-    # Read top 10 articles
-    for article in root.findall('.//item')[:10]:
+    # Read top 100 articles for a deep backfill
+    articles = root.findall('.//item')[:100]
+    print(f"Found {len(articles)} articles. Scanning...")
+
+    for article in articles:
         title = article.find('title').text
         link = article.find('link').text
+        
+        # Get publication date to pass to AI for accurate historical dating
+        pub_date_node = article.find('pubDate')
+        pub_date = pub_date_node.text if pub_date_node is not None else datetime.now().strftime("%Y-%m-%d")
         
         # Check if we already added a layoff for this exact link
         if any(item.get('link') == link for item in data):
@@ -57,8 +63,12 @@ def main():
 
         prompt = f"""
         Read this news title: {title}
+        Publication Date: {pub_date}
+        
         If it announces a specific company laying off employees, return JSON:
-        {{"id": {int(time.time())}, "company": "Name", "date": "{today}", "number": 100, "roles": "Roles", "link": "{link}"}}
+        {{"id": {int(time.time())}, "company": "Name", "date": "YYYY-MM-DD", "number": 100, "roles": "Roles", "link": "{link}"}}
+        
+        Use the Publication Date to determine the correct 'date' formatted as YYYY-MM-DD. 
         If no specific company or layoff, return null. ONLY return valid JSON or null.
         """
         
@@ -76,9 +86,10 @@ def main():
                 company_name = new_item.get('company', '')
                 
                 if company_name:
-                    # Double check company isn't already recently added
+                    # Double check company isn't already recently added in the last 30 entries 
+                    # (prevents 5 articles about the same event from creating duplicates)
                     is_duplicate = False
-                    for existing_item in data[:20]:
+                    for existing_item in data[:30]:
                         if existing_item.get('company', '').lower() == company_name.lower():
                             is_duplicate = True
                             break
@@ -86,18 +97,20 @@ def main():
                     if not is_duplicate:
                         data.append(new_item)
                         added += 1
-                        print(f"✅ Added new layoff: {company_name}")
+                        print(f"✅ Added historical layoff: {company_name} (from {new_item.get('date')})")
                         
         except Exception as e:
-            print(f"Error analyzing article: {e}")
+            # Silently skip AI parsing errors to keep the loop moving
+            pass
             
-        time.sleep(3) # Don't overload the free API
+        # Sleep for 4 seconds to ensure we stay under the 15 Requests Per Minute free tier limit
+        time.sleep(4) 
 
     if added > 0:
         save_data(data)
-        print(f"Successfully updated JSON with {added} new records.")
+        print(f"Successfully updated JSON with {added} historical records.")
     else:
-        print("No new layoffs found right now.")
+        print("No new historical layoffs found to add.")
 
 if __name__ == "__main__":
     main()
