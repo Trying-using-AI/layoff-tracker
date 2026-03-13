@@ -19,9 +19,10 @@ model = genai.GenerativeModel('gemini-2.5-flash')
 
 JSON_FILE_PATH = 'layoffs.json'
 
-# FIX 1: Hardcode a safe, reliable Google News RSS URL (last 180 days)
-# URL encoding the colon in "when:180d" breaks Google News, so we use the raw string format
-RSS_URL = 'https://news.google.com/rss/search?q=layoffs+when:180d&hl=en-US&gl=US&ceid=US:en'
+# FIX 1: Safely URL-encode the search query so Google News doesn't reject it
+SEARCH_QUERY = 'layoffs OR "job cuts" when:6m'
+ENCODED_QUERY = urllib.parse.quote(SEARCH_QUERY)
+RSS_URL = f'https://news.google.com/rss/search?q={ENCODED_QUERY}&hl=en-US&gl=US&ceid=US:en'
 
 def load_data():
     if os.path.exists(JSON_FILE_PATH):
@@ -39,8 +40,9 @@ def save_data(data):
         json.dump(data, f, indent=2)
 
 def main():
-    print("Fetching historical news for the last 180 days...")
+    print("Fetching historical news for the last 6 months...")
     
+    # FIX 2: Use a stronger modern browser User-Agent so Google doesn't block the bot
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
     }
@@ -90,16 +92,16 @@ def main():
         TASK:
         Evaluate the text carefully. Does it announce a specific company laying off employees or cutting jobs?
         - If YES: Extract the data. For "number", you MUST find the actual integer count of employees laid off (e.g., 1600, 4000). If the exact numerical count is completely missing, return null. Do NOT guess.
-        - If NO (e.g., general economy news, hiring news, or opinion pieces): Return the exact word "null" (without quotes).
+        - If NO (e.g., general economy news, hiring news, or opinion pieces): Return the exact word "null".
         
-        Return ONLY valid JSON matching this schema exactly (no markdown formatting, no backticks, no extra text):
-        {{"id": {int(time.time())}, "company": "Company Name", "date": "2024-03-12", "number": 1000, "roles": "Roles impacted (or 'Unknown')", "link": "{link}"}}
+        Return ONLY valid JSON matching this schema (no markdown formatting, no backticks, no extra text):
+        {{"id": {int(time.time())}, "company": "Company Name", "date": "YYYY-MM-DD (Convert Publication Date)", "number": 1000, "roles": "Roles impacted (or 'Unknown')", "link": "{link}"}}
         """
         
         try:
             res = model.generate_content(prompt).text.strip()
             
-            if res.lower() != "null" and "{" in res:
+            if res != "null" and "{" in res:
                 # Clean up markdown if AI added it
                 if res.startswith("```json"):
                     res = res[7:-3]
@@ -132,20 +134,19 @@ def main():
                         data.append(new_item)
                         added += 1
                         print(f"✅ Extracted Layoff: {company_name} | Roles: {new_item.get('roles')} | Count: {new_item.get('number')}")
-            else:
-                print(f"⏭️ Skipped: Not a specific layoff announcement.")
-                
+                        
         except Exception as e:
-            # FIX 3: Print the error so we can debug it if the AI fails
-            print(f"⚠️ Error parsing article '{title[:30]}...': {e}")
+            # Silently skip AI parsing errors to keep the loop moving
+            pass
             
-        # FIX 4: Sleep for 5 seconds to ensure we safely stay under Gemini's 15 RPM free tier limit
-        time.sleep(5) 
+        # Sleep for 4 seconds to ensure we stay under the 15 Requests Per Minute free tier limit
+        time.sleep(4) 
 
     if added > 0:
         save_data(data)
-        print(f"\n🎉 Successfully updated JSON with {added} new records.")
+        print(f"Successfully updated JSON with {added} new records.")
     else:
-        print("\n👍 No new layoffs found to add.")
+        print("No new layoffs found to add.")
 
 if __name__ == "__main__":
+    main()
