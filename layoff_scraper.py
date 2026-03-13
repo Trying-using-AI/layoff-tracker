@@ -1,4 +1,5 @@
 import urllib.request
+import urllib.parse
 import xml.etree.ElementTree as ET
 import json
 import os
@@ -17,8 +18,11 @@ genai.configure(api_key=API_KEY)
 model = genai.GenerativeModel('gemini-2.5-flash')
 
 JSON_FILE_PATH = 'layoffs.json'
-# Fetches layoff news from the last 6 months
-RSS_URL = 'https://news.google.com/rss/search?q="layoffs"+OR+"job+cuts"+when:6m&hl=en-US&gl=US&ceid=US:en'
+
+# FIX 1: Safely URL-encode the search query so Google News doesn't reject it
+SEARCH_QUERY = 'layoffs OR "job cuts" when:6m'
+ENCODED_QUERY = urllib.parse.quote(SEARCH_QUERY)
+RSS_URL = f'https://news.google.com/rss/search?q={ENCODED_QUERY}&hl=en-US&gl=US&ceid=US:en'
 
 def load_data():
     if os.path.exists(JSON_FILE_PATH):
@@ -37,7 +41,13 @@ def save_data(data):
 
 def main():
     print("Fetching historical news for the last 6 months...")
-    req = urllib.request.Request(RSS_URL, headers={'User-Agent': 'Mozilla/5.0'})
+    
+    # FIX 2: Use a stronger modern browser User-Agent so Google doesn't block the bot
+    headers = {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
+    }
+    
+    req = urllib.request.Request(RSS_URL, headers=headers)
     try:
         with urllib.request.urlopen(req) as response:
             root = ET.fromstring(response.read())
@@ -60,7 +70,7 @@ def main():
         description_node = article.find('description')
         raw_desc = description_node.text if description_node is not None else ""
         
-        # FIX 1: Strip HTML tags out of the Google News description so AI can read plain text
+        # Strip HTML tags out of the Google News description so AI can read plain text
         clean_desc = re.sub(r'<[^>]+>', ' ', raw_desc).strip()
         
         # Get publication date to pass to AI for accurate historical dating
@@ -102,7 +112,7 @@ def main():
                 company_name = new_item.get('company', '')
                 
                 if company_name and company_name.lower() != "unknown":
-                    # FIX 2: Better Duplicate Checking (Compare Company AND Date)
+                    # Better Duplicate Checking (Compare Company AND Date)
                     is_duplicate = False
                     for existing_item in data:
                         if existing_item.get('company', '').lower() == company_name.lower():
