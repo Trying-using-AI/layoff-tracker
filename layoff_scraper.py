@@ -4,6 +4,7 @@ import json
 import os
 import time
 from datetime import datetime
+import re
 import google.generativeai as genai
 
 API_KEY = os.environ.get("GEMINI_API_KEY")
@@ -55,9 +56,12 @@ def main():
         title = article.find('title').text
         link = article.find('link').text
         
-        # Get the article snippet/description to give the AI actual context
+        # Get the article snippet/description
         description_node = article.find('description')
-        description = description_node.text if description_node is not None else ""
+        raw_desc = description_node.text if description_node is not None else ""
+        
+        # FIX 1: Strip HTML tags out of the Google News description so AI can read plain text
+        clean_desc = re.sub(r'<[^>]+>', ' ', raw_desc).strip()
         
         # Get publication date to pass to AI for accurate historical dating
         pub_date_node = article.find('pubDate')
@@ -67,17 +71,17 @@ def main():
         if any(item.get('link') == link for item in data):
             continue
 
-        # Upgraded Analyst Prompt
+        # Upgraded Analyst Prompt with stricter number constraints
         prompt = f"""
-        You are a Data Analyst tracking corporate layoffs. Read the following news title and article snippet:
+        You are a Data Analyst tracking corporate layoffs. Read the following news title and clean article snippet:
         
         Title: {title}
-        Snippet: {description}
+        Snippet: {clean_desc}
         Publication Date: {pub_date}
         
         TASK:
         Evaluate the text carefully. Does it announce a specific company laying off employees or cutting jobs?
-        - If YES: Extract the data. If the text gives a percentage (e.g., "10% of 10,000 employees"), calculate the actual number. If the exact number is completely missing, use null.
+        - If YES: Extract the data. For "number", you MUST find the actual integer count of employees laid off (e.g., 1600, 4000). If the exact numerical count is completely missing, return null. Do NOT guess.
         - If NO (e.g., general economy news, hiring news, or opinion pieces): Return the exact word "null".
         
         Return ONLY valid JSON matching this schema (no markdown formatting, no backticks, no extra text):
@@ -98,12 +102,23 @@ def main():
                 company_name = new_item.get('company', '')
                 
                 if company_name and company_name.lower() != "unknown":
-                    # Check the last 40 entries to prevent duplicating the same event reported by different news outlets
+                    # FIX 2: Better Duplicate Checking (Compare Company AND Date)
                     is_duplicate = False
-                    for existing_item in data[:40]:
+                    for existing_item in data:
                         if existing_item.get('company', '').lower() == company_name.lower():
-                            is_duplicate = True
-                            break
+                            try:
+                                # If the same company has a layoff reported within 14 days, treat it as the same event
+                                date_str_exist = existing_item.get('date', '1970-01-01')[:10]
+                                date_str_new = new_item.get('date', '1970-01-01')[:10]
+                                date_exist = datetime.strptime(date_str_exist, "%Y-%m-%d")
+                                date_new = datetime.strptime(date_str_new, "%Y-%m-%d")
+                                
+                                if abs((date_exist - date_new).days) <= 14:
+                                    is_duplicate = True
+                                    break
+                            except Exception:
+                                # If date parsing fails for some reason, ignore duplicate check
+                                pass
                     
                     if not is_duplicate:
                         data.append(new_item)
