@@ -1,5 +1,13 @@
 [
   {
+    "id": 1773654558,
+    "company": "Meta",
+    "date": "2026-03-14",
+    "number": null,
+    "roles": "Unknown",
+    "link": null
+  },
+  {
     "id": 1773384688,
     "company": "Atlassian",
     "date": "2026-03-13",
@@ -86,6 +94,14 @@
     "number": null,
     "roles": "Unknown",
     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOODA0bmJzNkgyVmt3cXctS0QxbXFLOHYxUE9qZHdFN0JMMWpZdmNieHdzUUJPZWYxRFppb3QxOGJHemlMRmtacGlCNVBqRWoxNFBOODRGTTlEVlJDaUxEdU92QTVoZ0FQbGVORDdnOVF1OHJQSkhwa1ZUUnB4TTVWMWxsSzQ?oc=5"
+  },
+  {
+    "id": 1773654545,
+    "company": "Google, Amazon and Pinterest",
+    "date": "2026-01-29",
+    "number": null,
+    "roles": "Unknown",
+    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPY2VIUV9hb3c2bVVGTklYSzZtSnMxZ0g0bTlEd1JEQ1FleExvYVRsV3hGamNpWkZKQzI1OWs0QUFSS0s4cFgycXFOMEN2cVZKUXpyQW4zRHB6eWdzUzN6NVdtcGNFVHkyS1VKeHlWdVp3TjYzNE1PcVdPQV9fS0g5MFlNbXhPMW53V2J6bFln?oc=5"
   },
   {
     "id": 1773604207,
