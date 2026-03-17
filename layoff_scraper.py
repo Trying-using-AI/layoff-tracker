@@ -97,7 +97,11 @@ def main():
         if any(item.get('link') == link for item in data):
             continue
 
-        # Upgraded Analyst Prompt with STRICT number constraints
+        # Extract source name from title (Google News appends it after a dash)
+        title_text = title if title else ""
+        source_name = title_text.split(' - ')[-1] if ' - ' in title_text else 'News'
+
+        # Upgraded Analyst Prompt (We DO NOT ask AI for the link to prevent broken/hallucinated URLs)
         prompt = f"""
         You are a Data Analyst tracking corporate layoffs. Read the following news title and clean article snippet:
         
@@ -107,11 +111,11 @@ def main():
         
         TASK:
         Evaluate the text carefully. Does it announce a specific company laying off employees or cutting jobs?
-        - If YES: Extract the data. For "number", you MUST find the actual integer count of employees laid off (e.g., 1600, 4000). Ignore generic numbers (like "10 years in business"). If the exact numerical layoff count is completely missing or unclear, return null. Do NOT guess.
+        - If YES: Extract the data. Look closely at BOTH the title and snippet. For "number", you MUST find the actual integer count of employees laid off (e.g., 1600, 4000). If it mentions a percentage (e.g., "10% of 10,000 employees"), calculate the exact number (1000). If the exact numerical layoff count is completely missing or unclear, return null. Do NOT guess.
         - If NO (e.g., general economy news, hiring news, or opinion pieces): Return the exact word "null".
         
         Return ONLY valid JSON matching this schema (no markdown formatting, no backticks, no extra text):
-        {{"id": {int(time.time())}, "company": "Company Name", "date": "YYYY-MM-DD (Convert Publication Date)", "number": 1000, "roles": "Roles impacted (or 'Unknown')", "link": "{link}"}}
+        {{"company": "Company Name", "date": "YYYY-MM-DD", "number": 1000, "roles": "Roles impacted (or 'Unknown')"}}
         """
         
         try:
@@ -128,7 +132,7 @@ def main():
                 company_name = new_item.get('company', '')
                 
                 if company_name and company_name.lower() != "unknown":
-                    # Better Duplicate Checking (Compare Company AND Date)
+                    # Better Duplicate Checking & Grouping Links
                     is_duplicate = False
                     for existing_item in data:
                         if existing_item.get('company', '').lower() == company_name.lower():
@@ -141,12 +145,34 @@ def main():
                                 
                                 if abs((date_exist - date_new).days) <= 14:
                                     is_duplicate = True
+                                    
+                                    # 1. Improve the numbers if the new article has exact counts and the old one didn't
+                                    old_num = existing_item.get('number')
+                                    new_num = new_item.get('number')
+                                    if new_num and isinstance(new_num, int) and (not old_num or old_num < new_num):
+                                        existing_item['number'] = new_num
+                                        print(f"🔄 Updated {company_name} with better layoff count: {new_num}")
+                                        
+                                    # 2. Append new link to the row (up to 3 links)
+                                    if 'links' not in existing_item:
+                                        existing_item['links'] = [{'source': existing_item.get('source', 'News'), 'url': existing_item.get('link', '')}]
+                                    
+                                    if not any(l['url'] == link for l in existing_item['links']):
+                                        if len(existing_item['links']) < 3:
+                                            existing_item['links'].append({'source': source_name, 'url': link})
+                                            
                                     break
                             except Exception:
                                 # If date parsing fails for some reason, ignore duplicate check
                                 pass
                     
                     if not is_duplicate:
+                        # Setup new entry
+                        new_item['id'] = int(time.time() * 1000)
+                        new_item['link'] = link  # Keep primary link for older UI
+                        new_item['source'] = source_name
+                        new_item['links'] = [{'source': source_name, 'url': link}]
+                        
                         data.append(new_item)
                         added += 1
                         print(f"✅ Extracted Layoff: {company_name} | Roles: {new_item.get('roles')} | Count: {new_item.get('number')}")
