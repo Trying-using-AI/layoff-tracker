@@ -75,9 +75,19 @@
     "id": 1773389671,
     "company": "Amazon",
     "date": "2026-01-31",
-    "number": null,
+    "number": 16000,
     "roles": "Unknown",
-    "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9idjV4SmVfalRsSkhaZWVRUFZJb1luVjQ2QkdPRHlaeWh5TER3czBIOXQwdHVQNW1udUlBZDRsZWh4TEVvWkR6ZkVIenUxeW0yczVnaExGX1ZqdklfcUVVcnBpN3dvaklIT3FDeWdIbHJGdEJFNlk5bGYwYw?oc=5"
+    "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9idjV4SmVfalRsSkhaZWVRUFZJb1luVjQ2QkdPRHlaeWh5TER3czBIOXQwdHVQNW1udUlBZDRsZWh4TEVvWkR6ZkVIenUxeW0yczVnaExGX1ZqdklfcUVVcnBpN3dvaklIT3FDeWdIbHJGdEJFNlk5bGYwYw?oc=5",
+    "links": [
+      {
+        "source": "News",
+        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9idjV4SmVfalRsSkhaZWVRUFZJb1luVjQ2QkdPRHlaeWh5TER3czBIOXQwdHVQNW1udUlBZDRsZWh4TEVvWkR6ZkVIenUxeW0yczVnaExGX1ZqdklfcUVVcnBpN3dvaklIT3FDeWdIbHJGdEJFNlk5bGYwYw?oc=5"
+      },
+      {
+        "source": "AP News",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQOVAyM0tSQldldU1LWDlnUGdKeTFYNnJFXzBmR3FXMFVzd0t5UnowR3RTQVAxUTJNX3B6YWI1U2VzZ0hzSFMyQ0NzdXA2Y3I0OGFxOUtOLUZyRnRQaTZVSnpsY1A5bngzczcza19sc0NCdGk0eVVybDNUWGRFTU1ZekY1Q3dHSGJ0LWgwaDJfb0gxUQ?oc=5"
+      }
+    ]
   },
   {
     "id": 1773473292,
@@ -118,6 +128,21 @@
     "number": null,
     "roles": "Unknown",
     "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9tWWQ4LVBwRGhTeU1uemYtcy12RXotS0N0dExodndxNkN2VmZQWFQ4WklXdzRjX0lkUlJ5RVBfMkZ5VnRKbG5xWmtwVUdVVXFoY3pZNHQ1ZVNYUlpfSUFLSFlEbHJqdEphV19QcG9tQjlTZkgxVXZWQ2NhaFQ1TXc?oc=5"
+  },
+  {
+    "company": "Tenstorrent",
+    "date": "2025-12-09",
+    "number": null,
+    "roles": "Unknown",
+    "id": 1773833849508,
+    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPbmh5Q3Q1T3owNXRORFFMVTU5YlNkenpkdlJPZFYxaEctd1YyeW9qMVhrS2NzeDAwRG8xY05NWVRwRlFuV1RxMUt0TnE2VU5Dbk1Da1dGanFjZ3JDWGk5eUNtR2ZycHJGYWRtU0NkMkZlR1FQODBuNmZ5VFhBcDliWjRpSUJaaUZ3NktyaUZwVkFVdDQ?oc=5",
+    "source": "EE Times",
+    "links": [
+      {
+        "source": "EE Times",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPbmh5Q3Q1T3owNXRORFFMVTU5YlNkenpkdlJPZFYxaEctd1YyeW9qMVhrS2NzeDAwRG8xY05NWVRwRlFuV1RxMUt0TnE2VU5Dbk1Da1dGanFjZ3JDWGk5eUNtR2ZycHJGYWRtU0NkMkZlR1FQODBuNmZ5VFhBcDliWjRpSUJaaUZ3NktyaUZwVkFVdDQ?oc=5"
+      }
+    ]
   },
   {
     "id": 1773510892,
