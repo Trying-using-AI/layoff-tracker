@@ -37,7 +37,17 @@
     "date": "2026-03-13",
     "number": null,
     "roles": "Unknown",
-    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQY1NmQzJTa0VGQmo5TUV2ZllPcmprYnJ4bWZka1pLTjR0bzIzdktNcXVYN1k5WnRTVktUUndldlgxLXV6elQ1N2pkNjZjZTB0SW9mUlNlR0lHMmJlU25zSlRrdWg4c3NuSUg1cjE1SnFzYUdxdFY2LXNyQnRfcURzSWE3VzZCMHphQURmd3drZjVnX3hjOTlxRE0wSTNYaWs4REFBRy1paw?oc=5"
+    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQY1NmQzJTa0VGQmo5TUV2ZllPcmprYnJ4bWZka1pLTjR0bzIzdktNcXVYN1k5WnRTVktUUndldlgxLXV6elQ1N2pkNjZjZTB0SW9mUlNlR0lHMmJlU25zSlRrdWg4c3NuSUg1cjE1SnFzYUdxdFY2LXNyQnRfcURzSWE3VzZCMHphQURmd3drZjVnX3hjOTlxRE0wSTNYaWs4REFBRy1paw?oc=5",
+    "links": [
+      {
+        "source": "News",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQY1NmQzJTa0VGQmo5TUV2ZllPcmprYnJ4bWZka1pLTjR0bzIzdktNcXVYN1k5WnRTVktUUndldlgxLXV6elQ1N2pkNjZjZTB0SW9mUlNlR0lHMmJlU25zSlRrdWg4c3NuSUg1cjE1SnFzYUdxdFY2LXNyQnRfcURzSWE3VzZCMHphQURmd3drZjVnX3hjOTlxRE0wSTNYaWs4REFBRy1paw?oc=5"
+      },
+      {
+        "source": "Darden Report Online",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQY1NmQzJTa0VGQmo5TUV2ZllPcmprYnJ4bWZka1pLTjR0bzIzdktNcXVYN1k5WnRTVktUUndldlgxLXV6elQ1N2pkNjZjZTB0SW9mUlNlR0lHMmJlU25zSlRrdWg4c3NuSUg1cjE1SnFzYUdxdFY2LXNyQnRfcURzSWE3VzZCMnphQURmd3drZjVnX3hjOTlxRE0wSTNYaWs4REFBRy1paw?oc=5"
+      }
+    ]
   },
   {
     "id": 1773389687,
@@ -64,12 +74,42 @@
     "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB2MGRVNER6bzRPdVJyUTNmT0NlUlVoV2FZNlVCOEE0aTNhT2o5S1RCM3FpQW1HazB6UXk2WGxvcW94aGNaMm5TQ1BOTGZfbmNuSE85NTVZSXNPSUE4SVhJWnZHVjl5UTN5R0o5ZXR6Q2ROeXkwWW40d1Q3Y000YWM?oc=5"
   },
   {
+    "company": "Amazon",
+    "date": "2026-02-21",
+    "number": null,
+    "roles": "Unknown",
+    "id": 1773907140333,
+    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQTmNQSm1HODNwUmFwSWJfbFI5cFQ5ZGdhdy0zTms2U0M4bjIwNmNoNUdYRGlQU0pfcnBoVm9sMzlkblFveG5Yc3hhMkR1a0ZuX2d3d0VVNmNPV0ZNU2ZhdDZHR2lOYUJrWW9FRU9KNHVQdDNSbmZzMEhGNDh5ZjZ6U28zX1RZNnI4VmFpVnVIY3VrVF9IYzBXaGhOX2l4WDVZbmpOOHcxSEI?oc=5",
+    "source": "Seeking Alpha",
+    "links": [
+      {
+        "source": "Seeking Alpha",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQTmNQSm1HODNwUmFwSWJfbFI5cFQ5ZGdhdy0zTms2U0M4bjIwNmNoNUdYRGlQU0pfcnBoVm9sMzlkblFveG5Yc3hhMkR1a0ZuX2d3d0VVNmNPV0ZNU2ZhdDZHR2lOYUJrWW9FRU9KNHVQdDNSbmZzMEhGNDh5ZjZ6U28zX1RZNnI4VmFpVnVIY3VrVF9IYzBXaGhOX2l4WDVZbmpOOHcxSEI?oc=5"
+      }
+    ]
+  },
+  {
     "id": 1773389696,
     "company": "T-Mobile",
     "date": "2026-02-06",
     "number": null,
     "roles": "Unknown",
     "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9PLU81VG1BNkdnaGhFYW1PbzVZRlBrTFNjWEM0ZjhsTGxGbS0wNVBNdnNCekRlUUw3RlBZb0Y0MzM2Z0IwTmpvaTRDMmFoYWc1NGs0ZlVHN1A2XzJZQk1xdG1OYTN4Z1ZXeDdTQQ?oc=5"
+  },
+  {
+    "company": "Traveloka",
+    "date": "2026-02-04",
+    "number": null,
+    "roles": "Unknown",
+    "id": 1773907077231,
+    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE42Q2xNWDdJSWwxWk84bHlVLTNVeElUSnFOTTZtTUpjQ1ZyMVA1T25heE5kczRZRTAxQ1djOHRXSlNRUjV3VnNXQXd3dTlVNmFlelNlaDkzUjJEM2VpUFIxZVVDN24yNXliQ2NSOTh1cVgtZzBrVVktT3N3R2tfZw?oc=5",
+    "source": "PhocusWire",
+    "links": [
+      {
+        "source": "PhocusWire",
+        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE42Q2xNWDdJSWwxWk84bHlVLTNVeElUSnFOTTZtTUpjQ1ZyMVA1T25heE5kczRZRTAxQ1djOHRXSlNRUjV3VnNXQXd3dTlVNmFlelNlaDkzUjJEM2VpUFIxZVVDN24yNXliQ2NSOTh1cVgtZzBrVVktT3N3R2tfZw?oc=5"
+      }
+    ]
   },
   {
     "id": 1773389671,
@@ -86,6 +126,10 @@
       {
         "source": "AP News",
         "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQOVAyM0tSQldldU1LWDlnUGdKeTFYNnJFXzBmR3FXMFVzd0t5UnowR3RTQVAxUTJNX3B6YWI1U2VzZ0hzSFMyQ0NzdXA2Y3I0OGFxOUtOLUZyRnRQaTZVSnpsY1A5bngzczcza19sc0NCdGk0eVVybDNUWGRFTU1ZekY1Q3dHSGJ0LWgwaDJfb0gxUQ?oc=5"
+      },
+      {
+        "source": "KUOW",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPV3NBWXpLWXF5MF85TkxpdlZILXd0a3NTb09aVHRBelMzUy0ycGNtSUt4UVpZX01wTnBvelB6cG1YS0d5M3JvVnM0VXllYnNRb1VTWTljOTNyVXYwNmo4YTgyUnRfN2Rzc1NMTGtvUzEyMm81dE83SzIwWWVHZ25ibWxacWJwNGtDMjJiVEpB?oc=5"
       }
     ]
   },
@@ -158,7 +202,17 @@
     "date": "2025-10-22",
     "number": null,
     "roles": "AI",
-    "link": null
+    "link": null,
+    "links": [
+      {
+        "source": "News",
+        "url": null
+      },
+      {
+        "source": "CNBC",
+        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPUklROTcwTllBeG03UTdNN3BBQkhVMi1XNXZhY2RZLVZ6R1NXXzRWQ0RldTAydGkxM1hyOUJnS3RpUmNiUkpDNFg4RXRfamxrUzY3QW5UYmk3SnpGamhPcVU5SU9zYVJQSjd1dHdxN1A2U0JKQjdJT1pLTkFaX3J0d2tn0gGHAUFVX3lxTE1vX2JQVVJuWHdidnZnRERsWXhNTEJtc0hqQjhmM3h5T05WaDdtSXFrMVNfODhMTHlsZ0ZHSnk0azNJM1VHdmpLcFg2TkoyZzlITzZMT0VZRWc5SzRCZEREWll4WmJ0cWdGT0ZCOFdSS1JVYlhIa1pHWGYyc2Mwb2JZWEJFRVlRQQ?oc=5"
+      }
+    ]
   },
   {
     "id": 1773735401,
