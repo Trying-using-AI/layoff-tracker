@@ -73,6 +73,21 @@
     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxMS08ybjlRQmNpaFdwVndkWWRYdl9HeXUyeEFuZVJxTWJmeHJ6VHVCQTJKLUVUWVdWWTVfdkZELUw3d3RTUzVyMmRLMkJUUzhRNmkyU2FRc0tsOUFmRlQ0X0MzaXVBNGd0VDVJR2g3d2cwQndzOVN0Q0RXeHZyWDhKXzgtY1RHY2xqUnBIQlFoREFFNHFwYUhtQWxmRTY0TTg?oc=5"
   },
   {
+    "company": "Oracle, Block, Morgan Stanley, Capital One",
+    "date": "2026-03-06",
+    "number": null,
+    "roles": "Unknown",
+    "id": 1774257547952,
+    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPbnhBVFY1bkY4VU1ibHR2RzlxSGpPX2tRM2pPUWZqNTBsYWJhTUlqSVUzNWNXc2xGUjRBejBYT3hlbGpkUzYtY2ZyenBDX3hKYXlySkdlNFNiMWNLR2NMR3NYSU5iWm96YjV5emxpQVZQM0hRX2RFSVJMV0FtcjFhTkozY29HakVCdEc4dnc5d1lXdHUxMWdNMmRZeFpYSTFLM0RqeHR3?oc=5",
+    "source": "Fast Company",
+    "links": [
+      {
+        "source": "Fast Company",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPbnhBVFY1bkY4VU1ibHR2RzlxSGpPX2tRM2pPUWZqNTBsYWJhTUlqSVUzNWNXc2xGUjRBejBYT3hlbGpkUzYtY2ZyenBDX3hKYXlySkdlNFNiMWNLR2NMR3NYSU5iWm96YjV5emxpQVZQM0hRX2RFSVJMV0FtcjFhTkozY29HakVCdEc4dnc5d1lXdHUxMWdNMmRZeFpYSTFLM0RqeHR3?oc=5"
+      }
+    ]
+  },
+  {
     "id": 1773473389,
     "company": "Microsoft",
     "date": "2026-02-27",
@@ -171,6 +186,21 @@
     "number": null,
     "roles": "Unknown",
     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPY2VIUV9hb3c2bVVGTklYSzZtSnMxZ0g0bTlEd1JEQ1FleExvYVRsV3hGamNpWkZKQzI1OWs0QUFSS0s4cFgycXFOMEN2cVZKUXpyQW4zRHB6eWdzUzN6NVdtcGNFVHkyS1VKeHlWdVp3TjYzNE1PcVdPQV9fS0g5MFlNbXhPMW53V2J6bFln?oc=5"
+  },
+  {
+    "company": "Google",
+    "date": "2026-01-29",
+    "number": null,
+    "roles": "Unknown",
+    "id": 1774257469035,
+    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOODA0bmJzNkgyVmt3cXctS0QxbXFLOHYxUE9qZHdFN0JMMWpZdmNieDdzUUJPZWYxRFppb3QxOGJHemlMRmtacGlCNVBqRWoxNFBOODRGTTlEVlJDaUxEdU92QTVoZ0FQbGVORDdnOVF1OHJQSkhwa1ZUUnB4TTVWMWxsSzQ?oc=5",
+    "source": "Yahoo Finance",
+    "links": [
+      {
+        "source": "Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOODA0bmJzNkgyVmt3cXctS0QxbXFLOHYxUE9qZHdFN0JMMWpZdmNieDdzUUJPZWYxRFppb3QxOGJHemlMRmtacGlCNVBqRWoxNFBOODRGTTlEVlJDaUxEdU92QTVoZ0FQbGVORDdnOVF1OHJQSkhwa1ZUUnB4TTVWMWxsSzQ?oc=5"
+      }
+    ]
   },
   {
     "id": 1773604207,
