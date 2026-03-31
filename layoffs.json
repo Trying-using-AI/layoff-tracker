@@ -1,5 +1,20 @@
 [
   {
+    "company": "Oracle",
+    "date": "2026-03-31",
+    "number": null,
+    "roles": "Unknown",
+    "id": 1774986223261,
+    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNSkxpU05RT0VSM3VCR2w5S0lUU3VwRUVaUGFteGNoX3ppNjdGWGRvTEVZV3VLN0tzUjBuRU9jaUNjZXo3Zmk3OW92UUJsZ3JlY2R3LXMzbDcwd3BseTd4QXBjTEIyVnluWnEzdFJiTk5GaHJldDE0UGc0OUU4eFppdXhQVU1SSzdfWkE?oc=5",
+    "source": "Business Insider",
+    "links": [
+      {
+        "source": "Business Insider",
+        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNSkxpU05RT0VSM3VCR2w5S0lUU3VwRUVaUGFteGNoX3ppNjdGWGRvTEVZV3VLN0tzUjBuRU9jaUNjZXo3Zmk3OW92UUJsZ3JlY2R3LXMzbDcwd3BseTd4QXBjTEIyVnluWnEzdFJiTk5GaHJldDE0UGc0OUU4eFppdXhQVU1SSzdfWkE?oc=5"
+      }
+    ]
+  },
+  {
     "id": 1773654558,
     "company": "Meta",
     "date": "2026-03-14",
@@ -60,6 +75,10 @@
       {
         "source": "Darden Report Online",
         "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQY1NmQzJTa0VGQmo5TUV2ZllPcmprYnJ4bWZka1pLTjR0bzIzdktNcXVYN1k5WnRTVktUUndldlgxLXV6elQ1N2pkNjZjZTB0SW9mUlNlR0lHMmJlU25zSlRrdWg4c3NuSUg1cjE1SnFzYUdxdFY2LXNyQnRfcURzSWE3VzZCMnphQURmd3drZjVnX3hjOTlxRE0wSTNYaWs4REFBRy1paw?oc=5"
+      },
+      {
+        "source": "Business Insider",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQRmcxZE5NaDhGMEk4OWFVbjRhVGd1ekxwWm5RcV9NUk9tTHlDTXppdDN0RHZMMTlRY0FQMUtVOFkwbzJCUTVvN1NqNGZWR09uT2xrSk52VlNJbW9OOXpTN3huek9fNWt1SEtLVnYwZEJRX25JNGVmTERWNXJoRTNrcWZXaGI0SjQtYnduenRIMTg?oc=5"
       }
     ]
   },
