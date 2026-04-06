@@ -77,7 +77,17 @@
     "date": "2026-03-13",
     "number": 100,
     "roles": "Roles",
-    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQUnBXTUFkdWd6TXR4YTZaakY1WHR3cXhwTU56a1l5Z0ZOQm94TzkzYjVfdGttTFpWdVdmc2wyaGRCZlBUYW1vd2RzUjIwaml6Ymd4bUhDbW1RQWFfbFlfTWtTTEhxZnN5QnI0Q05jRkxtR21HNjczeURLRnNMbVNEVmxQUmt5THkyMW5sTEZyWjk4LUdHakJsaTEtbw?oc=5"
+    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQUnBXTUFkdWd6TXR4YTZaakY1WHR3cXhwTU56a1l5Z0ZOQm94TzkzYjVfdGttTFpWdVdmc2wyaGRCZlBUYW1vd2RzUjIwaml6Ymd4bUhDbW1RQWFfbFlfTWtTTEhxZnN5QnI0Q05jRkxtR21HNjczeURLRnNMbVNEVmxQUmt5THkyMW5sTEZyWjk4LUdHakJsaTEtbw?oc=5",
+    "links": [
+      {
+        "source": "News",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQUnBXTUFkdWd6TXR4YTZaakY1WHR3cXhwTU56a1l5Z0ZOQm94TzkzYjVfdGttTFpWdVdmc2wyaGRCZlBUYW1vd2RzUjIwaml6Ymd4bUhDbW1RQWFfbFlfTWtTTEhxZnN5QnI0Q05jRkxtR21HNjczeURLRnNMbVNEVmxQUmt5THkyMW5sTEZyWjk4LUdHakJsaTEtbw?oc=5"
+      },
+      {
+        "source": "Fast Company",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxObEJPd0FPTnNDbS14b3BPQjBCeWRKb2RLOVF4VzNZRU9sdXdTWnUtZVdOcTVaTkJQZ2pCV2V3UGUyeFI2M2FYNFNjbkFTbmFHa1JSZGNiVHBjWExnbHYtLW1YdF9OQ20ydjRUa0R4QVlaZFhHZlU0emw0V0JZWWctcGVsZ0c4Y0tVWTRPVFlmc1JEWXhVdFRB?oc=5"
+      }
+    ]
   },
   {
     "id": 1773521933,
@@ -249,6 +259,21 @@
     ]
   },
   {
+    "company": "Meta",
+    "date": "2026-02-06",
+    "number": null,
+    "roles": "Unknown",
+    "id": 1775472077250,
+    "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPOTFJa3k4WGdyT3U4T0E1a1pCWW1ReXRvcklVRVpNN1JGSjFOQnJ1d3hyemI0REhkR0JFU1dYamtPQ1ZzaUxDcnQzMnBpMnFwY1F2anFEVkVqYXQ3UDNneS0yV3NMN094bENHaDU2bHA4WV9KQmNjNEp3bC1FcjZMdzJMVlE2NGRYWWVtSXNpbjNoWnV4Y1JoZDN1U3RoVk9RNm05SFJDcFA4cVBRa1hxOFJaZ0k2bC1EaGNZSkNxNHVyM0pqcjc4T213?oc=5",
+    "source": "MSN",
+    "links": [
+      {
+        "source": "MSN",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPOTFJa3k4WGdyT3U4T0E1a1pCWW1ReXRvcklVRVpNN1JGSjFOQnJ1d3hyemI0REhkR0JFU1dYamtPQ1ZzaUxDcnQzMnBpMnFwY1F2anFEVkVqYXQ3UDNneS0yV3NMN094bENHaDU2bHA4WV9KQmNjNEp3bC1FcjZMdzJMVlE2NGRYWWVtSXNpbjNoWnV4Y1JoZDN1U3RoVk9RNm05SFJDcFA4cVBRa1hxOFJaZ0k2bC1EaGNZSkNxNHVyM0pqcjc4T213?oc=5"
+      }
+    ]
+  },
+  {
     "company": "Traveloka",
     "date": "2026-02-04",
     "number": null,
@@ -340,7 +365,17 @@
     "date": "2026-01-22",
     "number": null,
     "roles": "Unknown",
-    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQSk9qNVY5d1diU1ROWGNLMTJhcDhTdHFoV0gxUnNqckZ0Ykc1QXJMSnhtNnVRclFrWjhiN25LM2ZiSzRWVnI1VUVSdmNtbUhPQUdjeFhyeVlqc1RzY19fZXNQTXFBWkZRdk1JOTkxV0YyU0JVT05NcUxLN2Y2Y2VVTlc4MA?oc=R"
+    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQSk9qNVY5d1diU1ROWGNLMTJhcDhTdHFoV0gxUnNqckZ0Ykc1QXJMSnhtNnVRclFrWjhiN25LM2ZiSzRWVnI1VUVSdmNtbUhPQUdjeFhyeVlqc1RzY19fZXNQTXFBWkZRdk1JOTkxV0YyU0JVT05NcUxLN2Y2Y2VVTlc4MA?oc=R",
+    "links": [
+      {
+        "source": "News",
+        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQSk9qNVY5d1diU1ROWGNLMTJhcDhTdHFoV0gxUnNqckZ0Ykc1QXJMSnhtNnVRclFrWjhiN25LM2ZiSzRWVnI1VUVSdmNtbUhPQUdjeFhyeVlqc1RzY19fZXNQTXFBWkZRdk1JOTkxV0YyU0JVT05NcUxLN2Y2Y2VVTlc4MA?oc=R"
+      },
+      {
+        "source": "sfchronicle.com",
+        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQSk9qNVY5d1diU1ROWGNLMTJhcDhTdHFoV0gxUnNqckZ0Ykc1QXJMSnhtNnVRclFrWjhiN25LM2ZiSzRWVnI1VUVSdmNtbUhPQUdjeFhyeVlqc1RzY19fZXNQTXFBWkZRdk1JOTkxV0YyU0JVT05NcUxLN2Y2Y2VVTlc4MA?oc=5"
+      }
+    ]
   },
   {
     "company": "Sapiens",
