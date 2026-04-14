@@ -15,6 +15,10 @@
       {
         "source": "cnbc.com",
         "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9EWDd1VXBvQWcwcDFmbHZlRUk0aEoxcmJ5SGJKQW8yMEczRjJIVERubFRqc2tDUGRHSkcwd3Rkakc0YjJPQ2U1VExuZGZuTF9DQmNSMEZxdk5XVUFnRWNRQTlnUTZSdlNLQWpZdWZpSE_SAXZBVV95cUxQQ1F1bUtBSmctcDNFRVhCNFJSX0xQcnRGMHpMNF9mRkdLZEN0cXQtU0pveV9Gbl9Bc0R0akRoRkFJcHFnV0Flc0UwQ1RmUUdpeHNraHJyN1FLTkNqbTFRQzBmVU14UXVZYTdnWk5ZeHh1amI5Q05R?oc=5"
+      },
+      {
+        "source": "KIRO 7 News Seattle",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQZFVhSkNCQkxlN3B2V0ZGc3M1VG1oVmxQUGN5ZEJqR0loVUZJMTRVX25vT1NJUlR3MEVnaUlva1ZBa3ZLZHRhbVQ5QkQzWV8xQ1VtQ19nVlRsdHRWbDZtOE9faWIwaFlUbUFfTDBzaUlmLWtER0NTdHJMMjlfeEJtNnEwcElTVW13dXp0YXBHSUY2Y2hncVMwdENpUEh4ZVdiR2YtMEdCR3E4OTFrRnoyc2U0TldQMW5h0gHMAUFVX3lxTFBsRzJZbmh0cjF6MUJrSGNYdFgtNVJhSW5ZWVZhM3dVZmxxOG4zdVRYU3d6TmhGSlAyWnlUdXlQdGhUbGowWm1nRi1oRm9zNWwwaFU2TXFPSVAxYktZa3BndUZvdWJIOURXYU5COXlpRHZDckExSU5HeE80WTB0WU9uamllNXVaMGJudHdjM0pjbFNDQ2xLWHg2X2xzcXpkemJUanRuMzd3V2NVWVQ5ZDBkdXFQVUZLQlhQaXNpRWxEd3lTa21oUUNRX3hNWQ?oc=5"
       }
     ]
   },
@@ -30,6 +34,21 @@
       {
         "source": "businessinsider.com",
         "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNX25TVVc1X0g1dkxZSW1mOHIzNTlHR1NKWS1IUFoxZ2puMTc1VkhUZ2VFZHlkZWhhSEs2b29iY1lJWjFMdTJSZFhLLXZpclROU3ZvaVdrV0RObUFnLTkxVUNianU4cjlVeVBfTUU4Y1FLVi15LWFfMUZFS1hwdTAxbEd0SnMtRER0QzR3WnBFVld0czRvTGw0?oc=5"
+      }
+    ]
+  },
+  {
+    "company": "Dell",
+    "date": "2026-03-18",
+    "number": null,
+    "roles": "Unknown",
+    "id": 1776154488134,
+    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPaXg3VWhNZGxIem12UUExSUtHZmN2bjQwQmNyRDFqUVpXaDdsUGFPeEFJOURrYlZXVzJKRWFHMVRTQWNZU2FWdUlyVEN6OWFEZHJteEFjSHJYcHo5cThiMzI4R1lDa25pbVRqZUVzd2N0RDRsaEU5eXFvbmxhd2dldTRFUUFLUGZKNmlmZnZSRnFFdDjSAZgBQVVfeXFMTWc4czlZX1U4LU5HWndEYm41N2E3LUNPMVdzTVJkb1lfTEUycm1fVVl0UVVfal9JT2w4YWh1RDBkc2xGbFo4Qk0xVUJXbDBwRFVrdG5VM29faDhVcGFCRVoyZWNGdEtTdnY3LWhwQ0RieUtCRWtiMi1BOG1MQUVyaVBwbDM0azBNRGdwdU0zNTVpblA3NzUweWo?oc=5",
+    "source": "LiveNOW from FOX",
+    "links": [
+      {
+        "source": "LiveNOW from FOX",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPaXg3VWhNZGxIem12UUExSUtHZmN2bjQwQmNyRDFqUVpXaDdsUGFPeEFJOURrYlZXVzJKRWFHMVRTQWNZU2FWdUlyVEN6OWFEZHJteEFjSHJYcHo5cThiMzI4R1lDa25pbVRqZUVzd2N0RDRsaEU5eXFvbmxhd2dldTRFUUFLUGZKNmlmZnZSRnFFdDjSAZgBQVVfeXFMTWc4czlZX1U4LU5HWndEYm41N2E3LUNPMVdzTVJkb1lfTEUycm1fVVl0UVVfal9JT2w4YWh1RDBkc2xGbFo4Qk0xVUJXbDBwRFVrdG5VM29faDhVcGFCRVoyZWNGdEtTdnY3LWhwQ0RieUtCRWtiMi1BOG1MQUVyaVBwbDM0azBNRGdwdU0zNTVpblA3NzUweWo?oc=5"
       }
     ]
   },
