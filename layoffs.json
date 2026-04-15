@@ -1,5 +1,20 @@
 [
   {
+    "company": "Pendo",
+    "date": "2026-04-09",
+    "number": null,
+    "roles": "AI",
+    "id": 1776240142760,
+    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOaS11eDNkWS0tSGxhbjNFY2xqNnBwZDJKamE3S0pyRGt1aWFzYlhXRVlaaVI5RW1TajBUczFMV2pVSWVMMVY1bzhtU3RYbF95NlFsRWJsQWNKWGJzMThWbmFZYk1lUm1tRFg2OTk2ZVJMUlhSejhCSUZfQTU2aGRoWmVQVXNoV3puNlgtMUZhYWpnVXR2VmU2OG11MEQwY3Bpb3JqeW9jcGM0ZEhmSGhmQmJaYy0teWtGNEJ30gHAAUFVX3lxTE9ZcWtHbkNWTW83TndfdDdOUXhFV0xpelEwTWtxNUJSeEsxTkE5T3hscVV0RU1FU3lMdnVMYkdmdWltcmdlWS1SSTU2MDhEZU9RT1U2UGNPY3ZMeTFId0pIVEFDaUszUGlkUERFbFV2WVpxa1BsbkN3SWZyeExNU0ttRUppLVVRX1FwRms2TWlBd2U0Y1N3RTZfRHEtWlJuS3RwNnJNeXFSMlFoWVJLQklNaEZ5QXE0ZzBleV9JSDRLeA?oc=5",
+    "source": "ABC11 Raleigh-Durham",
+    "links": [
+      {
+        "source": "ABC11 Raleigh-Durham",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOaS11eDNkWS0tSGxhbjNFY2xqNnBwZDJKamE3S0pyRGt1aWFzYlhXRVlaaVI5RW1TajBUczFMV2pVSWVMMVY1bzhtU3RYbF95NlFsRWJsQWNKWGJzMThWbmFZYk1lUm1tRFg2OTk2ZVJMUlhSejhCSUZfQTU2aGRoWmVQVXNoV3puNlgtMUZhYWpnVXR2VmU2OG11MEQwY3Bpb3JqeW9jcGM0ZEhmSGhmQmJaYy0teWtGNEJ30gHAAUFVX3lxTE9ZcWtHbkNWTW83TndfdDdOUXhFV0xpelEwTWtxNUJSeEsxTkE5T3hscVV0RU1FU3lMdnVMYkdmdWltcmdlWS1SSTU2MDhEZU9RT1U2UGNPY3ZMeTFId0pIVEFDaUszUGlkUERFbFV2WVpxa1BsbkN3SWZyeExNU0ttRUppLVVRX1FwRms2TWlBd2U0Y1N3RTZfRHEtWlJuS3RwNnJNeXFSMlFoWVJLQklNaEZ5QXE0ZzBleV9JSDRLeA?oc=5"
+      }
+    ]
+  },
+  {
     "company": "Oracle",
     "date": "2026-03-31",
     "number": null,
