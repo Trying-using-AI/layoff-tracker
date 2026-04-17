@@ -1,5 +1,20 @@
 [
   {
+    "company": "Snap",
+    "date": "2026-04-15",
+    "number": 1000,
+    "roles": "Unknown",
+    "id": 1776413688840,
+    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQZTF5Zk9fRXcyYUNYSnZPSk5VOHBoT3lzeHlFNGZZMmtVT1hzX0JPR1dwN2pVS1phMEZDdFExMGlzaFhzc2tja1VINEMyZFY2VE5ZcGpYSDBtNW1WQXZvUmxJSklncDlkTTZzeUNuUnBlRWZLTzB2S2ZKTVhnZlF0OGhtbmVhM0VuQW8yR2M1TUk2SDA2SUhJVnZlSF9RM2dWVEJR?oc=5",
+    "source": "Los Angeles Times",
+    "links": [
+      {
+        "source": "Los Angeles Times",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQZTF5Zk9fRXcyYUNYSnZPSk5VOHBoT3lzeHlFNGZZMmtVT1hzX0JPR1dwN2pVS1phMEZDdFExMGlzaFhzc2tja1VINEMyZFY2VE5ZcGpYSDBtNW1WQXZvUmxJSklncDlkTTZzeUNuUnBlRWZLTzB2S2ZKTVhnZlF0OGhtbmVhM0VuQW8yR2M1TUk2SDA2SUhJVnZlSF9RM2dWVEJR?oc=5"
+      }
+    ]
+  },
+  {
     "company": "Pendo",
     "date": "2026-04-09",
     "number": null,
@@ -157,6 +172,21 @@
       {
         "source": "Patch",
         "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQV3FsYnIySDNqVlFaeHprbUJHYzBzQXF4N3J1RUx6Skg1UXVJRUhheGFIVzFQSDNfTVk5bHA0VTM1dUQ3cGlqaXdDQjZJWERBeFpYbzM0Q25nLTZJVUZhS3lRcXlrc3M4c0wtdHNrX21fUmRaa3YwanZzYTBOX1RJUGc4UkhtR25GRTY5d2RwY3AtUUItVUR0bzdvUWY1U2d6bmhHTk54ZEoxMWV6Uy02Y2xyQnk0QQ?oc=5"
+      }
+    ]
+  },
+  {
+    "company": "Massachusetts Green Cement Startup",
+    "date": "2026-03-12",
+    "number": null,
+    "roles": "Unknown",
+    "id": 1776414122026,
+    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPWWhGdllBaG9pb3dVQV8yME1TaFlXSnBJZTZobUNJLTVwelE2SnNrdldhMHVmZjY3blltOUloZ0Z0WURxWktOZjcxbVhtRDB6aWlTdGRZd3hIV3F3dEVBYUdKV2t0R3ozQmprREV0LVpLZGhQcTJudDBlSHlWdG9aYWVoMG13RmRoRDQ2YnZwblJLS0ptWjlYWFNocm5fMHFZQ3JqVnBjeFNxUUJXbmRSdTduZVpEZk5VQmxBR1NRRHhKQQ?oc=5",
+    "source": "Bloomberg.com",
+    "links": [
+      {
+        "source": "Bloomberg.com",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPWWhGdllBaG9pb3dVQV8yME1TaFlXSnBJZTZobUNJLTVwelE2SnNrdldhMHVmZjY3blltOUloZ0Z0WURxWktOZjcxbVhtRDB6aWlTdGRZd3hIV3F3dEVBYUdKV2t0R3ozQmprREV0LVpLZGhQcTJudDBlSHlWdG9aYWVoMG13RmRoRDQ2YnZwblJLS0ptWjlYWFNocm5fMHFZQ3JqVnBjeFNxUUJXbmRSdTduZVpEZk5VQmxBR1NRRHhKQQ?oc=5"
       }
     ]
   },
