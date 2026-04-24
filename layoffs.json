@@ -15,6 +15,21 @@
     ]
   },
   {
+    "company": "Meta",
+    "date": "2026-04-23",
+    "number": null,
+    "roles": "Unknown",
+    "id": 1777011395063,
+    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxObXlLcGROV3VNYkpCVm9wSVBYeXFPMzZZNFNFUkZyTGJYVmp6LVFSQ3dGSG5oLUt0T0lBT1NnSkRFOVF1a3JmVXZPYm15Q3IxQVRMT1BMZWpqaURtUHUteW5Jb2FxQkFQMU9LdGp4eTdwVWJiMmNDNGpSMHNldjFDMGkwNHpkUExUdGwtS1FNdlJJbm5ycFhUeHNyUzdhYnVxXzF0WTFBMjJkLWRfSUpGb1FrTQ?oc=5",
+    "source": "Bloomberg.com",
+    "links": [
+      {
+        "source": "Bloomberg.com",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxObXlLcGROV3VNYkpCVm9wSVBYeXFPMzZZNFNFUkZyTGJYVmp6LVFSQ3dGSG5oLUt0T0lBT1NnSkRFOVF1a3JmVXZPYm15Q3IxQVRMT1BMZWpqaURtUHUteW5Jb2FxQkFQMU9LdGp4eTdwVWJiMmNDNGpSMHNldjFDMGkwNHpkUExUdGwtS1FNdlJJbm5ycFhUeHNyUzdhYnVxXzF0WTFBMjJkLWRfSUpGb1FrTQ?oc=5"
+      }
+    ]
+  },
+  {
     "company": "Snap",
     "date": "2026-04-15",
     "number": 1000,
