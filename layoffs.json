@@ -45,6 +45,21 @@
     ]
   },
   {
+    "company": "Nike",
+    "date": "2026-04-23",
+    "number": 1400,
+    "roles": "Operations and Tech",
+    "id": 1777103028745,
+    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOb3lNSEpOR2RLSnlqeDIzLXk0OE11a1F5VmRqbXpTdnNCVmk5RE42SmdxcUFYTGUxRS02a0RPbF9uOC12T1lwN0p5cElUdWp3UXNqcHBVc1J0UjZHbG9uN2Rsd0I5UTNhV3RpX2Nwa19UdkNQUEZPSWE4Skt4a3BteHplRmd0WXdBTERjQjBaZUVudExNTzNoNXMxdXR5WFFLcWliU01rQQ?oc=5",
+    "source": "WWD",
+    "links": [
+      {
+        "source": "WWD",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOb3lNSEpOR2RLSnlqeDIzLXk0OE11a1F5VmRqbXpTdnNCVmk5RE42SmdxcUFYTGUxRS02a0RPbF9uOC12T1lwN0p5cElUdWp3UXNqcHBVc1J0UjZHbG9uN2Rsd0I5UTNhV3RpX2Nwa19UdkNQUEZPSWE4Skt4a3BteHplRmd0WXdBTERjQjBaZUVudExNTzNoNXMxdXR5WFFLcWliU01rQQ?oc=5"
+      }
+    ]
+  },
+  {
     "company": "Snap",
     "date": "2026-04-15",
     "number": 1000,
