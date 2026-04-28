@@ -45,6 +45,10 @@
       {
         "source": "Yahoo Finance",
         "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPbkdvdHNGeEJzTHRFcTVfTkMyZlhseUVXZHZRYkphaTJld2NIZWVWUDZsSG95RmxlOVZjZlNMc05vbEdveUVSZVl3d1BybzVEcG8xTU9jM2NlVE1vb2V3TmtULW9BejZfRkx3UVNzdHliVnVOSW4wWldZZ0Q3X2h6MDlfWkx6bElzMVdhRTlFdzJFbzVwME5XQ1JFSjExSzU1US1VZV8yektmYWh5bWRyT014ZVdYYXNrYlRKaTJpR0ltZw?oc=5"
+      },
+      {
+        "source": "StartupHub.ai",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNeHlCSnctRFZ0WWZnWl9JYS1rZEZvUVRERU5WZUhCVmY5MzNnZGdkVWFaVDA5RTNFQUpCSnRHdDRzR1BqWGR2Rmd3cVpiVW1zaUNpY0ZrRGtQUEhBSTAtVWpjRmU1OUplc0VjYkpFUnU0SkJUbkw1YXd0cDRxRU5mRk51ZEpQWUZSVURJbWVVTy1oTUdWV2JZc2VWbVRoQUtI?oc=5"
       }
     ]
   },
@@ -75,6 +79,21 @@
       {
         "source": "WWD",
         "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOb3lNSEpOR2RLSnlqeDIzLXk0OE11a1F5VmRqbXpTdnNCVmk5RE42SmdxcUFYTGUxRS02a0RPbF9uOC12T1lwN0p5cElUdWp3UXNqcHBVc1J0UjZHbG9uN2Rsd0I5UTNhV3RpX2Nwa19UdkNQUEZPSWE4Skt4a3BteHplRmd0WXdBTERjQjBaZUVudExNTzNoNXMxdXR5WFFLcWliU01rQQ?oc=5"
+      }
+    ]
+  },
+  {
+    "company": "Redwood Materials",
+    "date": "2026-04-23",
+    "number": null,
+    "roles": "COO",
+    "id": 1777375950230,
+    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxONl8xVFNIeGFJZzluWTdjUlNvUDZHQXctQWhBSDVZWXE2TEJGNGNDZjJhRzAxdTEzTHF4Uy1oNHlXcVJpRmw4RzZuanFQZGhvWTFac3hjTkFsdkVPMDVsbkxEZi1XUDBMR0tGZm95VTcxSmgtY3FBWU01TmI2NTBTTU1VQ2dGcC0yazhrbkFzNjh6blE?oc=5",
+    "source": "TechCrunch",
+    "links": [
+      {
+        "source": "TechCrunch",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxONl8xVFNIeGFJZzluWTdjUlNvUDZHQXctQWhBSDVZWXE2TEJGNGNDZjJhRzAxdTEzTHF4Uy1oNHlXcVJpRmw4RzZuanFQZGhvWTFac3hjTkFsdkVPMDVsbkxEZi1XUDBMR0tGZm95VTcxSmgtY3FBWU01TmI2NTBTTU1VQ2dGcC0yazhrbkFzNjh6blE?oc=5"
       }
     ]
   },
