@@ -15,6 +15,21 @@
     ]
   },
   {
+    "company": "Columbus AI startup",
+    "date": "2026-05-06",
+    "number": null,
+    "roles": "Unknown",
+    "id": 1778223763000,
+    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNSHJNcjdyZVN5MU1jZjF6T2ZtZFhkaHd1end3VGVDQU5zNU1LLURPWkRVcWRhMnVRdl84MS1WMjh3STBvdzBHclJnWFVqcUt2SklpWHVXUWlld01fTFpVUzFESzNtMDJPdlg1NnU0d0haV29XdDQ3dnoySWpBQjQtaDlER0gxU3lBbUk0Z3VCM1FnODl3MS12bHJnNnc4bXRkTzZwTnBIbDRuRVNQcHRuVQ?oc=5",
+    "source": "The Columbus Dispatch",
+    "links": [
+      {
+        "source": "The Columbus Dispatch",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNSHJNcjdyZVN5MU1jZjF6T2ZtZFhkaHd1end3VGVDQU5zNU1LLURPWkRVcWRhMnVRdl84MS1WMjh3STBvdzBHclJnWFVqcUt2SklpWHVXUWlld01fTFpVUzFESzNtMDJPdlg1NnU0d0haV29XdDQ3dnoySWpBQjQtaDlER0gxU3lBbUk0Z3VCM1FnODl3MS12bHJnNnc4bXRkTzZwTnBIbDRuRVNQcHRuVQ?oc=5"
+      }
+    ]
+  },
+  {
     "company": "IU Tech Services",
     "date": "2026-05-01",
     "number": 13,
@@ -62,7 +77,7 @@
   {
     "company": "Meta",
     "date": "2026-04-23",
-    "number": null,
+    "number": 8000,
     "roles": "Unknown",
     "id": 1777011395063,
     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxObXlLcGROV3VNYkpCVm9wSVBYeXFPMzZZNFNFUkZyTGJYVmp6LVFSQ3dGSG5oLUt0T0lBT1NnSkRFOVF1a3JmVXZPYm15Q3IxQVRMT1BMZWpqaURtUHUteW5Jb2FxQkFQMU9LdGp4eTdwVWJiMmNDNGpSMHNldjFDMGkwNHpkUExUdGwtS1FNdlJJbm5ycFhUeHNyUzdhYnVxXzF0WTFBMjJkLWRfSUpGb1FrTQ?oc=5",
@@ -109,6 +124,10 @@
       {
         "source": "WWD",
         "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOb3lNSEpOR2RLSnlqeDIzLXk0OE11a1F5VmRqbXpTdnNCVmk5RE42SmdxcUFYTGUxRS02a0RPbF9uOC12T1lwN0p5cElUdWp3UXNqcHBVc1J0UjZHbG9uN2Rsd0I5UTNhV3RpX2Nwa19UdkNQUEZPSWE4Skt4a3BteHplRmd0WXdBTERjQjBaZUVudExNTzNoNXMxdXR5WFFLcWliU01rQQ?oc=5"
+      },
+      {
+        "source": "San Francisco Chronicle",
+        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPSFRSaVdXbVJYOWxXMnd3dFd4OXFQa0hMOTMxY3NjdHpFSTNmVTQ0dTNNUDk5QmJYdTBYNndSdEV0b2JuTlFkY3l2SkNLNnZDTmdJRUZ5WkpiQnVwSURTYWxNRmNVcjNTSTVTbkx0N3V2WEN6azAxMWt6UFR3cGY5Z2ZB?oc=5"
       }
     ]
   },
@@ -334,6 +353,21 @@
     ]
   },
   {
+    "company": "Sublime",
+    "date": "2026-03-12",
+    "number": null,
+    "roles": "Unknown",
+    "id": 1778223775718,
+    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPblJZdWZpS3NQdkF6eC1HZVhVcWttVUFyM0huVzA0bHR3SnZrdEFmekd0N09WSDY0UURaU1IzN1ZVNEZNT1RBclJpaEthVVFnd1JrenRlYUM1U0ZvLVRCLXpCZEplQTlERWVvUGxjUXQ4Sk12T1JIbUhHUUQxOHpMbUdaTFZzNjJ6UkpISlNoQXBDWnZM?oc=5",
+    "source": "Canary Media",
+    "links": [
+      {
+        "source": "Canary Media",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPblJZdWZpS3NQdkF6eC1HZVhVcWttVUFyM0huVzA0bHR3SnZrdEFmekd0N09WSDY0UURaU1IzN1ZVNEZNT1RBclJpaEthVVFnd1JrenRlYUM1U0ZvLVRCLXpCZEplQTlERWVvUGxjUXQ4Sk12T1JIbUhHUUQxOHpMbUdaTFZzNjJ6UkpISlNoQXBDWnZM?oc=5"
+      }
+    ]
+  },
+  {
     "id": 1773389687,
     "company": "Block, Amazon",
     "date": "2026-03-10",
@@ -425,7 +459,17 @@
     "date": "2026-02-26",
     "number": null,
     "roles": "Unknown",
-    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB2MGRVNER6bzRPdVJyUTNmT0NlUlVoV2FZNlVCOEE0aTNhT2o5S1RCM3FpQW1HazB6UXk2WGxvcW94aGNaMm5TQ1BOTGZfbmNuSE85NTVZSXNPSUE4SVhJWnZHVjl5UTN5R0o5ZXR6Q2ROeXkwWW40d1Q3Y000YWM?oc=5"
+    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB2MGRVNER6bzRPdVJyUTNmT0NlUlVoV2FZNlVCOEE0aTNhT2o5S1RCM3FpQW1HazB6UXk2WGxvcW94aGNaMm5TQ1BOTGZfbmNuSE85NTVZSXNPSUE4SVhJWnZHVjl5UTN5R0o5ZXR6Q2ROeXkwWW40d1Q3Y000YWM?oc=5",
+    "links": [
+      {
+        "source": "News",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB2MGRVNER6bzRPdVJyUTNmT0NlUlVoV2FZNlVCOEE0aTNhT2o5S1RCM3FpQW1HazB6UXk2WGxvcW94aGNaMm5TQ1BOTGZfbmNuSE85NTVZSXNPSUE4SVhJWnZHVjl5UTN5R0o5ZXR6Q2ROeXkwWW40d1Q3Y000YWM?oc=5"
+      },
+      {
+        "source": "LiveNOW from FOX",
+        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPdUc5Q3QySzVJLUF6dDZBaVdfN0ZtRTBJU1hCWTFPOEVyWUxIQVFUTG9oTzIxRU9QdUhKQjNwWk1BVEVDWXlCVFB4NTZ2djg5VTZKekJvczhLMVlhSUNDeWo0cFJOaWtrbjJtOTdldVdFYUhYUjFxSXR0UzlmQkV1MdIBhgFBVV95cUxQelZBcTJIQm80Q0JhUG1lYnRsX3BKSy1iR0ZremxwdW1NaU93eTlTMEdNNDhfV0huNGFUT1luU2VMa3dFZDd3R3oxR0tMMmpDWHpUVllra05BejlER2FqQ0IyMHNLRkx3SFNTMy1NUUhyX1JFSlhiMFI5RXJNYmdrYkxQeFlXZw?oc=5"
+      }
+    ]
   },
   {
     "company": "Amazon",
@@ -439,6 +483,10 @@
       {
         "source": "Seeking Alpha",
         "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQTmNQSm1HODNwUmFwSWJfbFI5cFQ5ZGdhdy0zTms2U0M4bjIwNmNoNUdYRGlQU0pfcnBoVm9sMzlkblFveG5Yc3hhMkR1a0ZuX2d3d0VVNmNPV0ZNU2ZhdDZHR2lOYUJrWW9FRU9KNHVQdDNSbmZzMEhGNDh5ZjZ6U28zX1RZNnI4VmFpVnVIY3VrVF9IYzBXaGhOX2l4WDVZbmpOOHcxSEI?oc=5"
+      },
+      {
+        "source": "Business Insider",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOQmtkSTJKMTd4cGptc0tBdHRuOXNHT3VrT0s5d2psNmlZTmhGdEdZckJiM3pQdmJBMDVxc1N2WUd4Rk1OMElWcE9BUlhLQVJScFBlVnltTkJ3cVBWcVBoN2VrdjZaMnhtVVNBOE13VEtLOGc4Rk9TeEpKT2VYOElseXljdzZZUlJTWkdRWU1QcHh4TUxtcGV5cWVVZkR4bDhZVHc?oc=5"
       }
     ]
   },
@@ -522,6 +570,21 @@
       {
         "source": "MSN",
         "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPOTFJa3k4WGdyT3U4T0E1a1pCWW1ReXRvcklVRVpNN1JGSjFOQnJ1d3hyemI0REhkR0JFU1dYamtPQ1ZzaUxDcnQzMnBpMnFwY1F2anFEVkVqYXQ3UDNneS0yV3NMN094bENHaDU2bHA4WV9KQmNjNEp3bC1FcjZMdzJMVlE2NGRYWWVtSXNpbjNoWnV4Y1JoZDN1U3RoVk9RNm05SFJDcFA4cVBRa1hxOFJaZ0k2bC1EaGNZSkNxNHVyM0pqcjc4T213?oc=5"
+      }
+    ]
+  },
+  {
+    "company": "Scope3",
+    "date": "2026-02-05",
+    "number": null,
+    "roles": "Engineering and Sales Staff",
+    "id": 1778223769719,
+    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFA2by1GODJ1YW9sMjRxZ2YxT1ZVZkF3aWEwUW13MGsxbFZWNms1WnYtRmY2bTVaUm4tSE15bm5WdU1DX2RTNldsejZRSnpaSHJ5XzUxVXZzU3lGUGRkWVZoa045MFp1OEt3aVJlb0dxNnpnOHRmV0E?oc=5",
+    "source": "ADWEEK",
+    "links": [
+      {
+        "source": "ADWEEK",
+        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFA2by1GODJ1YW9sMjRxZ2YxT1ZVZkF3aWEwUW13MGsxbFZWNms1WnYtRmY2bTVaUm4tSE15bm5WdU1DX2RTNldsejZRSnpaSHJ5XzUxVXZzU3lGUGRkWVZoa045MFp1OEt3aVJlb0dxNnpnOHRmV0E?oc=5"
       }
     ]
   },
@@ -743,6 +806,21 @@
       {
         "source": "Austin American-Statesman",
         "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNbGNsU2xJZmZIR0J5QWdodmg5d09YeFU5UXl1ckh5ai1keHI3U1R3ZDJ5ajUxeXRIRjVXY2pRSXg5ZEFoS01GTTMtazA0OXpjbVhFLXdNRTFFVEVHRENZa3ppS1lnMFVhT1poUE1NNV9aT2lqTGcybWJGaE1NMDRfZ1p6V2ZsU2xpbmdudmpZQjRwY0owX3RZWEJ3aDRleVd3?oc=5"
+      }
+    ]
+  },
+  {
+    "company": "Harvard Technology Services",
+    "date": "2025-11-14",
+    "number": null,
+    "roles": "Unknown",
+    "id": 1778223627157,
+    "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9GX0dNUVdLQkhJaE1nUTE4QWY2SGltd2pEZWpKRGFSWkU4MjZ4VlVhZW1PcFVORFVjVXplVl91bU5SX0tUM2NPTmlkdVdMX1J0UE54bXJ0bmxMbWU2R0gzU05fNm0yQVdVczI4S0JPT0l2cW9TVjNUcQ?oc=5",
+    "source": "The Harvard Crimson",
+    "links": [
+      {
+        "source": "The Harvard Crimson",
+        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9GX0dNUVdLQkhJaE1nUTE4QWY2SGltd2pEZWpKRGFSWkU4MjZ4VlVhZW1PcFVORFVjVXplVl91bU5SX0tUM2NPTmlkdVdMX1J0UE54bXJ0bmxMbWU2R0gzU05fNm0yQVdVczI4S0JPT0l2cW9TVjNUcQ?oc=5"
       }
     ]
   },
