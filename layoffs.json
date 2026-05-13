@@ -15,6 +15,21 @@
     ]
   },
   {
+    "company": "LinkedIn",
+    "date": "2026-05-13",
+    "number": null,
+    "roles": "Unknown",
+    "id": 1778696788174,
+    "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQYlNwRmtuNFk4c2w2M0l2SWsxaW4wMmQ3TndEQVY2UUdSWFhXNzhCS1RHZkg1ZFFPcGlJMmZiTzNqMjZ0U2JtWWFlR1RORVhOcjhualhsTV83WmxEZ2ROMEIwWEhQTEhVYmd0WmlhWC1DaGh0QjhHVWQ3TW5uMldTRF8xdm9BNmp1aHJ5YWRCOGF6RnpRYzA2ZlFlUXRLMHltdnNrazFYcko3Y2IwZDVvQm95N1NDTHBNVUFTMjhJTUZreGxvTGtOdXR4Zw?oc=5",
+    "source": "Reuters",
+    "links": [
+      {
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQYlNwRmtuNFk4c2w2M0l2SWsxaW4wMmQ3TndEQVY2UUdSWFhXNzhCS1RHZkg1ZFFPcGlJMmZiTzNqMjZ0U2JtWWFlR1RORVhOcjhualhsTV83WmxEZ2ROMEIwWEhQTEhVYmd0WmlhWC1DaGh0QjhHVWQ3TW5uMldTRF8xdm9BNmp1aHJ5YWRCOGF6RnpRYzA2ZlFlUXRLMHltdnNrazFYcko3Y2IwZDVvQm95N1NDTHBNVUFTMjhJTUZreGxvTGtOdXR4Zw?oc=5"
+      }
+    ]
+  },
+  {
     "company": "Cloudflare, Coinbase, Upwork",
     "date": "2026-05-08",
     "number": null,
@@ -90,6 +105,21 @@
       {
         "source": "Indiana Public Media",
         "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQSHhDQUtzSTJTSWdJcTdDdUh1Z0E5d1JoTTdPWndxOGRxNTlNOUs0N2IzQ3l2QkhXNVNPaThSakZQeW5yV0dCLWJxUDNmUlVkU3BPdXUyaW1zc2pzcUR5akdXcEk3a1RzR3BZVUc0Y3pJYjZid3g1UmIxdHdaRUdyS0gwMWNKOU12QzJUT3YtaVgwZ3loOC1nc2JIcC1VTVRqWWcw?oc=5"
+      }
+    ]
+  },
+  {
+    "company": "Microsoft, Meta",
+    "date": "2026-04-29",
+    "number": null,
+    "roles": "Tech",
+    "id": 1778696746657,
+    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1wSkNWU2NwMDdZRDFMWDI0RkpBUjZ0RmxGNkZzR2Q5WnNuNnM1OEpiSkE4MjJjdUlWcGktdFNIb0V1OV9sRjg5a3drSHd2ay0zOW9QODZWaTV6eExSbzE1VHNRaTFrWVNq?oc=5",
+    "source": "World Socialist Web Site",
+    "links": [
+      {
+        "source": "World Socialist Web Site",
+        "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1wSkNWU2NwMDdZRDFMWDI0RkpBUjZ0RmxGNkZzR2Q5WnNuNnM1OEpiSkE4MjJjdUlWcGktdFNIb0V1OV9sRjg5a3drSHd2ay0zOW9QODZWaTV6eExSbzE1VHNRaTFrWVNq?oc=5"
       }
     ]
   },
