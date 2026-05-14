@@ -286,6 +286,21 @@
     ]
   },
   {
+    "company": "Nike",
+    "date": "2026-04-01",
+    "number": null,
+    "roles": "tech",
+    "id": 1778756565628,
+    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE93S2l2cndfb2liNVducThkdkdXQ09HRkllM2pDckpvMHRlaXhzaEo3bWhxaVNTVlgzSl9ERkNLMjB4cllqa19zS0d1TmVialBTazltM3lHUmF4OXQzV2hR?oc=5",
+    "source": "thestack.technology",
+    "links": [
+      {
+        "source": "thestack.technology",
+        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE93S2l2cndfb2liNVducThkdkdXQ09HRkllM2pDckpvMHRlaXhzaEo3bWhxaVNTVlgzSl9ERkNLMjB4cllqa19zS0d1TmVialBTazltM3lHUmF4OXQzV2hR?oc=5"
+      }
+    ]
+  },
+  {
     "company": "Oracle",
     "date": "2026-03-31",
     "number": null,
