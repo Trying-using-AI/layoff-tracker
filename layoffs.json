@@ -15,6 +15,21 @@
     ]
   },
   {
+    "company": "Walmart",
+    "date": "2026-05-14",
+    "number": 1000,
+    "roles": "corporate roles",
+    "id": 1779006723590,
+    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOOXRMTXZraEpva05KTzE1U3lHWXR0SERISmZpaXBpd1dDdFUzRlFIMEs2cnNQa0NhUTQ5Y1F6dF8yazFON1JEeFNZNnJjQVN3WF9wN01rb1llZVhMR0RjWE82LVpxWFd2eHZtMnN0UkEyYUxsT2tGVGpxZUpVYjZpTVFtc051LWhqRFZjLWJfcS1Xa1RIWHZYcFRGMFczNWlo?oc=5",
+    "source": "HR Executive",
+    "links": [
+      {
+        "source": "HR Executive",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOOXRMTXZraEpva05KTzE1U3lHWXR0SERISmZpaXBpd1dDdFUzRlFIMEs2cnNQa0NhUTQ5Y1F6dF8yazFON1JEeFNZNnJjQVN3WF9wN01rb1llZVhMR0RjWE82LVpxWFd2eHZtMnN0UkEyYUxsT2tGVGpxZUpVYjZpTVFtc051LWhqRFZjLWJfcS1Xa1RIWHZYcFRGMFczNWlo?oc=5"
+      }
+    ]
+  },
+  {
     "company": "LinkedIn",
     "date": "2026-05-13",
     "number": null,
