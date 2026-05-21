@@ -75,6 +75,21 @@
     ]
   },
   {
+    "company": "ZoomInfo",
+    "date": "2026-05-11",
+    "number": 300,
+    "roles": "R&D",
+    "id": 1779407023825,
+    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBxRG1Fa0loWXNINkNkZ1ZxU1h4Z3dUU3VZaEZXcDJKS004djVTazBGTEFmcjJOLVdWTE1JS3UzTFI2eXVPd3VGYlRLRGNvblFyOGdNWlNncktLREhkV3hnTTU4QVRMOXFNR3c?oc=5",
+    "source": "CTech",
+    "links": [
+      {
+        "source": "CTech",
+        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBxRG1Fa0loWXNINkNkZ1ZxU1h4Z3dUU3VZaEZXcDJKS004djVTazBGTEFmcjJOLVdWTE1JS3UzTFI2eXVPd3VGYlRLRGNvblFyOGdNWlNncktLREhkV3hnTTU4QVRMOXFNR3c?oc=5"
+      }
+    ]
+  },
+  {
     "company": "Cloudflare, Coinbase, Upwork",
     "date": "2026-05-08",
     "number": null,
