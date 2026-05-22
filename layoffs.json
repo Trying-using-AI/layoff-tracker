@@ -361,6 +361,21 @@
     ]
   },
   {
+    "company": "Bolt",
+    "date": "2026-04-05",
+    "number": null,
+    "roles": "Unknown",
+    "id": 1779488401798,
+    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQWmZ3MVlsa1duR0FyaTg0YmUtSUw0YUVIeWY3RHc2VnpXdkhiNFRaT0JVVy0tN2JYWll3bnV0Wm8xLXA4TUl5YWxpYmtxdm5QaHZ2YktjeUpTbnBwQjJTQ3BjVFNrd1RrWFREcDZLSnczTHhoUGRWbFVzYmVYWnVrMkJ4MGxxS1A2WW5OSW9DVEktdw?oc=5",
+    "source": "PYMNTS.com",
+    "links": [
+      {
+        "source": "PYMNTS.com",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQWmZ3MVlsa1duR0FyaTg0YmUtSUw0YUVIeWY3RHc2VnpXdkhiNFRaT0JVVy0tN2JYWll3bnV0Wm8xLXA4TUl5YWxpYmtxdm5QaHZ2YktjeUpTbnBwQjJTQ3BjVFNrd1RrWFREcDZLSnczTHhoUGRWbFVzYmVYWnVrMkJ4MGxxS1A2WW5OSW9DVEktdw?oc=5"
+      }
+    ]
+  },
+  {
     "company": "Nike",
     "date": "2026-04-01",
     "number": null,
