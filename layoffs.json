@@ -1,5 +1,20 @@
 [
   {
+    "company": "Webflow",
+    "date": "2026-05-28",
+    "number": null,
+    "roles": "Unknown",
+    "id": 1780171018219,
+    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPM1dCamFOWFAybEdXWEh3cjU3QnZvN1pMdmpTb0NNM2NYX1ZXU19jVXNYaUhROEQwSENxaWpMdHlEWlBZYUJ6S1JBa0RRU3VHdmpoWmkwWFg3RFRYWVNnc2twbmZXRzRBdFpWWWstNlJwbk9WcEg2Zm0xMEVOekhjTzg1TkRzVHI3dFJkSUFIU1JLNTYzanpOT2Fta0x3cEdMYXJCdzE5d0NUUQ?oc=5",
+    "source": "Yahoo Finance",
+    "links": [
+      {
+        "source": "Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPM1dCamFOWFAybEdXWEh3cjU3QnZvN1pMdmpTb0NNM2NYX1ZXU19jVXNYaUhROEQwSENxaWpMdHlEWlBZYUJ6S1JBa0RRU3VHdmpoWmkwWFg3RFRYWVNnc2twbmZXRzRBdFpWWWstNlJwbk9WcEg2Zm0xMEVOekhjTzg1TkRzVHI3dFJkSUFIU1JLNTYzanpOT2Fta0x3cEdMYXJCdzE5d0NUUQ?oc=5"
+      }
+    ]
+  },
+  {
     "company": "Meta",
     "date": "2026-05-20",
     "number": null,
