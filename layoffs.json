@@ -62,7 +62,7 @@
   {
     "company": "Meta",
     "date": "2026-05-20",
-    "number": null,
+    "number": 8000,
     "roles": "Unknown",
     "id": 1776791546667,
     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOdkRwbFNPRlk1YVhQTE1velhMT004YWV6WXlUZ2FrTlJVMHVCSkFiU3poMFhKZmEyNGwzRVdBdXFLWEJIWnhKQnBUUDB2RzVCTm5JZEVqN2liYXM3WllTYTlGaU5EWVo5ci1NV2JZUUlQdjBreWYxMEhtNURBMWpRRUYwdDlHNHBKb1dqX0E5R2V5ZTlpZUhvcG5yMGItbXZBVUw1VFk0ckNmM0E?oc=5",
@@ -71,6 +71,10 @@
       {
         "source": "Reuters",
         "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOdkRwbFNPRlk1YVhQTE1velhMT004YWV6WXlUZ2FrTlJVMHVCSkFiU3poMFhKZmEyNGwzRVdBdXFLWEJIWnhKQnBUUDB2RzVCTm5JZEVqN2liYXM3WllTYTlGaU5EWVo5ci1NV2JZUUlQdjBreWYxMEhtNURBMWpRRUYwdDlHNHBKb1dqX0E5R2V5ZTlpZUhvcG5yMGItbXZBVUw1VFk0ckNmM0E?oc=5"
+      },
+      {
+        "source": "The New York Times",
+        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE01dlE0eEFid2dCTjlQbDBaVFV4dHpmbnNYdEFJd2RCUlhNWmx4V0NBSEpoWlZRaXlPQ3B0WmxEOGpIMlJiNzU3c2ZNdGRfYnk2Z3hLbTNLWlFNeWZ1ZGI2NTItajYxR0NUdnQ5Nk9kUEhvMjFa?oc=5"
       }
     ]
   },
@@ -671,6 +675,21 @@
       {
         "source": "CFO Dive",
         "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNS08ybjlRQmNpaFdwVndkWWRYdl9HeXUyeEFuZVJxTWJmeHJ6VHVCQTJKLUVUWVdWWTVfdkZELUw3d3RTUzVyMmRLMkJUUzhRNmkyU2FRc0tsOUFmRlQ0X0MzaXVBNGd0VDVJR2g3d2cwQndzOVN0Q0RXeHZyWDhKXzgtY1RHY2xqUnBIQlFoREFFNHFwYUhtQWxmRTY0TTg?oc=5"
+      }
+    ]
+  },
+  {
+    "company": "Square",
+    "date": "2026-03-09",
+    "number": null,
+    "roles": "Unknown",
+    "id": 1780731365808,
+    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE96ODQwZ2lzT0JaYi1SVGFrbjRUcWZEdGFQMkxYYVR2SVh4R3hrZ0pFdll4VFdnWW5FeVR4T2x4UDdXMHJqS0FtMmkwanhuMkhrMUZZRXJndXVLVTQ4TXFCVmhNQVd1S253LVdBZVNn?oc=5",
+    "source": "Expedite | Kristen Hawley",
+    "links": [
+      {
+        "source": "Expedite | Kristen Hawley",
+        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE96ODQwZ2lzT0JaYi1SVGFrbjRUcWZEdGFQMkxYYVR2SVh4R3hrZ0pFdll4VFdnWW5FeVR4T2x4UDdXMHJqS0FtMmkwanhuMkhrMUZZRXJndXVLVTQ4TXFCVmhNQVd1S253LVdBZVNn?oc=5"
       }
     ]
   },
