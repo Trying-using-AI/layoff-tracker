@@ -1,0 +1,7 @@
+{
+  "version": 2,
+  "crons": [
+    { "path": "/api/cron/poll",     "schedule": "*/5 * * * *" },
+    { "path": "/api/cron/discover", "schedule": "*/30 * * * *" }
+  ]
+}
