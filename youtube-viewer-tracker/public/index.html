@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Yoga Circle by Cult — Live Viewer Dashboard</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ── Header ─────────────────────────────────────────────────────────── -->
+  <header class="header">
+    <div class="header-inner">
+      <div class="header-brand">
+        <svg class="logo" width="36" height="36" viewBox="0 0 36 36" fill="none">
+          <circle cx="18" cy="18" r="17" fill="rgba(245,158,11,0.12)" stroke="#f59e0b" stroke-width="1.5"/>
+          <ellipse cx="18" cy="14" rx="5" ry="7" fill="#f59e0b" opacity="0.85"/>
+          <path d="M10 22c2-3 5-4 8-4s6 1 8 4" stroke="#f59e0b" stroke-width="1.5" stroke-linecap="round" fill="none"/>
+          <path d="M12 26c2-1 4-1.5 6-1.5s4 .5 6 1.5" stroke="#f59e0b" stroke-width="1.2" stroke-linecap="round" fill="none" opacity="0.5"/>
+          <circle cx="18" cy="26" r="1.5" fill="#f59e0b" opacity="0.7"/>
+        </svg>
+        <div>
+          <div class="brand-name">Yoga Circle by Cult</div>
+          <div class="brand-sub">Live Viewer Dashboard</div>
+        </div>
+      </div>
+      <div class="header-right">
+        <div class="refresh-pill" id="refreshPill">
+          <span class="refresh-dot" id="refreshDot"></span>
+          <span id="refreshLabel">Loading…</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- ── Stats row ──────────────────────────────────────────────────────── -->
+    <div class="stats-grid">
+
+      <div class="stat-card" id="cardLive">
+        <div class="stat-icon amber">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+            <circle cx="9" cy="7" r="4"/>
+            <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+            <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+          </svg>
+        </div>
+        <div class="stat-body">
+          <div class="stat-label">Live Viewers Now</div>
+          <div class="stat-val" id="sCurrentViewers">—</div>
+          <div class="stat-sub" id="sActiveStreams">— active streams</div>
+        </div>
+        <div class="live-badge" id="liveBadge" style="display:none">
+          <span class="live-dot"></span>LIVE
+        </div>
+      </div>
+
+      <div class="stat-card">
+        <div class="stat-icon violet">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+            <polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/>
+            <polyline points="17 6 23 6 23 12"/>
+          </svg>
+        </div>
+        <div class="stat-body">
+          <div class="stat-label">Today's Peak</div>
+          <div class="stat-val" id="sTodayPeak">—</div>
+          <div class="stat-sub">highest concurrent today</div>
+        </div>
+      </div>
+
+      <div class="stat-card">
+        <div class="stat-icon green">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+            <rect x="2" y="3" width="20" height="14" rx="2"/>
+            <line x1="8" y1="21" x2="16" y2="21"/>
+            <line x1="12" y1="17" x2="12" y2="21"/>
+          </svg>
+        </div>
+        <div class="stat-body">
+          <div class="stat-label">Sessions This Week</div>
+          <div class="stat-val" id="sSessions">—</div>
+          <div class="stat-sub">live streams detected</div>
+        </div>
+      </div>
+
+      <div class="stat-card">
+        <div class="stat-icon cyan">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+            <circle cx="12" cy="12" r="10"/>
+            <polyline points="12 6 12 12 16 14"/>
+          </svg>
+        </div>
+        <div class="stat-body">
+          <div class="stat-label">Next Refresh</div>
+          <div class="stat-val" id="sCountdown">5:00</div>
+          <div class="stat-sub">auto-updating</div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- ── Range filter ────────────────────────────────────────────────────── -->
+    <div class="filter-bar">
+      <span class="filter-lbl">Time range:</span>
+      <div class="filter-tabs" id="dayFilter">
+        <button class="ftab" data-days="1">24 Hours</button>
+        <button class="ftab" data-days="3">3 Days</button>
+        <button class="ftab active" data-days="7">7 Days</button>
+      </div>
+    </div>
+
+    <!-- ── Overview chart ─────────────────────────────────────────────────── -->
+    <section class="chart-card">
+      <div class="chart-hdr">
+        <div>
+          <h2 class="chart-title">Total Viewers Over Time</h2>
+          <p class="chart-desc">Sum of concurrent viewers across all live streams — polled every 5 minutes</p>
+        </div>
+        <span class="badge amber">All Streams Combined</span>
+      </div>
+      <div class="chart-wrap"><canvas id="overviewChart"></canvas></div>
+      <div class="empty" id="overviewEmpty" style="display:none">
+        <div class="empty-ico">🧘</div>
+        <div class="empty-ttl">No stream data yet</div>
+        <div class="empty-txt">Viewer data will appear as soon as a live stream is detected on the channel</div>
+      </div>
+    </section>
+
+    <!-- ── Breakdown chart ────────────────────────────────────────────────── -->
+    <section class="chart-card">
+      <div class="chart-hdr">
+        <div>
+          <h2 class="chart-title">Viewers by Video</h2>
+          <p class="chart-desc">Each line is a distinct live stream — no data points are shared between sessions</p>
+        </div>
+        <span class="badge violet">Per-Stream View</span>
+      </div>
+      <div class="chart-wrap" id="breakdownWrap"><canvas id="breakdownChart"></canvas></div>
+      <div class="empty" id="breakdownEmpty" style="display:none">
+        <div class="empty-ico">📊</div>
+        <div class="empty-ttl">No individual stream data yet</div>
+        <div class="empty-txt">Individual video viewer timelines will appear here once streams are tracked</div>
+      </div>
+    </section>
+
+    <!-- ── Video cards ────────────────────────────────────────────────────── -->
+    <div class="section-hdr">
+      <h2 class="section-ttl">Stream Sessions</h2>
+      <p class="section-sub">All detected live streams in the selected time window</p>
+    </div>
+    <div class="video-grid" id="videoGrid">
+      <div class="vskel"></div><div class="vskel"></div><div class="vskel"></div>
+    </div>
+    <div class="empty" id="videosEmpty" style="display:none">
+      <div class="empty-ico">🎥</div>
+      <div class="empty-ttl">No sessions found in this window</div>
+      <div class="empty-txt">The tracker discovers new live streams every 30 minutes</div>
+    </div>
+
+  </main>
+
+  <footer class="footer">
+    <span>Yoga Circle by Cult — Viewer Tracker</span>
+    <span class="sep">·</span>
+    <span>Polls YouTube API every 5 minutes</span>
+    <span class="sep">·</span>
+    <span id="footerTs">—</span>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.2/dist/chart.umd.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/date-fns@3.3.1/cdn.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns@3.0.0/dist/chartjs-adapter-date-fns.bundle.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
