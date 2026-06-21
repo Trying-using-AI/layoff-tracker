@@ -1,5 +1,20 @@
 [
   {
+    "company": "Oracle",
+    "date": "2026-06-12",
+    "number": null,
+    "roles": "Unknown",
+    "id": 1782026387703,
+    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPbHJ4cWpLMW43V0tTMVlPRl83WF9PWVlwcDV6Y3U2N05ranhSbnVwbWlkVFo3MEdaZWFzS1dzSXlGQkhEaVYwYTJFLS16LWgyZExRel9fNVJRNHo2dGZUaHJ3cVJCSmZyd2R1clVhZDhGTk1Eb3ZnQ185M2t2bGYwNV9Db2hxRGVZMGZQclp3TUQ?oc=5",
+    "source": "Healthcare IT News",
+    "links": [
+      {
+        "source": "Healthcare IT News",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPbHJ4cWpLMW43V0tTMVlPRl83WF9PWVlwcDV6Y3U2N05ranhSbnVwbWlkVFo3MEdaZWFzS1dzSXlGQkhEaVYwYTJFLS16LWgyZExRel9fNVJRNHo2dGZUaHJ3cVJCSmZyd2R1clVhZDhGTk1Eb3ZnQ185M2t2bGYwNV9Db2hxRGVZMGZQclp3TUQ?oc=5"
+      }
+    ]
+  },
+  {
     "company": "Sam Altman's $2.5 billion startup",
     "date": "2026-06-09",
     "number": null,
@@ -105,6 +120,10 @@
       {
         "source": "The New York Times",
         "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE01dlE0eEFid2dCTjlQbDBaVFV4dHpmbnNYdEFJd2RCUlhNWmx4V0NBSEpoWlZRaXlPQ3B0WmxEOGpIMlJiNzU3c2ZNdGRfYnk2Z3hLbTNLWlFNeWZ1ZGI2NTItajYxR0NUdnQ5Nk9kUEhvMjFa?oc=5"
+      },
+      {
+        "source": "KUOW",
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQSDJnX0JRVkMzM1F3eXhmT0VFMlVkYVg3WnZjYTJRVV9Mald6S09zQWZrb1IydDZ1bEVidTRRbmJYckkzcXZSdGxjaFYtcEM5NnlvVGZWbFROVEpkT05VN0pzVGxTNWNVZnRGN0U5Zk1RSTliVjdsZWg1S1FQREo0TUpxSVNJWkU4cFBoeE9nMA?oc=5"
       }
     ]
   },
