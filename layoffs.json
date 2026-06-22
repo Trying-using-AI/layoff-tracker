@@ -45,6 +45,21 @@
     ]
   },
   {
+    "company": "Amazon",
+    "date": "2026-06-05",
+    "number": 30000,
+    "roles": "Unknown",
+    "id": 1782126986158,
+    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPbGhhYkRlM25pM0haZUZrVEV1bUxxelgtR1JEYzRJa3FZTEZJY3UzdEZ6eWZDNEQ3YmEtTXY1QUFRdlk0U2hsS1Juek55MnBNVHlBVFFNMkFDd0JrY2VGRXZGWHdHNEplMWs0dGlYZnJibjVTam12NGpSdDA3Q2dxcUFTODBieEU0bnpqQkVQcE1TNkNleVcwa2g4ZkE?oc=5",
+    "source": "Fortune",
+    "links": [
+      {
+        "source": "Fortune",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPbGhhYkRlM25pM0haZUZrVEV1bUxxelgtR1JEYzRJa3FZTEZJY3UzdEZ6eWZDNEQ3YmEtTXY1QUFRdlk0U2hsS1Juek55MnBNVHlBVFFNMkFDd0JrY2VGRXZGWHdHNEplMWs0dGlYZnJibjVTam12NGpSdDA3Q2dxcUFTODBieEU0bnpqQkVQcE1TNkNleVcwa2g4ZkE?oc=5"
+      }
+    ]
+  },
+  {
     "company": "Webflow",
     "date": "2026-05-28",
     "number": null,
