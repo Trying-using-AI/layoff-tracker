@@ -1,8 +1,23 @@
 [
   {
+    "company": "Meta",
+    "date": "2026-06-27",
+    "number": null,
+    "roles": "Unknown",
+    "id": 1782550048420,
+    "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNWHByNGFBNnp1c2wxRXFKdGxteDlTVVpmeC14YmkyUzJvLWtMSFRIZFBJeGYxd21wREZrb3ZNNW96ZVZ2al91cXJfWkdPNXUxNkxYTVBjUTNuLWE5M2FsU3VOekNmOGFsZ2YydVNnZkhFaEVDWnBNVzdqRlAzVGVpTU56eDhvZnF2UzkxYWNoZUxKUExiTzFxYXhFakp0aWFLY25yQTNkSWh1RnBjdnFqNTlNaFQ1RGtHcUM1cG9ZSEgxYnZ5NUdzblRKMXJoVVpWb3J2b0ZiZUtXNmc?oc=5",
+    "source": "Yahoo Tech",
+    "links": [
+      {
+        "source": "Yahoo Tech",
+        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNWHByNGFBNnp1c2wxRXFKdGxteDlTVVpmeC14YmkyUzJvLWtMSFRIZFBJeGYxd21wREZrb3ZNNW96ZVZ2al91cXJfWkdPNXUxNkxYTVBjUTNuLWE5M2FsU3VOekNmOGFsZ2YydVNnZkhFaEVDWnBNVzdqRlAzVGVpTU56eDhvZnF2UzkxYWNoZUxKUExiTzFxYXhFakp0aWFLY25yQTNkSWh1RnBjdnFqNTlNaFQ1RGtHcUM1cG9ZSEgxYnZ5NUdzblRKMXJoVVpWb3J2b0ZiZUtXNmc?oc=5"
+      }
+    ]
+  },
+  {
     "company": "Oracle",
     "date": "2026-06-12",
-    "number": null,
+    "number": 21000,
     "roles": "Unknown",
     "id": 1782026387703,
     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPbHJ4cWpLMW43V0tTMVlPRl83WF9PWVlwcDV6Y3U2N05ranhSbnVwbWlkVFo3MEdaZWFzS1dzSXlGQkhEaVYwYTJFLS16LWgyZExRel9fNVJRNHo2dGZUaHJ3cVJCSmZyd2R1clVhZDhGTk1Eb3ZnQ185M2t2bGYwNV9Db2hxRGVZMGZQclp3TUQ?oc=5",
@@ -11,6 +26,10 @@
       {
         "source": "Healthcare IT News",
         "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPbHJ4cWpLMW43V0tTMVlPRl83WF9PWVlwcDV6Y3U2N05ranhSbnVwbWlkVFo3MEdaZWFzS1dzSXlGQkhEaVYwYTJFLS16LWgyZExRel9fNVJRNHo2dGZUaHJ3cVJCSmZyd2R1clVhZDhGTk1Eb3ZnQ185M2t2bGYwNV9Db2hxRGVZMGZQclp3TUQ?oc=5"
+      },
+      {
+        "source": "Forbes",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPd2hpQ3dhVFk2Nzl1UHNSLTFHZ21tV1VwOFk4OXhHZ3hjZTE5aERaNTFfUGR1Sk1sN3FlR0s3ODFXdEx3akxTRzRETE54azU3Tmd5NFdSZ2NXaWIyRTY1MENYRFBjZ1JfUEVHQ2tFcm1aNkp5Tk9oV1V5RW9yNTZpVlFJMnJDWE15MnBXOGt5YzRtRmNKREFEZVZOMnJFSThwSGJ4RzVqWDZuS1VHZU90Z195VDZsZ3JWazMyYVRYdnJpb1E?oc=5"
       }
     ]
   },
