@@ -1,5 +1,20 @@
 [
   {
+    "company": "Microsoft",
+    "date": "2026-06-30",
+    "number": null,
+    "roles": "Unknown",
+    "id": 1782980295463,
+    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQdFFSOFFfay1NNkprN1hMdm15VmgzQU5FNzBzcTd6dTZsR09rRG83blBvUnFISVktMkJMSnhIYWZsNHNLMFdfUHdVMHl3VnhjdXJrd2tCUW5Cb25PUWh3MU9iRmh5RVJiRHpEc1hOb096ZHZfVnVNWEdyQXpySlluMGx1cXlwZWVjMEE?oc=5",
+    "source": "Business Insider",
+    "links": [
+      {
+        "source": "Business Insider",
+        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQdFFSOFFfay1NNkprN1hMdm15VmgzQU5FNzBzcTd6dTZsR09rRG83blBvUnFISVktMkJMSnhIYWZsNHNLMFdfUHdVMHl3VnhjdXJrd2tCUW5Cb25PUWh3MU9iRmh5RVJiRHpEc1hOb096ZHZfVnVNWEdyQXpySlluMGx1cXlwZWVjMEE?oc=5"
+      }
+    ]
+  },
+  {
     "company": "Meta",
     "date": "2026-06-27",
     "number": null,
@@ -79,6 +94,21 @@
       {
         "source": "The Times of India",
         "url": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxORk84ZDRTMlFsRnJrSWJlZklkX0p6Rk5nZ1d3Uk1tRXhVX0x4Q3YzeVVqUTBhMGRNS2JJQTdoUkp3eGp4V1RjakI5bHotRXBIbVlLaGpYNlY0NjNRUGdlUnhNcXg2eXZkWERDTFhyeTZoellxLWJLZkVrLWRDZ2Z3QjBqWG1mNWFGbW5CQnZRWThlQUNRbEdmZnhZU3ozUUNxVmlmcG9RQ1g1N3QwcWxyd2t5X05mWS1Wcm92dktaSVhsVHVGMnpSYm5TSjR0eU5tdzM5Z1FuNURvTmttRlBXMlpHQ2ZJQmY0dUVaMXpHem5hRVhtWVJzX1ZXTUM3LURaZWk2S2pPcDhWZXVsU2ZaUXF0cjRteldGWDh6RWlSd205Y2FpamFjcEVB0gGvAkFVX3lxTE9EdjlKczBSX3VMSngtYnhETnRxMS16aXZrb3dsUnk1TTVGLV9mUFU5Tl9DOU81eWQzczVSOGRvbkI5Z1NBN1padGtGckNHc3BUb1JDZ2s5T1hFTDNxRVFKSThma241dmZwWXJodG1IWFlOa3dzYm1BQi05WS1ILXl5cWhzdTVFTy1lQ0ZQWWNhN3M5ekFwVGVld2VtdFYtZVJsN3QzREhpajYwVHZ3U0FKY3ZMX25kQUU1NjNlRS1DRWtCYW9taHJrMmJhTVlfbHI3SWwwWVlwMzlnVHQyRGVhUkd1Y2RSS194R3A4elM4U3FfYU9pTXVSNEVjVmdocjdtcVAtMU9iRnlDQ3ZSWFhsdXhOM2t1cXpPQ1ZZQmg4aWgtWUZFaGFaX0pVdXVEQQ?oc=5"
+      }
+    ]
+  },
+  {
+    "company": "LinkedIn",
+    "date": "2026-06-09",
+    "number": 230,
+    "roles": "Tech",
+    "id": 1782980354196,
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPOExvYlJVZEsxdmFkNGtYTVhBZXlDOW9tQ3B3ZTdENXRUeGRfOUVZZ1VOenRpSlhiaUVQSnRwMm0wQUgtSElFV3dXQzd2dFRLSHZGazdQSXFCMldKWV93cW1SMlZhQWtwdjNqMU5IY0RsUzhTN2N6OUM2RmNDRERiT0JMM3U4MHR5YmNHSU53dE9ac21qNHFWa3pENkNTcmc?oc=5",
+    "source": "LinkedIn",
+    "links": [
+      {
+        "source": "LinkedIn",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPOExvYlJVZEsxdmFkNGtYTVhBZXlDOW9tQ3B3ZTdENXRUeGRfOUVZZ1VOenRpSlhiaUVQSnRwMm0wQUgtSElFV3dXQzd2dFRLSHZGazdQSXFCMldKWV93cW1SMlZhQWtwdjNqMU5IY0RsUzhTN2N6OUM2RmNDRERiT0JMM3U4MHR5YmNHSU53dE9ac21qNHFWa3pENkNTcmc?oc=5"
       }
     ]
   },
