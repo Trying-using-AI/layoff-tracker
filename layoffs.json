@@ -45,6 +45,21 @@
     ]
   },
   {
+    "company": "Rivian",
+    "date": "2026-06-16",
+    "number": null,
+    "roles": "Unknown",
+    "id": 1783591815178,
+    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQMG9vMmZVQU5BellTUzdIVGctcXhaZnUxV0RIcnJ5N3NlcXZaS04xSFdHblRaSWR2Wk9QRGZrbldOWjFhX1RzdnkzVHhwcmJNblRsOEdsNGVxazk0Tkpyal9zbURxZlkxb2l0X2tmaFJkM3lBN0J3cENoNXZPWXlqMkRnRXhMN3E5dmlISl9OQzg3bHc3?oc=5",
+    "source": "WSJ",
+    "links": [
+      {
+        "source": "WSJ",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQMG9vMmZVQU5BellTUzdIVGctcXhaZnUxV0RIcnJ5N3NlcXZaS04xSFdHblRaSWR2Wk9QRGZrbldOWjFhX1RzdnkzVHhwcmJNblRsOEdsNGVxazk0Tkpyal9zbURxZlkxb2l0X2tmaFJkM3lBN0J3cENoNXZPWXlqMkRnRXhMN3E5dmlISl9OQzg3bHc3?oc=5"
+      }
+    ]
+  },
+  {
     "company": "Oracle",
     "date": "2026-06-12",
     "number": 21000,
