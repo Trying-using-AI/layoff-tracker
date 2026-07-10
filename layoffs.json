@@ -2,7 +2,7 @@
   {
     "company": "Microsoft",
     "date": "2026-06-30",
-    "number": null,
+    "number": 4800,
     "roles": "Unknown",
     "id": 1782980295463,
     "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQdFFSOFFfay1NNkprN1hMdm15VmgzQU5FNzBzcTd6dTZsR09rRG83blBvUnFISVktMkJMSnhIYWZsNHNLMFdfUHdVMHl3VnhjdXJrd2tCUW5Cb25PUWh3MU9iRmh5RVJiRHpEc1hOb096ZHZfVnVNWEdyQXpySlluMGx1cXlwZWVjMEE?oc=5",
@@ -11,6 +11,10 @@
       {
         "source": "Business Insider",
         "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQdFFSOFFfay1NNkprN1hMdm15VmgzQU5FNzBzcTd6dTZsR09rRG83blBvUnFISVktMkJMSnhIYWZsNHNLMFdfUHdVMHl3VnhjdXJrd2tCUW5Cb25PUWh3MU9iRmh5RVJiRHpEc1hOb096ZHZfVnVNWEdyQXpySlluMGx1cXlwZWVjMEE?oc=5"
+      },
+      {
+        "source": "NBC News",
+        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNbHp3UmMxZ1JDX1ZxdTczLTRYUHBaSVk3Z3gta1pyaWQyeEFMbmFYOVdZU09ESTRzSDVGLXlVY2tPdUlEOVpTZG9BdzY1ODRWUmk4V1VWMVl6Yml0OW9GY3ZPblY3Vi1fQXJvS3BacHRnVG8tRUJVUEVHMGZiTVI3Sk5yR3RWdmFudUE?oc=5"
       }
     ]
   },
@@ -94,6 +98,21 @@
       {
         "source": "The Mercury News",
         "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPakIySmtpcXdaaXloYXplbldyVFUwWG9yNWp1WnQ2U2JSYTdzd0pFM3ZoWnNMYW1CbUpKZTNsdjFXSE4wR2ZfSWJCUWk2djZ2QV9xVXl5ekp2NzNkZk1Xa2hldVhiUURaMlN4UVE1NXB6ckVFYnpDRUtNdi1mR0RHOEJOSGxHLXJaZHVyX2FMOEY0bzUyU2Q4UHRxR211amJxbmZrOUhHMDJLUdIBrwFBVV95cUxObDJ6eXZqQUZRZ0ZuM1BjT3VFTy1vYVlRTGVMbDlCZjZQcVFiMTJvUkV0ZElOT2I1N0xlN2prWHJabl9fVlhzdnNYcl9pd3JiNWZwalNKZWt4M1FxbGZwWER2MS11N2NBY0t5blZ5ZnV6UzNibmFvR1dTVGdPb3lGOVN3aGtTQThiME1qbDczOERYRlVFNTRacjFNYUFfR3VfQml4QlZkcmsyWmNaZEJR?oc=5"
+      }
+    ]
+  },
+  {
+    "company": "Oracle, Meta, Dell",
+    "date": "2026-06-11",
+    "number": null,
+    "roles": "Unknown",
+    "id": 1783670387810,
+    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNUnNFdmY2M0NBenVMRU14MW9veUFiQ2dJZXZIYXZsX1Z4aDF1SHMzeTZQb210QklROG9pd0d5YUxGejJDeG1fWDJEcTlWdEdiUU9TUzVTbll2bE9pWmtJNXhzVHFnZFRsSW1pUkdzQzhqa1JiTjdJOC0ycmJwNC1XOVktNUdrNWp2eEtvZg?oc=5",
+    "source": "Austin American-Statesman",
+    "links": [
+      {
+        "source": "Austin American-Statesman",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNUnNFdmY2M0NBenVMRU14MW9veUFiQ2dJZXZIYXZsX1Z4aDF1SHMzeTZQb210QklROG9pd0d5YUxGejJDeG1fWDJEcTlWdEdiUU9TUzVTbll2bE9pWmtJNXhzVHFnZFRsSW1pUkdzQzhqa1JiTjdJOC0ycmJwNC1XOVktNUdrNWp2eEtvZg?oc=5"
       }
     ]
   },
@@ -417,6 +436,21 @@
       {
         "source": "The Columbus Dispatch",
         "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNSHJNcjdyZVN5MU1jZjF6T2ZtZFhkaHd1end3VGVDQU5zNU1LLURPWkRVcWRhMnVRdl84MS1WMjh3STBvdzBHclJnWFVqcUt2SklpWHVXUWlld01fTFpVUzFESzNtMDJPdlg1NnU0d0haV29XdDQ3dnoySWpBQjQtaDlER0gxU3lBbUk0Z3VCM1FnODl3MS12bHJnNnc4bXRkTzZwTnBIbDRuRVNQcHRuVQ?oc=5"
+      }
+    ]
+  },
+  {
+    "company": "Apna Mart",
+    "date": "2026-05-06",
+    "number": null,
+    "roles": "Unknown",
+    "id": 1783670948972,
+    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQLWFjZ3Y4ZDN3QUhKUXdOVnFCZmxWSGxWTFczSmF6RXFMRDFNbDhHdDl5RFI1d3B5dWVvUGh1aTFXX2h0d2FXQWQ3bnR2RDNmSi1leW44YmFkZkhwYXZWclAxQ2NfSGJham45WjZHS016T0o3ZFJxQlJqRGRlUkJhbTF1VEZ1RU9Pbm9SR1A1R3lUekh6TzcxTzU1NA?oc=5",
+    "source": "Tech in Asia",
+    "links": [
+      {
+        "source": "Tech in Asia",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQLWFjZ3Y4ZDN3QUhKUXdOVnFCZmxWSGxWTFczSmF6RXFMRDFNbDhHdDl5RFI1d3B5dWVvUGh1aTFXX2h0d2FXQWQ3bnR2RDNmSi1leW44YmFkZkhwYXZWclAxQ2NfSGJham45WjZHS016T0o3ZFJxQlJqRGRlUkJhbTF1VEZ1RU9Pbm9SR1A1R3lUekh6TzcxTzU1NA?oc=5"
       }
     ]
   },
