@@ -1,5 +1,20 @@
 [
   {
+    "company": "Amazon",
+    "date": "2026-07-11",
+    "number": null,
+    "roles": "Unknown",
+    "id": 1783931721146,
+    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOYjZXSU1CazE2eXVXTU9HSllVckp2eVF5WHpXcG5sSjEtcE5STUYwX2x5QnZ4aXdHaDdqbXlVUlNHZUEwRlpaSTM1X1BFbXlzbFdjV2xGbHRmUVlJNEdGQXFFRXZMYVdHRFJPWDdFS3lYeDNaeXNVRV9xeUEyZkx6WUItTXJHVmM3alA0WThJcEY3NWJsWFB3XzNGenRGajFHT1pra9IBqgFBVV95cUxOQ1hUMTdvMmc0di1vS3ZYMlVoM3JBV01SdFFFc3dFWWYtT084OWJqZE42WXBnUklRTDFiR05BUkZJLVlQcGYtSUNaeEtLQXdsOThvOHlaWmN3V0RRQ0lVWE90ektMWVBFY25sZ3pNWVRkVF9POU5mNjZrdnJNVVpXUk83UjlBVEd1YkYxX01LOUF5ejNsV0dJRTA0d0VkRVB2a29xUnlOWW85dw?oc=5",
+    "source": "CNBC",
+    "links": [
+      {
+        "source": "CNBC",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOYjZXSU1CazE2eXVXTU9HSllVckp2eVF5WHpXcG5sSjEtcE5STUYwX2x5QnZ4aXdHaDdqbXlVUlNHZUEwRlpaSTM1X1BFbXlzbFdjV2xGbHRmUVlJNEdGQXFFRXZMYVdHRFJPWDdFS3lYeDNaeXNVRV9xeUEyZkx6WUItTXJHVmM3alA0WThJcEY3NWJsWFB3XzNGenRGajFHT1pra9IBqgFBVV95cUxOQ1hUMTdvMmc0di1vS3ZYMlVoM3JBV01SdFFFc3dFWWYtT084OWJqZE42WXBnUklRTDFiR05BUkZJLVlQcGYtSUNaeEtLQXdsOThvOHlaWmN3V0RRQ0lVWE90ektMWVBFY25sZ3pNWVRkVF9POU5mNjZrdnJNVVpXUk83UjlBVEd1YkYxX01LOUF5ejNsV0dJRTA0d0VkRVB2a29xUnlOWW85dw?oc=5"
+      }
+    ]
+  },
+  {
     "company": "Xbox",
     "date": "2026-07-08",
     "number": null,
@@ -560,6 +575,21 @@
       {
         "source": "Indiana Public Media",
         "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQSHhDQUtzSTJTSWdJcTdDdUh1Z0E5d1JoTTdPWndxOGRxNTlNOUs0N2IzQ3l2QkhXNVNPaThSakZQeW5yV0dCLWJxUDNmUlVkU3BPdXUyaW1zc2pzcUR5akdXcEk3a1RzR3BZVUc0Y3pJYjZid3g1UmIxdHdaRUdyS0gwMWNKOU12QzJUT3YtaVgwZ3loOC1nc2JIcC1VTVRqWWcw?oc=5"
+      }
+    ]
+  },
+  {
+    "company": "Oracle",
+    "date": "2026-05-01",
+    "number": null,
+    "roles": "Unknown",
+    "id": 1783931853737,
+    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1VMTVoOEpaSF9fcl9aVng0bGlVUWRrS2t4Tm1hS2R0VWlab2I3WkVSYmxsUGtZVlloZjhQZ3B0d1JKbGpWMHR1cnlmTE5Lc0xZUlB5endMeGd0M3dwdTcxZUhOTzl4bVozaUZrRWNndFBOQQ?oc=5",
+    "source": "Time Magazine",
+    "links": [
+      {
+        "source": "Time Magazine",
+        "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1VMTVoOEpaSF9fcl9aVng0bGlVUWRrS2t4Tm1hS2R0VWlab2I3WkVSYmxsUGtZVlloZjhQZ3B0d1JKbGpWMHR1cnlmTE5Lc0xZUlB5endMeGd0M3dwdTcxZUhOTzl4bVozaUZrRWNndFBOQQ?oc=5"
       }
     ]
   },
