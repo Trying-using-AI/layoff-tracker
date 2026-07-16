@@ -1,5 +1,20 @@
 [
   {
+    "company": "Leidos",
+    "date": "2026-07-13",
+    "number": 305,
+    "roles": "non-customer roles",
+    "id": 1784238192206,
+    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNM0Y2ejhfQnBiNnNoMVh6dlFEN24wR3R3d2J1VjM2enF1UElFR3N5S2xHRUFJRTZRWVQ4bTZISUVlMnh5SDRGekRZUHB5X0JfSDZnRkQtN25ERWxzS3VCSTliUHU1VF9LYjhrVGFPQXUxQ3I0RGQ1enhBNERZU2JPVmlRTkVPU2Rkbl9aZ0M5UjhjREs3V0xnV2dDNk0zSV9zZzVQTVcwdGUxS3hqbDd6R0RjZnRMbFZZQ2c?oc=5",
+    "source": "Washington Technology",
+    "links": [
+      {
+        "source": "Washington Technology",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNM0Y2ejhfQnBiNnNoMVh6dlFEN24wR3R3d2J1VjM2enF1UElFR3N5S2xHRUFJRTZRWVQ4bTZISUVlMnh5SDRGekRZUHB5X0JfSDZnRkQtN25ERWxzS3VCSTliUHU1VF9LYjhrVGFPQXUxQ3I0RGQ1enhBNERZU2JPVmlRTkVPU2Rkbl9aZ0M5UjhjREs3V0xnV2dDNk0zSV9zZzVQTVcwdGUxS3hqbDd6R0RjZnRMbFZZQ2c?oc=5"
+      }
+    ]
+  },
+  {
     "company": "Amazon",
     "date": "2026-07-11",
     "number": null,
