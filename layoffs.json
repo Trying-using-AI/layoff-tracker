@@ -1,5 +1,20 @@
 [
   {
+    "company": "Monday.com",
+    "date": "2026-07-26",
+    "number": null,
+    "roles": "Unknown",
+    "id": 1785138022385,
+    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNQ1A1YW9PT1JNTmtRUWNoVjVhZ2M2UTNjUEFJLWZGNEhxT05ReEg4RDNlbVBmY0RSRTVMZkNpOWxyZ0R6eVhQVHZCQ3JxTmdhT1pSUmZzMDhHeVZ4bEl5dlQ1V1hZbFZ2enpKbW9jalJ5Q3hfcnFlbTVnWUVZaW1MV1Z6RWtMT2Q5cUxMVF9CeUxrdjZ5aUp4ZEhySQ?oc=5",
+    "source": "Yahoo Finance",
+    "links": [
+      {
+        "source": "Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNQ1A1YW9PT1JNTmtRUWNoVjVhZ2M2UTNjUEFJLWZGNEhxT05ReEg4RDNlbVBmY0RSRTVMZkNpOWxyZ0R6eVhQVHZCQ3JxTmdhT1pSUmZzMDhHeVZ4bEl5dlQ1V1hZbFZ2enpKbW9jalJ5Q3hfcnFlbTVnWUVZaW1MV1Z6RWtMT2Q5cUxMVF9CeUxrdjZ5aUp4ZEhySQ?oc=5"
+      }
+    ]
+  },
+  {
     "company": "Leidos",
     "date": "2026-07-13",
     "number": 305,
@@ -41,6 +56,10 @@
       {
         "source": "GeekWire",
         "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQLURpdFlud290WmZha1gzYUVwOEFkYmR3UmxZWWs4VXlvbmtmcEhfelJjOFljUW1COVJabElWVERPYTVORkFMaWRvODFxVmdDNXkyR0U3N0lab002QTFHZ2g2LUdfalVoUjUzVHVNX0Y2bDVsbGc3RlhpNlZRdWpYcnFERTBWa3Zmalh4MGtQc3ROUWdSdUNxQUx4dTdZdEdNZG5sTjhic0dNMkRhLTl3UEM3dy1CUG1icVg5Z3BObm5sUDRHeUE?oc=5"
+      },
+      {
+        "source": "bloodinthemachine.com",
+        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5uZnBQTlRXNFZZaGRpSExBQlotazd4YldaMFByUlMwdUgzblNVbjVFM0RWcnVkWnZHbi1SZzlfbnlDUXB4LTdjQWlzSUMydU9pRjZISm1XZW1QNFR3UUIwVVlFSGZsRVZpS3NFdzBTWmcySzduVldXYWw5QXM?oc=5"
       }
     ]
   },
