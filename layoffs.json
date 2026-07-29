@@ -11,6 +11,10 @@
       {
         "source": "Yahoo Finance",
         "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNQ1A1YW9PT1JNTmtRUWNoVjVhZ2M2UTNjUEFJLWZGNEhxT05ReEg4RDNlbVBmY0RSRTVMZkNpOWxyZ0R6eVhQVHZCQ3JxTmdhT1pSUmZzMDhHeVZ4bEl5dlQ1V1hZbFZ2enpKbW9jalJ5Q3hfcnFlbTVnWUVZaW1MV1Z6RWtMT2Q5cUxMVF9CeUxrdjZ5aUp4ZEhySQ?oc=5"
+      },
+      {
+        "source": "TechCrunch",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPQnlLanVXOHA2dzB0SU9KTGhoeVpXYWFfdDZWOXRBMG5WSGh0elZ6akxJdlFjOTlWZ0lqd3hQallrSDRsNkl4WjY1bndhNVluTTNPaVpoMlEzajBwN1IwbzRHZmZUSDZkWjdhTDFQT0VlSm92ZHVnVW9HODRHVngyUE9HQ0RLTmVPRzJBY1BqUFlGUmRIanZTeTlrV1luTlIwSVdNQnV3?oc=5"
       }
     ]
   },
@@ -94,6 +98,21 @@
       {
         "source": "NBC News",
         "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNbHp3UmMxZ1JDX1ZxdTczLTRYUHBaSVk3Z3gta1pyaWQyeEFMbmFYOVdZU09ESTRzSDVGLXlVY2tPdUlEOVpTZG9BdzY1ODRWUmk4V1VWMVl6Yml0OW9GY3ZPblY3Vi1fQXJvS3BacHRnVG8tRUJVUEVHMGZiTVI3Sk5yR3RWdmFudUE?oc=5"
+      }
+    ]
+  },
+  {
+    "company": "Elementor",
+    "date": "2026-06-29",
+    "number": 100,
+    "roles": "Unknown",
+    "id": 1785318435133,
+    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5RSWN2VktSSUZBVGxMSzgyR2Y2S2Nsd1FldGx6OXlDU3R5WFRILXU4LWliN1lPNGdGRXB0OEVfdzJiUVN6cU43bjY1b3VFU2dpNVVwNWoyS2d4cFFTcWRQMDJfTnFDdDJN?oc=5",
+    "source": "calcalistech.com",
+    "links": [
+      {
+        "source": "calcalistech.com",
+        "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5RSWN2VktSSUZBVGxMSzgyR2Y2S2Nsd1FldGx6OXlDU3R5WFRILXU4LWliN1lPNGdGRXB0OEVfdzJiUVN6cU43bjY1b3VFU2dpNVVwNWoyS2d4cFFTcWRQMDJfTnFDdDJN?oc=5"
       }
     ]
   },
