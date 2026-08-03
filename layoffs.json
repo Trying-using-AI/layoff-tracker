@@ -557,9 +557,24 @@
     ]
   },
   {
+    "company": "Amazon",
+    "date": "2026-05-17",
+    "number": null,
+    "roles": "Unknown",
+    "id": 1785744360090,
+    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPSzFUUV9uNXRoNW1VZUY1QWNMM01wejF3MmhZSU4wZFdLSXo3YXJWTTFPRmpnWE9ncXhmQXFqTHY0NHNYc3JPemxMaXRKTGkteFZJazFJUFEzWVpnaGptNllHdlM0RXZWN2lXR05iMGFHTGlrSGllbmUyUDcySkFXaVdUNWNZUmdWaTRtZVpnVXFiUXp4dVMxbmYxbWpYdEdQZnRxVko2NWdrZUo4UUdvS1NnN2ZkSVk?oc=5",
+    "source": "Startup Fortune",
+    "links": [
+      {
+        "source": "Startup Fortune",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPSzFUUV9uNXRoNW1VZUY1QWNMM01wejF3MmhZSU4wZFdLSXo3YXJWTTFPRmpnWE9ncXhmQXFqTHY0NHNYc3JPemxMaXRKTGkteFZJazFJUFEzWVpnaGptNllHdlM0RXZWN2lXR05iMGFHTGlrSGllbmUyUDcySkFXaVdUNWNZUmdWaTRtZVpnVXFiUXp4dVMxbmYxbWpYdEdQZnRxVko2NWdrZUo4UUdvS1NnN2ZkSVk?oc=5"
+      }
+    ]
+  },
+  {
     "company": "Starbucks",
     "date": "2026-05-15",
-    "number": null,
+    "number": 61,
     "roles": "corporate and Seattle tech roles",
     "id": 1779401090278,
     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOaFRRS0JjM1g3RzFBQlRONzJJSEdUNXA4QVRvbnVGeEQ3QmlTd2RlRzlodUg1TUVNVDJRS0dQa1lJU2w4N0xnOXZxbEFjZ3A2Z0ZEbG1mZG1BVE1scE5VUnZ4RXBkY0NnMy1ORmxiTVlRc3AxZXgyTU1rbGpib0xVTWUtRFkxajRFN18yV09IOEtib0lOck1uaFk2N1ROcHFlMUc4bnVKSE11WlFQX1M5cFZDRmdFMW14bmc?oc=5",
@@ -568,6 +583,10 @@
       {
         "source": "GeekWire",
         "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOaFRRS0JjM1g3RzFBQlRONzJJSEdUNXA4QVRvbnVGeEQ3QmlTd2RlRzlodUg1TUVNVDJRS0dQa1lJU2w4N0xnOXZxbEFjZ3A2Z0ZEbG1mZG1BVE1scE5VUnZ4RXBkY0NnMy1ORmxiTVlRc3AxZXgyTU1rbGpib0xVTWUtRFkxajRFN18yV09IOEtib0lOck1uaFk2N1ROcHFlMUc4bnVKSE11WlFQX1M5cFZDRmdFMW14bmc?oc=5"
+      },
+      {
+        "source": "KUOW",
+        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5QZFVlRHUwbjVFLWdtem1sVGV4V0N3V3Q5eFFXUWxERXByVjh1RU5pWUtNem9RMkJfY2JsbDNYLXptblBBQ2lOc1RWMmhkYndUMjFwbVVkWFZzcXVrMjFsUmRGejUwWWtCYWpOaVE2RjhIemN2bThyUlRkRQ?oc=5"
       }
     ]
   },
