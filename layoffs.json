@@ -1,5 +1,20 @@
 [
   {
+    "company": "Meta",
+    "date": "2026-08-09",
+    "number": null,
+    "roles": "engineer",
+    "id": 1786518042387,
+    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOeGdTcDRTQWVRQ1NqcWZ2ZkpVemtWOE0yaGlpOVNjVXk5d3ZxSjh6elJ6WWNyVTROWlBaUkVfTlZRX1RJeUhTdW50NGtwaEZ1VncxSi13cVRBTm80NlVudkRoR2RwbUZkNXhaLWhtU29vT3I2bmNOV2ItQ1BvVHNtcDVUYmZtZHpzd1h6eFNtcXl2a3Rkbm9VcGUyR1ZsR04tWUFpeQ?oc=5",
+    "source": "Business Insider",
+    "links": [
+      {
+        "source": "Business Insider",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOeGdTcDRTQWVRQ1NqcWZ2ZkpVemtWOE0yaGlpOVNjVXk5d3ZxSjh6elJ6WWNyVTROWlBaUkVfTlZRX1RJeUhTdW50NGtwaEZ1VncxSi13cVRBTm80NlVudkRoR2RwbUZkNXhaLWhtU29vT3I2bmNOV2ItQ1BvVHNtcDVUYmZtZHpzd1h6eFNtcXl2a3Rkbm9VcGUyR1ZsR04tWUFpeQ?oc=5"
+      }
+    ]
+  },
+  {
     "company": "Salesforce",
     "date": "2026-08-07",
     "number": null,
@@ -436,6 +451,10 @@
       {
         "source": "Yahoo Finance",
         "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPM1dCamFOWFAybEdXWEh3cjU3QnZvN1pMdmpTb0NNM2NYX1ZXU19jVXNYaUhROEQwSENxaWpMdHlEWlBZYUJ6S1JBa0RRU3VHdmpoWmkwWFg3RFRYWVNnc2twbmZXRzRBdFpWWWstNlJwbk9WcEg2Zm0xMEVOekhjTzg1TkRzVHI3dFJkSUFIU1JLNTYzanpOT2Fta0x3cEdMYXJCdzE5d0NUUQ?oc=5"
+      },
+      {
+        "source": "San Francisco Chronicle",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPNG45T3F3dVZHMTR3NXUtMGtWdHdTcnhSMm9hcC1CMll6dnJLVTFPUWtxY0JXVU5RSzNicWFPUzQ3eVVFWU8zZ21wM2xoNm1oaGhqeDhwVGlhVngyVHFOa3VHWnluVkpNcTJBVUVOU2lValZsUEhmYkNOdWFhcFFmSG1ZaFpKYVVyRTR1cng4bWszQQ?oc=5"
       }
     ]
   },
@@ -500,6 +519,21 @@
       {
         "source": "tech-insider.org",
         "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNRmxpMDZ4U3Q4M3FnNGtHLUJCYUY5QlkwRDUwVk1YcWFjQ19HRHNnWGp3Zm50bmdUWHZTSXptTWRTSVRmdWVkbjdaZDNxX3dTcWx0MlBDWXBualAwaGM0X2JGWDlTQ1pSZzZMQVluQ0JpUEpvZHZzakMtWVJtVE1PQWpxdXRrNWc?oc=5"
+      }
+    ]
+  },
+  {
+    "company": "Intuit",
+    "date": "2026-05-21",
+    "number": null,
+    "roles": "Unknown",
+    "id": 1786518165486,
+    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5qS09oOFF0Mlo0ZmdBbmpsR1dPZmV6WTItbndEU1VWZnctZTV1c3AyR1RLMmVJWVZneEVURHNQaEFsN2VERVFvcVhjek1nXzlSeHZ6Y0ZXOVJQdkp4MlJDM283OTNuQlBX?oc=5",
+    "source": "calcalistech.com",
+    "links": [
+      {
+        "source": "calcalistech.com",
+        "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5qS09oOFF0Mlo0ZmdBbmpsR1dPZmV6WTItbndEU1VWZnctZTV1c3AyR1RLMmVJWVZneEVURHNQaEFsN2VERVFvcVhjek1nXzlSeHZ6Y0ZXOVJQdkp4MlJDM283OTNuQlBX?oc=5"
       }
     ]
   },
