@@ -30,6 +30,21 @@
     ]
   },
   {
+    "company": "Google, TikTok, Etsy, Zillow",
+    "date": "2026-08-07",
+    "number": null,
+    "roles": "Unknown",
+    "id": 1786604443254,
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPZ2dxVDl6aEJNLVhuNjh0X3JDdFB1R2lXMnRMNFBlV2ZlTW51aUlWUzlGdkZMeVBfUEhvNW16UUQ3Y2lVNjFsaDFwQkMzRi1vQUpLbUdiM0YzdG9YZ19HUF9DUzJPalBNUm5LYUlkOXJtSEpJWkJUMXBIak9kRk54TmswSjliN1ZUY3hzWTYtY0NYN1Zyb2ZWd0h1YXVya2c?oc=5",
+    "source": "Fast Company",
+    "links": [
+      {
+        "source": "Fast Company",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPZ2dxVDl6aEJNLVhuNjh0X3JDdFB1R2lXMnRMNFBlV2ZlTW51aUlWUzlGdkZMeVBfUEhvNW16UUQ3Y2lVNjFsaDFwQkMzRi1vQUpLbUdiM0YzdG9YZ19HUF9DUzJPalBNUm5LYUlkOXJtSEpJWkJUMXBIak9kRk54TmswSjliN1ZUY3hzWTYtY0NYN1Zyb2ZWd0h1YXVya2c?oc=5"
+      }
+    ]
+  },
+  {
     "company": "Illinois Institute of Technology",
     "date": "2026-07-31",
     "number": 160,
@@ -60,6 +75,21 @@
       {
         "source": "TechCrunch",
         "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPQnlLanVXOHA2dzB0SU9KTGhoeVpXYWFfdDZWOXRBMG5WSGh0elZ6akxJdlFjOTlWZ0lqd3hQallrSDRsNkl4WjY1bndhNVluTTNPaVpoMlEzajBwN1IwbzRHZmZUSDZkWjdhTDFQT0VlSm92ZHVnVW9HODRHVngyUE9HQ0RLTmVPRzJBY1BqUFlGUmRIanZTeTlrV1luTlIwSVdNQnV3?oc=5"
+      }
+    ]
+  },
+  {
+    "company": "Meta",
+    "date": "2026-07-14",
+    "number": null,
+    "roles": "Unknown",
+    "id": 1786604559193,
+    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOZVVkTzJUaFB0YWgzQmpaRXAtWUU3R1FUeW1lenFuMTBNd0plUE40ZkpRNGpJeGYzSkxRUEc0N0pjamFYOFdkNEhHTk9yR3lJNkJDMWJ1bC1lS19IUmhFWXNRZUNrTHN3SHpKN3pZLW9rU0FZZklELTlHS3MybEFNNm5vTkJtTXNSWVNyTzZMLTV6X3ByR2dLVThJbEEwdGVmbGNfVzlxWFo?oc=5",
+    "source": "WSJ",
+    "links": [
+      {
+        "source": "WSJ",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOZVVkTzJUaFB0YWgzQmpaRXAtWUU3R1FUeW1lenFuMTBNd0plUE40ZkpRNGpJeGYzSkxRUEc0N0pjamFYOFdkNEhHTk9yR3lJNkJDMWJ1bC1lS19IUmhFWXNRZUNrTHN3SHpKN3pZLW9rU0FZZklELTlHS3MybEFNNm5vTkJtTXNSWVNyTzZMLTV6X3ByR2dLVThJbEEwdGVmbGNfVzlxWFo?oc=5"
       }
     ]
   },
