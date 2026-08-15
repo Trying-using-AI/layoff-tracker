@@ -440,6 +440,21 @@
     ]
   },
   {
+    "company": "Hailo",
+    "date": "2026-06-08",
+    "number": null,
+    "roles": "Unknown",
+    "id": 1786786760463,
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE44WjQ5dG1FdFhJR1R6TEp4Nkp3YmpNcEdPZDhzcWxFTW4zTVFtV0N3U0h3Rzg0NThQV3o4MTd0VmtkZUJNeDI1M0pkM2NZMDdTbUFEZEt2TC1qMjRSQl9YT3ZlVXpPLUE?oc=5",
+    "source": "calcalistech.com",
+    "links": [
+      {
+        "source": "calcalistech.com",
+        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE44WjQ5dG1FdFhJR1R6TEp4Nkp3YmpNcEdPZDhzcWxFTW4zTVFtV0N3U0h3Rzg0NThQV3o4MTd0VmtkZUJNeDI1M0pkM2NZMDdTbUFEZEt2TC1qMjRSQl9YT3ZlVXpPLUE?oc=5"
+      }
+    ]
+  },
+  {
     "company": "Amazon",
     "date": "2026-06-05",
     "number": 30000,
