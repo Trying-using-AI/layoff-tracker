@@ -2,7 +2,7 @@
   {
     "company": "Apple",
     "date": "2026-08-24",
-    "number": null,
+    "number": 150,
     "roles": "Unknown",
     "id": 1787749841359,
     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQZFJvMlJSMWhqemszV3pUMUJobzhSWUl2ajRNcFcxSnVYWVBjOEJtXzBaREVHUTVHYVdpZERqQ1VtTmlXemxUZlBnbzUycWdvNGRENmlKeGtRNDdUYjRTMzFMdGdhQVpZWUxZVDNjaFVmT1o0VnBvMFZyVzNqUTRTTEtjUVUtR3Y5ZldjUDFrUzBZc0s2UUhDVC1EdUcxcDM0?oc=5",
@@ -11,6 +11,10 @@
       {
         "source": "Fast Company",
         "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQZFJvMlJSMWhqemszV3pUMUJobzhSWUl2ajRNcFcxSnVYWVBjOEJtXzBaREVHUTVHYVdpZERqQ1VtTmlXemxUZlBnbzUycWdvNGRENmlKeGtRNDdUYjRTMzFMdGdhQVpZWUxZVDNjaFVmT1o0VnBvMFZyVzNqUTRTTEtjUVUtR3Y5ZldjUDFrUzBZc0s2UUhDVC1EdUcxcDM0?oc=5"
+      },
+      {
+        "source": "KRON4",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNYkxmRlpUVFM2V01RVUo2SktHTnpJNUZ0MlMzaWtCUHBkZWxfMzdCZmpSWExSSEhSVHFjTERHMjlWZ2lENDFfV0dFRWlQc09aalBtV1gzZElZWG9GVUppbmthZjlFNm5hY01GY2YxVFhiLVNDOTlxWXJQWnV5S3pPeUF5R01Qdzl4NnZDQk16VlluX1g5QkxBajhMMjBLUy1jbWfSAacBQVVfeXFMTW5ZYlFHZFZnX3hTVTNqT2l6YXhtVWpDOXp6NFNPUFB6LW5rOVZDcW0tZ0d0SHhoRDZpOTdoZm5TdUNQNVktWDJYUUJpRFo2Wm9wN3g4OWYzc0NpWTUxNW1fU1hCaDRMOGp4Q1ZNa2ktUFBUS0k2Y2U3Ri1zemlOSm8wdkdGenpfZnM0elk2VU4zdmtkMjktTGpqUU4yOXJBT0gtZDNWMzA?oc=5"
       }
     ]
   },
@@ -86,6 +90,21 @@
       {
         "source": "Fast Company",
         "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPZ2dxVDl6aEJNLVhuNjh0X3JDdFB1R2lXMnRMNFBlV2ZlTW51aUlWUzlGdkZMeVBfUEhvNW16UUQ3Y2lVNjFsaDFwQkMzRi1vQUpLbUdiM0YzdG9YZ19HUF9DUzJPalBNUm5LYUlkOXJtSEpJWkJUMXBIak9kRk54TmswSjliN1ZUY3hzWTYtY0NYN1Zyb2ZWd0h1YXVya2c?oc=5"
+      }
+    ]
+  },
+  {
+    "company": "Zillow",
+    "date": "2026-08-05",
+    "number": null,
+    "roles": "tech managers",
+    "id": 1788086453739,
+    "link": "https://news.google.com/rss/articles/CBMitwJBVV95cUxNUVd2TE0tSTRIVnpsRWVrRVl4ejVQenhPSXhEM3MtakZTTG9jOG9BZ1l1Wk80UTBnMThUZWstX1NnN3N4amV3UVFLYXJZdUNwdnpJYlkyQm1lazZ4UEJvbnZuTFI4dkFHcGh0Sll1M09aekNuSUNIV1E5OHVVRkZVeTQxbEN2bUU1ZWN4V0RUWXdYR0NkS0FPalRaekRWYTJCUWVuV0V1d2lrYUVHelczck9KUEJZTENlN2pjS3dkazU1Sm1UaHdmdnFBNC1jYXZxSzhza2haeE1Ta3RUUzRJYW5zTGxUMDA1cm1QMFBCNWVQQmRId25OWkpOQTBZUEhxMTRYUlVwYnU1bjZRLTJmSkZfWVFxeUVsQ255dGZGMGdOWVNqclBFWEE3WGlHTzg0OUNEZkVYcw?oc=5",
+    "source": "KOMO",
+    "links": [
+      {
+        "source": "KOMO",
+        "url": "https://news.google.com/rss/articles/CBMitwJBVV95cUxNUVd2TE0tSTRIVnpsRWVrRVl4ejVQenhPSXhEM3MtakZTTG9jOG9BZ1l1Wk80UTBnMThUZWstX1NnN3N4amV3UVFLYXJZdUNwdnpJYlkyQm1lazZ4UEJvbnZuTFI4dkFHcGh0Sll1M09aekNuSUNIV1E5OHVVRkZVeTQxbEN2bUU1ZWN4V0RUWXdYR0NkS0FPalRaekRWYTJCUWVuV0V1d2lrYUVHelczck9KUEJZTENlN2pjS3dkazU1Sm1UaHdmdnFBNC1jYXZxSzhza2haeE1Ta3RUUzRJYW5zTGxUMDA1cm1QMFBCNWVQQmRId25OWkpOQTBZUEhxMTRYUlVwYnU1bjZRLTJmSkZfWVFxeUVsQ255dGZGMGdOWVNqclBFWEE3WGlHTzg0OUNEZkVYcw?oc=5"
       }
     ]
   },
