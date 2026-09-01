@@ -19,6 +19,21 @@
     ]
   },
   {
+    "company": "Starbucks",
+    "date": "2026-08-21",
+    "number": 224,
+    "roles": "tech roles",
+    "id": 1788256567985,
+    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPZnZ5dDZNUVpkUnZYSy1BZ05TT3V5LXRfLWh4U3dxMWtPajBXdDBRUy1BdlJIbjBkeUFlbVdnOW9TTjNEQ2VMTTJSRjhXVDY4ck11cS0yR2g4TDhVSTVjMV9LWUYwaVNUak1UWWRSMkMzbVh2YU1sbFZ1UHhsTXozMllTeU1OQVg4VFhVYm9KeWlNMDBCWi1EcEdzYl8yV2tpc1o4c0RFX3M3NTRuTnNFQTloYXBfQ0RPOVZV?oc=5",
+    "source": "GeekWire",
+    "links": [
+      {
+        "source": "GeekWire",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPZnZ5dDZNUVpkUnZYSy1BZ05TT3V5LXRfLWh4U3dxMWtPajBXdDBRUy1BdlJIbjBkeUFlbVdnOW9TTjNEQ2VMTTJSRjhXVDY4ck11cS0yR2g4TDhVSTVjMV9LWUYwaVNUak1UWWRSMkMzbVh2YU1sbFZ1UHhsTXozMllTeU1OQVg4VFhVYm9KeWlNMDBCWi1EcEdzYl8yV2tpc1o4c0RFX3M3NTRuTnNFQTloYXBfQ0RPOVZV?oc=5"
+      }
+    ]
+  },
+  {
     "company": "Illinois Tech",
     "date": "2026-08-20",
     "number": null,
