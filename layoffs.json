@@ -1,5 +1,20 @@
 [
   {
+    "company": "Uber",
+    "date": "2026-09-03",
+    "number": null,
+    "roles": "Unknown",
+    "id": 1788435435162,
+    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1BUXZRN3BEX0FtQ0hsalBkd0dVNmRabGhSU1pQQ1V0TjFtQW9hRDgycWJhSzBFWFV5N2dpQXpuVjJzNm9aeTBvMFRHYWUycDR6RHhQRkU3M2ZmN2k0bjBDRUJYMWh0a0RKaXdkXzhR?oc=5",
+    "source": "SFGATE",
+    "links": [
+      {
+        "source": "SFGATE",
+        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1BUXZRN3BEX0FtQ0hsalBkd0dVNmRabGhSU1pQQ1V0TjFtQW9hRDgycWJhSzBFWFV5N2dpQXpuVjJzNm9aeTBvMFRHYWUycDR6RHhQRkU3M2ZmN2k0bjBDRUJYMWh0a0RKaXdkXzhR?oc=5"
+      }
+    ]
+  },
+  {
     "company": "Apple",
     "date": "2026-08-24",
     "number": 150,
@@ -203,6 +218,10 @@
       {
         "source": "CNBC",
         "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOYjZXSU1CazE2eXVXTU9HSllVckp2eVF5WHpXcG5sSjEtcE5STUYwX2x5QnZ4aXdHaDdqbXlVUlNHZUEwRlpaSTM1X1BFbXlzbFdjV2xGbHRmUVlJNEdGQXFFRXZMYVdHRFJPWDdFS3lYeDNaeXNVRV9xeUEyZkx6WUItTXJHVmM3alA0WThJcEY3NWJsWFB3XzNGenRGajFHT1pra9IBqgFBVV95cUxOQ1hUMTdvMmc0di1vS3ZYMlVoM3JBV01SdFFFc3dFWWYtT084OWJqZE42WXBnUklRTDFiR05BUkZJLVlQcGYtSUNaeEtLQXdsOThvOHlaWmN3V0RRQ0lVWE90ektMWVBFY25sZ3pNWVRkVF9POU5mNjZrdnJNVVpXUk83UjlBVEd1YkYxX01LOUF5ejNsV0dJRTA0d0VkRVB2a29xUnlOWW85dw?oc=5"
+      },
+      {
+        "source": "KOMO",
+        "url": "https://news.google.com/rss/articles/CBMi5wJBVV95cUxOalpRQkNtZjFObXk5SEsyN3o4ZG40LVNqbnFfekJUcjYtWWY4WWxBeUZDZ0lKM2hNTHVCVWR1SElrRDR2dHFoOFdpTGd2Nmgxcm9LNlJvMXowYkVmOWdGazVyc0QwQ21EZ3dhUXBYUGJtaW03bWgzbzBHZ2VGZWs4NF9qc0dIVTJnZVJQRVZuRG0zSjhXWmxlcXk5ZXFCVEQ1bVBUOUN0WUxaajlyTGdVdEhfY3FiSXQxcW5UeHM3V2VQTFlvZk9xX3BmZC1sQzhXTkxGbUxrU21BZXpPMVhxR3NtQW41NkRhZjh1Q21wN2ZJNHNrRllFVGpCQXY5WndJdlJZczktcHpXcF9ScHFzYVFnajZUc3BxNUVlb0VJSlYyWkZBRG5VVldDUEZLRFgxOUg3ZEQ2ZlRLaEpEeHNWQ2NYSEhwbkVReGR1Y1hsbE5seEY4aWN0NlZ4RFRLZHJoTExFOVNiOA?oc=5"
       }
     ]
   },
