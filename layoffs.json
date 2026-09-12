@@ -15,6 +15,21 @@
     ]
   },
   {
+    "company": "Google, Microsoft",
+    "date": "2026-09-01",
+    "number": null,
+    "roles": "tech workers",
+    "id": 1789209328654,
+    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQdUV3eHhzRU0wZy1uaDduYW9HQ1VUd3lyUUljdklDTmx4UEhZTi03ZXpDRjNBdENvUXRMeHhOb2EtWGp3ZFA2YWlRNm5SLWxGSUEtRDFpZWg3MUFuMlZHVFZZU0dUdmRIYTdURHlUNmRVSFFXaTR0STZQdTViZVZ2RmtTaWthODNmRTJlbDVxaU1fdEcz?oc=5",
+    "source": "Business Insider",
+    "links": [
+      {
+        "source": "Business Insider",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQdUV3eHhzRU0wZy1uaDduYW9HQ1VUd3lyUUljdklDTmx4UEhZTi03ZXpDRjNBdENvUXRMeHhOb2EtWGp3ZFA2YWlRNm5SLWxGSUEtRDFpZWg3MUFuMlZHVFZZU0dUdmRIYTdURHlUNmRVSFFXaTR0STZQdTViZVZ2RmtTaWthODNmRTJlbDVxaU1fdEcz?oc=5"
+      }
+    ]
+  },
+  {
     "company": "Apple",
     "date": "2026-08-24",
     "number": 150,
@@ -60,6 +75,21 @@
       {
         "source": "Block Club Chicago",
         "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPaEtTSlJpYTdycUI4NzRYeWRqNHJkXzBQbEtLZnhsUHdpSXlkVlB6c2NOLXpSZ1A1dEt2RFM5a3BDZ1JBUjItZ24zUWFnbVBIcnNfQnVXbkg4REVwUEY3Q1VzdjFEVHZxRTRUZXM2ak1rZEhZMXhwcVhIZnhkcDVXbGQ3OWdnSUFJX2diY1I2TG44RTlU?oc=5"
+      }
+    ]
+  },
+  {
+    "company": "TikTok",
+    "date": "2026-08-19",
+    "number": 75,
+    "roles": "Unknown",
+    "id": 1789209321403,
+    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE40RUdkbTM1VkVienNGV2hWdmt0RV9ud3llbG5zLXF5LVB0NEdrZ21sS2JORWxiVmpqY0tMX3FRWUc3SnB6d24yZVNwb2tZY01tVVM2ODhEXzN1dWFNblNxVk1SaDJKVVA3cHNENDZOUExMOVk?oc=5",
+    "source": "FOX 13 Seattle",
+    "links": [
+      {
+        "source": "FOX 13 Seattle",
+        "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE40RUdkbTM1VkVienNGV2hWdmt0RV9ud3llbG5zLXF5LVB0NEdrZ21sS2JORWxiVmpqY0tMX3FRWUc3SnB6d24yZVNwb2tZY01tVVM2ODhEXzN1dWFNblNxVk1SaDJKVVA3cHNENDZOUExMOVk?oc=5"
       }
     ]
   },
@@ -173,6 +203,21 @@
       {
         "source": "TechCrunch",
         "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPQnlLanVXOHA2dzB0SU9KTGhoeVpXYWFfdDZWOXRBMG5WSGh0elZ6akxJdlFjOTlWZ0lqd3hQallrSDRsNkl4WjY1bndhNVluTTNPaVpoMlEzajBwN1IwbzRHZmZUSDZkWjdhTDFQT0VlSm92ZHVnVW9HODRHVngyUE9HQ0RLTmVPRzJBY1BqUFlGUmRIanZTeTlrV1luTlIwSVdNQnV3?oc=5"
+      }
+    ]
+  },
+  {
+    "company": "Google",
+    "date": "2026-07-23",
+    "number": null,
+    "roles": "Unknown",
+    "id": 1789209309609,
+    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQRUFmVWdfY2RhbjJwSF92eVlnaDRoajl5VkU2T292Qk9NRGNEcUNHWUdMRHFoMlB6MmdYMTVYc0x3bnZPdkIwTXg5LUpqZ2twODNUOVRGYk9LbGtOUERQdFRmakR6aTBzQzdnalRJNXpEazltZm1Bekxqbnp4clpCUzY0RHNmQVlZZkhJNzFyUjk0Wlk?oc=5",
+    "source": "Business Insider",
+    "links": [
+      {
+        "source": "Business Insider",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQRUFmVWdfY2RhbjJwSF92eVlnaDRoajl5VkU2T292Qk9NRGNEcUNHWUdMRHFoMlB6MmdYMTVYc0x3bnZPdkIwTXg5LUpqZ2twODNUOVRGYk9LbGtOUERQdFRmakR6aTBzQzdnalRJNXpEazltZm1Bekxqbnp4clpCUzY0RHNmQVlZZkhJNzFyUjk0Wlk?oc=5"
       }
     ]
   },
