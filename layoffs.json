@@ -1,5 +1,20 @@
 [
   {
+    "company": "Oracle",
+    "date": "2026-09-14",
+    "number": null,
+    "roles": "Unknown",
+    "id": 1789552300000,
+    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFA2TjJDZXdIM1hjdkVDa3BqYktyYTRJU3BxVTRFTkUzUEI4R1pyOGd2VUhBcU42a280S2xNLXNxR0hwdHZVemJvTFAtMjJvbmZIQ3dLZmFmQ0xxZkptXzhpVnhKYlQ1SFZRSmwzeGZKVmVHcDVMQTBuNFlpejdLQQ?oc=5",
+    "source": "businessinsider.com",
+    "links": [
+      {
+        "source": "businessinsider.com",
+        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFA2TjJDZXdIM1hjdkVDa3BqYktyYTRJU3BxVTRFTkUzUEI4R1pyOGd2VUhBcU42a280S2xNLXNxR0hwdHZVemJvTFAtMjJvbmZIQ3dLZmFmQ0xxZkptXzhpVnhKYlQ1SFZRSmwzeGZKVmVHcDVMQTBuNFlpejdLQQ?oc=5"
+      }
+    ]
+  },
+  {
     "company": "Uber",
     "date": "2026-09-03",
     "number": null,
@@ -11,6 +26,10 @@
       {
         "source": "SFGATE",
         "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1BUXZRN3BEX0FtQ0hsalBkd0dVNmRabGhSU1pQQ1V0TjFtQW9hRDgycWJhSzBFWFV5N2dpQXpuVjJzNm9aeTBvMFRHYWUycDR6RHhQRkU3M2ZmN2k0bjBDRUJYMWh0a0RKaXdkXzhR?oc=5"
+      },
+      {
+        "source": "Fortune",
+        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE4zUWZCcWNyMWlieWw4ODFPazFZZDBUWF93Rm5iRWhSd0NLWG44bE5XWXdSZG5RYmJCc3BqTHlxR2lOSlNnMHVEc3k2N1VUbjFzXzByREtTdWFuZGdCdGtVS0ptMFgtbHhwNFN4Zm45N0h1VGlfZ3R0SU1OdnZOdw?oc=5"
       }
     ]
   },
