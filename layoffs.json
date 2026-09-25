@@ -1,5 +1,20 @@
 [
   {
+    "company": "null",
+    "date": "null",
+    "number": null,
+    "roles": "null",
+    "id": 1790364618139,
+    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQZHdXWDBPMUlkRUl1UWEwM2VmM3FVRnRLZEtoc1pXUW8zNjZQRVU5cm1lTTFqbEkyT0pacjJWS2xSYmg2YjJ4aDNsOEpVbG9YaW85R1psUkdheFhVMXdjYUFtV0tfSk53U3RsVS1aeGNaZmxiWDB3OFpISllFNWFqbEpCdFdfcGNFR1gxeFN5WHkwQjJCeGJtbkp4bzVjTGR6VG1zQg?oc=5",
+    "source": "HR Dive",
+    "links": [
+      {
+        "source": "HR Dive",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQZHdXWDBPMUlkRUl1UWEwM2VmM3FVRnRLZEtoc1pXUW8zNjZQRVU5cm1lTTFqbEkyT0pacjJWS2xSYmg2YjJ4aDNsOEpVbG9YaW85R1psUkdheFhVMXdjYUFtV0tfSk53U3RsVS1aeGNaZmxiWDB3OFpISllFNWFqbEpCdFdfcGNFR1gxeFN5WHkwQjJCeGJtbkp4bzVjTGR6VG1zQg?oc=5"
+      }
+    ]
+  },
+  {
     "company": "Oracle",
     "date": "2026-09-14",
     "number": 359,
