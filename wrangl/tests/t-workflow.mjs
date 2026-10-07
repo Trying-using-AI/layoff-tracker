@@ -1,0 +1,11 @@
+import { launch, openTool, addFiles, runAndDownload, check, summary, inspect, OUT } from './lib.mjs';
+import { execFileSync } from 'node:child_process';
+const { browser, page, errors } = await launch({ width: 1300, height: 950 });
+await openTool(page, 'workflow'); await addFiles(page, ['a.pdf', 'b.pdf']); await page.waitForSelector('.fl-row');
+await page.selectOption('select[aria-label="Add a step"]', 'merge'); await page.selectOption('select[aria-label="Add a step"]', 'page-numbers'); await page.selectOption('select[aria-label="Add a step"]', 'compress');
+check('3 steps listed', (await page.$$('.wf-step')).length === 3); await page.screenshot({ path: OUT + '/workflow.png' });
+const [o] = await runAndDownload(page, '.action-wrap .btn.primary'); const i = inspect(o); const t = execFileSync('pdftotext', ['-layout', o, '-'], { encoding: 'utf8' });
+check('merged 6 pages', i.n === 6); check('page numbers applied', /Page 6 of 6/.test(t), t.slice(0, 120)); check('all steps ✓', (await page.$$eval('.wf-state .chip.ok', (e) => e.length)) === 3);
+await openTool(page, 'workflow'); await addFiles(page, 'report10.pdf'); await page.waitForSelector('.fl-row'); await page.selectOption('select[aria-label="Start from a preset"]', '0'); await page.waitForSelector('.wf-step'); check('preset loads 2 steps', (await page.$$('.wf-step')).length === 2);
+await page.selectOption('select[aria-label="Add a step"]', 'pdf-to-images'); await page.selectOption('select[aria-label="Add a step"]', 'rotate'); await page.click('.action-wrap .btn.primary'); await page.waitForTimeout(300); check('non-final step blocked with toast', /last step/.test(await page.textContent('#toasts')));
+check('no console errors', errors.filter((e) => !/Failed to load resource/.test(e)).length === 0, errors.join('\n')); await browser.close(); process.exit(summary() ? 1 : 0);
