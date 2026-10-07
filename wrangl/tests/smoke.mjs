@@ -1,0 +1,12 @@
+import { launch, HTML, OUT, check, summary } from './lib.mjs';
+const { browser, page, errors } = await launch();
+await page.goto(HTML);
+await page.waitForSelector('.hero');
+const n = await page.evaluate(() => W.tools.length);
+console.log('tools registered:', n);
+check('dashboard renders', !!(await page.$('.hero h1')));
+check('no console errors', errors.length === 0, errors.join('\n'));
+await page.screenshot({ path: OUT + '/dash-light.png' });
+await page.screenshot({ path: OUT + '/dash-full.png', fullPage: true });
+await browser.close();
+process.exit(summary() ? 1 : 0);

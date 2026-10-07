@@ -1,0 +1,14 @@
+import { launch, HTML, OUT } from './lib.mjs';
+let { browser, page } = await launch({ width: 1360, height: 900, dark: true });
+await page.goto(HTML); await page.waitForSelector('.hero'); await page.screenshot({ path: OUT + '/dash-dark.png' }); await page.screenshot({ path: OUT + '/dash-dark-full.png', fullPage: true });
+await page.goto(HTML + '#/t/merge'); await page.waitForSelector('#toolbody'); await page.screenshot({ path: OUT + '/merge-dark.png' });
+await browser.close();
+({ browser, page } = await launch({ width: 390, height: 844 }));
+await page.goto(HTML); await page.waitForSelector('.hero'); await page.screenshot({ path: OUT + '/dash-mobile.png' });
+await page.click('.menu-btn'); await page.waitForTimeout(400); await page.screenshot({ path: OUT + '/menu-mobile.png' });
+await page.goto('about:blank'); await page.goto(HTML + '#/t/compress'); await page.waitForSelector('#toolbody'); await page.screenshot({ path: OUT + '/compress-mobile.png' });
+await page.goto('about:blank'); await page.goto(HTML + '#/t/edit'); await page.waitForSelector('#toolbody'); await page.screenshot({ path: OUT + '/edit-mobile.png' });
+await browser.close();
+({ browser, page } = await launch({ width: 1360, height: 900 }));
+await page.goto(HTML); await page.waitForSelector('.hero'); await page.keyboard.press('Control+k'); await page.waitForSelector('#palette'); await page.keyboard.type('word'); await page.waitForTimeout(300); await page.screenshot({ path: OUT + '/search.png' });
+await browser.close();
