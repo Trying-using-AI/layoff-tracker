@@ -3,14 +3,20 @@ import path from 'node:path';
 import fs from 'node:fs';
 import { fileURLToPath } from 'node:url';
 export const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
-export const HTML = 'file://' + path.join(root, 'dist/wrangl.html');
+// WRANGL_URL + WRANGL_LIVE_FILE: serve a downloaded copy of the live site under its real https origin (TLS stays verified; nothing else is fetched).
+export const HTML = process.env.WRANGL_URL || 'file://' + path.join(root, 'dist/wrangl.html');
 export const FIX = path.join(root, 'tests/fixtures');
 export const OUT = path.join(root, 'tests/out');
 fs.mkdirSync(OUT, { recursive: true });
 export async function launch({ width = 1360, height = 900, dark = false, extra = {} } = {}) {
   const browser = await chromium.launch({ executablePath: '/opt/pw-browsers/chromium-1194/chrome-linux/chrome', args: ['--no-sandbox', '--use-fake-ui-for-media-stream', '--use-fake-device-for-media-stream', ...(extra.args || [])] });
   const ctx = await browser.newContext({ viewport: { width, height }, acceptDownloads: true, colorScheme: dark ? 'dark' : 'light', ...extra.ctx });
-  const page = await ctx.newPage();
+  const external = [];
+  if (process.env.WRANGL_URL) {
+    const origin = new URL(process.env.WRANGL_URL).origin; const body = fs.readFileSync(process.env.WRANGL_LIVE_FILE);
+    await ctx.route('**/*', (route) => { const u = route.request().url(); if (new URL(u).origin === origin) return route.fulfill({ status: 200, contentType: 'text/html; charset=utf-8', body }); external.push(u); return route.abort(); });
+  }
+  const page = await ctx.newPage(); page.external = external;
   const errors = [];
   page.on('pageerror', (e) => errors.push('pageerror: ' + e.message));
   page.on('console', (m) => { if (m.type() === 'error') errors.push('console: ' + m.text()); });
