@@ -17,5 +17,5 @@ const [clean2] = await runAndDownload(page); check('auto removal (artifact tag)'
 // 4. nothing to remove -> friendly error
 await openTool(page, 'remove-watermark'); await addFiles(page, 'a.pdf'); await page.click('.action-wrap .btn.primary'); await page.waitForSelector('.errbox');
 check('friendly error', /No removable watermark/.test(await page.textContent('.errbox')));
-check('no console errors', errors.filter((e) => !/Failed to load resource/.test(e)).length === 0, errors.join('\n'));
+check('no console errors', errors.filter((e) => !/Failed to load resource|No removable watermark/.test(e)).length === 0, errors.join('\n'));
 await browser.close(); process.exit(summary() ? 1 : 0);

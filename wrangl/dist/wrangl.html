@@ -1278,7 +1278,10 @@ W.showResults = async function (box, outputs, { tool, note, extraNode, save = tr
       actions.appendChild(m);
     }
     const th = h('div.fl-th');
-    if (kind === 'pdf') { const it = new Item(W.file(o.blob, o.name)); W.pdf.prepare(it).then(() => W.pdf.thumb(it, 0, 96)).then((c) => { th.innerHTML = ''; th.appendChild(c); $('.res-meta', row) && ($('.res-meta', row).textContent = U.fmtBytes(o.blob.size) + (it.info.pages ? ' · ' + U.plural(it.info.pages, 'page') : '')); }).catch(() => { }); th.appendChild(h('span.fl-ph', { html: ic('file-text', 22) })); }
+    if (kind === 'pdf') {
+      th.appendChild(h('span.fl-ph', { html: ic('file-text', 22) }));
+      (async () => { try { const pdfjs = await W.lib('pdfjs'); const doc = await pdfjs.getDocument({ data: new Uint8Array(await o.blob.arrayBuffer()), isEvalSupported: false }).promise; const pg = await doc.getPage(1); const c = await P.render(pg, { width: 96 * Math.min(2, window.devicePixelRatio || 1) }); const im = h('img.fl-img', { src: c.toDataURL('image/jpeg', 0.8), alt: '' }); th.innerHTML = ''; th.appendChild(im); const m = $('.res-meta', row); if (m) m.textContent = U.fmtBytes(o.blob.size) + ' · ' + U.plural(doc.numPages, 'page') + (o.meta ? ' · ' + o.meta : ''); doc.destroy(); } catch (e) { if (e && e.name === 'PasswordException') { th.innerHTML = ''; th.appendChild(h('span.fl-ph', { html: ic('lock', 22) })); const m = $('.res-meta', row); if (m) m.textContent = U.fmtBytes(o.blob.size) + ' · password-protected'; } } })();
+    }
     else if (kind === 'image') { th.appendChild(h('img.fl-img', { src: URL.createObjectURL(o.blob), alt: '' })); }
     else th.appendChild(h('span.fl-ph', { html: ic(/zip/.test(o.blob.type) || /\.zip$/.test(o.name) ? 'file-archive' : 'file', 22) }));
     const row = h('div.res-row', th, h('div.fl-main', h('span.fl-name', { title: o.name }, o.name), h('span.fl-meta.res-meta', U.fmtBytes(o.blob.size) + (o.meta ? ' · ' + o.meta : ''))), actions);

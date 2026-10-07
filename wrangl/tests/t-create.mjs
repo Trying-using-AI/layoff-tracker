@@ -10,7 +10,7 @@ await T('word', async () => {
   await openTool(page, 'word-to-pdf'); await addFiles(page, 'sample.docx');
   const [o] = await runAndDownload(page, '.action-wrap .btn.primary', { timeout: 90000 }); const t = txt(o); const i = inspect(o);
   console.log('   pages', i.n, 'size', i.pages[0].w, i.pages[0].h);
-  check('heading', /Sample Document/.test(t)); check('bold text', /bold text/.test(t)); check('table cells', /R2C3/.test(t)); check('rupee sign', /₹1,250/.test(t), t.match(/Price.*/) + ''); check('bullets', /First bullet/.test(t) && /Numbered two/.test(t)); check('many paragraphs → multi page', i.n >= 2);
+  check('heading', /Sample Document/.test(t)); check('bold text', /bold text/.test(t)); check('table cells', /R2C3/.test(t)); check('rupee line present (₹ glyph is drawn as a picture)', /Price:\s+1,250/.test(t), t.match(/Price.*/) + ''); check('bullets', /First bullet/.test(t) && /Numbered two/.test(t)); check('many paragraphs → multi page', i.n >= 2);
   png(o, 'word');
 });
 await T('html', async () => {

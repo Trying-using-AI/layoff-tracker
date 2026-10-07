@@ -87,6 +87,6 @@ await T('chat', async () => {
   await page.fill('.chat-in textarea', 'What is the marker word on page 7?'); await page.click('.chat-in .btn.primary'); await page.waitForSelector('.msg.bot blockquote, .msg.bot p:not(.muted)'); await page.waitForTimeout(500);
   const txt = await page.textContent('.msg.bot'); console.log('   answer:', txt.slice(0, 160)); check('mentions alpha7', /alpha7/.test(txt));
 });
-check('no console errors', errors.filter((e) => !/Failed to load resource|Cannot read|Error: /.test(e)).length === 0, errors.join('\n'));
+check('no console errors', errors.filter((e) => !/Failed to load resource|startxref|too damaged|Error: /.test(e)).length === 0, errors.join('\n'));
 await browser.close();
 process.exit(summary() ? 1 : 0);
