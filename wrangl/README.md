@@ -18,6 +18,13 @@ npm test             # see tests/ (Playwright + a Python fixture generator)
 * `scripts/build.mjs` – packs libraries (gzip + base64, unpacked lazily in the browser), fonts and icons
 * `tests/` – `make_fixtures.py` generates sample files; `t-*.mjs` drive the real UI in headless Chromium
 
+## Hosting on GitHub Pages
+
+`.github/workflows/pages.yml` publishes `wrangl/dist/wrangl.html` as the site's `index.html` whenever `wrangl/dist/` changes on `main`
+(or when you run the workflow by hand). One-time setup: **Settings → Pages → Build and deployment → Source: GitHub Actions**.
+The workflow ships the committed `dist/wrangl.html`, so run `npm run build` and commit the result after changing anything in `src/`.
+The site is served from `https://<owner>.github.io/<repo>/`.
+
 ## Architecture in one minute
 
 | Piece | What it does |
