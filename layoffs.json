@@ -32,7 +32,7 @@
   {
     "company": "Disney",
     "date": "2026-09-29",
-    "number": null,
+    "number": 300,
     "roles": "Unknown",
     "id": 1790756641500,
     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5nb2hUMnlsMjVMckJQRlVCTG52OUNfZDR5Z3BwNl95RXBOTkJGOTJibWtPMFg5SE5CMEd2U3A5NHBhWkt3dW5hOTluZ1E0SVVJS0tSZ0xJSnB1VmJfNXg1OTczbUtOc2NGT3RKQWRiNUl4bXQ1U1E?oc=5",
@@ -41,6 +41,10 @@
       {
         "source": "Deadline",
         "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5nb2hUMnlsMjVMckJQRlVCTG52OUNfZDR5Z3BwNl95RXBOTkJGOTJibWtPMFg5SE5CMEd2U3A5NHBhWkt3dW5hOTluZ1E0SVVJS0tSZ0xJSnB1VmJfNXg1OTczbUtOc2NGT3RKQWRiNUl4bXQ1U1E?oc=5"
+      },
+      {
+        "source": "Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNbm1JUnh0ekZhdU5HQ0ZMZHB5MTRNWUlzMThDeERTRE9Vd25aaUxOenVTT2xGVUNibkxLVm9oazE2b1oxOXU0OG9RLTBaODEzaGo0T0VqMkk4NVVTcTFMb0Fya2FZc3JGQks5ZTRBWEd4MktKU294OW9PN0VpZ0JuMzF5SXk4WldLX2pFY0dhZEJwOGQ2bnZFNw?oc=5"
       }
     ]
   },
@@ -90,6 +94,21 @@
       {
         "source": "GeekWire",
         "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPa1pYV3JXc01IUlYzSjVIWnBZXy1wYy1QQlhQNzZvUkFSZ05mX1FzVHJ4VzhDTUVuR1NVSTJDWEo1SlJmNWgtbE9IUTNJRWJyZEhrdnRYVmd5a0RQZklZOGkyVGt6cWtOQUxFZGFBa2x6WXNxMnJNS2phMFVtUlMxMklUbTJiWVJZMzFqSHpFaFhUMV9ESEoxLWIxelhXT29DY3hLOTk3dTBLdm5ocWRLSTVGZkNUNzFCTHc?oc=5"
+      }
+    ]
+  },
+  {
+    "company": "Trinity Health",
+    "date": "2026-09-09",
+    "number": 557,
+    "roles": "IT",
+    "id": 1791982294217,
+    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPcjZuZ1VMLVRRTUdiN21kQlR1b25zbEhOX2M5dFhWdF9oblFVbmxuN0FTOGRMYm5zMUUxN21fZXdWak5QR3g4bXlIU2huZzA2WFpNZDdUMlFYTDRPc1NaeFA4TmlUNHgwdDI2eEdDd0FycFI3a0d3NDI4ZzNzQW13VFVTU0hXd0lSZElZbg?oc=5",
+    "source": "Healthcare Dive",
+    "links": [
+      {
+        "source": "Healthcare Dive",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPcjZuZ1VMLVRRTUdiN21kQlR1b25zbEhOX2M5dFhWdF9oblFVbmxuN0FTOGRMYm5zMUUxN21fZXdWak5QR3g4bXlIU2huZzA2WFpNZDdUMlFYTDRPc1NaeFA4TmlUNHgwdDI2eEdDd0FycFI3a0d3NDI4ZzNzQW13VFVTU0hXd0lSZElZbg?oc=5"
       }
     ]
   },
