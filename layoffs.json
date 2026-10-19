@@ -15,6 +15,21 @@
     ]
   },
   {
+    "company": "Netflix",
+    "date": "2026-10-16",
+    "number": null,
+    "roles": "Unknown",
+    "id": 1792408186244,
+    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPQ1FEbjRsbk91QTN3R2p5NjU5UWpidEVkeEFXZU9uRmlNYTNnSGVlMFRVUmJ0dmVGT21SMUVOdEcxNlZNRHBoMnAwajJpMGNHS2Rla3JoS1pWMVZNTnZpWWViMV9yQnVCQXFVOEtOY1dtVDNqWk1FRVRpS05DMDZMOUFuY0FuRXJhSC1lQjJmWUVDdmt2cXJCclhUWXBKMi0zTExMRkxfcHBtcXhLNFdn?oc=5",
+    "source": "Fast Company",
+    "links": [
+      {
+        "source": "Fast Company",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPQ1FEbjRsbk91QTN3R2p5NjU5UWpidEVkeEFXZU9uRmlNYTNnSGVlMFRVUmJ0dmVGT21SMUVOdEcxNlZNRHBoMnAwajJpMGNHS2Rla3JoS1pWMVZNTnZpWWViMV9yQnVCQXFVOEtOY1dtVDNqWk1FRVRpS05DMDZMOUFuY0FuRXJhSC1lQjJmWUVDdmt2cXJCclhUWXBKMi0zTExMRkxfcHBtcXhLNFdn?oc=5"
+      }
+    ]
+  },
+  {
     "company": "Workday",
     "date": "2026-10-07",
     "number": null,
