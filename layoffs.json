@@ -30,6 +30,21 @@
     ]
   },
   {
+    "company": "Flock Safety",
+    "date": "2026-10-09",
+    "number": null,
+    "roles": "Unknown",
+    "id": 1792575474843,
+    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNZjJDODBjeFVYRENLMm9RSjJLOTdUUjBHcDMtWXRCM1VtRDFBbVRsdjRpMEtrU3p6Ym1udmhHODU4NHlCdVVfQ0dCcXpteXduRE9ULXFzVWFDRXBhS3gwQ21GdkJlc3hqRzBPV0tjSmQwZ0RCQWVJX1AzblVvVGkwNzY1RWpnMVFZYnAwc3JQT0hHSmx2d2d4Z2otMzdFYnV3bkVfQWRldk1rWW5NZWU2Y1dWRkp1LUtyQ1ZEZw?oc=5",
+    "source": "Reuters",
+    "links": [
+      {
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNZjJDODBjeFVYRENLMm9RSjJLOTdUUjBHcDMtWXRCM1VtRDFBbVRsdjRpMEtrU3p6Ym1udmhHODU4NHlCdVVfQ0dCcXpteXduRE9ULXFzVWFDRXBhS3gwQ21GdkJlc3hqRzBPV0tjSmQwZ0RCQWVJX1AzblVvVGkwNzY1RWpnMVFZYnAwc3JQT0hHSmx2d2d4Z2otMzdFYnV3bkVfQWRldk1rWW5NZWU2Y1dWRkp1LUtyQ1ZEZw?oc=5"
+      }
+    ]
+  },
+  {
     "company": "Workday",
     "date": "2026-10-07",
     "number": null,
@@ -75,6 +90,10 @@
       {
         "source": "Yahoo Finance",
         "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNbm1JUnh0ekZhdU5HQ0ZMZHB5MTRNWUlzMThDeERTRE9Vd25aaUxOenVTT2xGVUNibkxLVm9oazE2b1oxOXU0OG9RLTBaODEzaGo0T0VqMkk4NVVTcTFMb0Fya2FZc3JGQks5ZTRBWEd4MktKU294OW9PN0VpZ0JuMzF5SXk4WldLX2pFY0dhZEJwOGQ2bnZFNw?oc=5"
+      },
+      {
+        "source": "TheWrap",
+        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFB6dDZiOXAzV0dSNG5NM3dmQTBOak4tZEl2RUduQjF1ZUFiUjV3aGg5eWRmOGdmUGJjdXFjTHM0eFlLOWRFRWpBaUU1dXd3TXBJalF2d0ZTa2daMVRYTFNtRFU3VkluTUpaTGQ2WGtGNFNEbUFMUHRxUl9n?oc=5"
       }
     ]
   },
