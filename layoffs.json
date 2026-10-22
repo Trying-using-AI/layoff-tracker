@@ -15,6 +15,36 @@
     ]
   },
   {
+    "company": "Automattic",
+    "date": "2026-10-21",
+    "number": null,
+    "roles": "Unknown",
+    "id": 1792673768095,
+    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQZHRncXJ0RmtMYWtYWm5fTFh4LUpQR1VqN0R1R3JIQ2FFYnhvajhqOE5uYWpDbFVMSGxMU3pZeTFJZWp0WTFmTUd0dzhOVVAxSnJfRVMtM1lkeDY1c1hTaHVUR2EzNzgtWDV0QV9NMHYtUEpFR0lOQ1ExajFRUWQ5a0JNaVV5Mnkxemp5ZGMyR1ZXX1FzVWZ2MjE4ZWc4d2x0U1ZXZWM1bjNmanRwZEVj?oc=5",
+    "source": "TechCrunch",
+    "links": [
+      {
+        "source": "TechCrunch",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQZHRncXJ0RmtMYWtYWm5fTFh4LUpQR1VqN0R1R3JIQ2FFYnhvajhqOE5uYWpDbFVMSGxMU3pZeTFJZWp0WTFmTUd0dzhOVVAxSnJfRVMtM1lkeDY1c1hTaHVUR2EzNzgtWDV0QV9NMHYtUEpFR0lOQ1ExajFRUWQ5a0JNaVV5Mnkxemp5ZGMyR1ZXX1FzVWZ2MjE4ZWc4d2x0U1ZXZWM1bjNmanRwZEVj?oc=5"
+      }
+    ]
+  },
+  {
+    "company": "EBay",
+    "date": "2026-10-21",
+    "number": null,
+    "roles": "Unknown",
+    "id": 1792673807673,
+    "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNX0dKaWw4MVRUYUIxc1prSUQ0Z3RqWXIweDAyVk5QODFUUWtjRXkyT3VLWEVmV2M4RzRXcXEwQUlqdnFwcGZBTmFoQkxYckVyT3k1amxiRGkzdnkxazdyeFJTQVVPWWNSZnNjS1VsV3BJU0I3eEVJY1p2c1c5Q0VsUw?oc=5",
+    "source": "San Francisco Chronicle",
+    "links": [
+      {
+        "source": "San Francisco Chronicle",
+        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNX0dKaWw4MVRUYUIxc1prSUQ0Z3RqWXIweDAyVk5QODFUUWtjRXkyT3VLWEVmV2M4RzRXcXEwQUlqdnFwcGZBTmFoQkxYckVyT3k1amxiRGkzdnkxazdyeFJTQVVPWWNSZnNjS1VsV3BJU0I3eEVJY1p2c1c5Q0VsUw?oc=5"
+      }
+    ]
+  },
+  {
     "company": "Netflix",
     "date": "2026-10-16",
     "number": null,
@@ -281,7 +311,7 @@
   {
     "company": "Cellares",
     "date": "2026-08-21",
-    "number": null,
+    "number": 100,
     "roles": "Unknown",
     "id": 1789506982063,
     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQaC1Xb3ZWeVlEUFhiVTNxVDRnLWUzamQwbmNrdXVuYTdzMHpQZS1wUzVkNmM3OW9uU2w1RHNyXzNfSVJLWWpOYUlfdHB2Ukc1SnpycUZ1STlrRUhjQkdrVFFKSDFoM1A0b3U2OElWdXMtdmFmcnRiT1N2bXlXYmM0a1VHSnJ1dFZlNjAxc0N3NWZjXzJEaDhRNUZpTXJBNWdTUmVNczBTQm43a09STEUtR2lR?oc=5",
@@ -290,6 +320,10 @@
       {
         "source": "The Business Journals",
         "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQaC1Xb3ZWeVlEUFhiVTNxVDRnLWUzamQwbmNrdXVuYTdzMHpQZS1wUzVkNmM3OW9uU2w1RHNyXzNfSVJLWWpOYUlfdHB2Ukc1SnpycUZ1STlrRUhjQkdrVFFKSDFoM1A0b3U2OElWdXMtdmFmcnRiT1N2bXlXYmM0a1VHSnJ1dFZlNjAxc0N3NWZjXzJEaDhRNUZpTXJBNWdTUmVNczBTQm43a09STEUtR2lR?oc=5"
+      },
+      {
+        "source": "BioPharma Dive",
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQRnhmam05azZaN2UzVEtKTUthM3VXeEU3dnZtaVJIVzQ3ekhfNTVfaGhsTHBPQWRQQUh3VmpCV2F0NWhRRzZ4aDIyVFhMSkF5ZWdHMlNGNERXU2ZsMlA1MGJhQ1Z1ekhVN3YzS3k1dmxpRzVCMWR3Z2lUdWxoWC1JZlIxaEhZMFdrNFIyVHNwNA?oc=5"
       }
     ]
   },
@@ -708,6 +742,10 @@
       {
         "source": "WSJ",
         "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQMG9vMmZVQU5BellTUzdIVGctcXhaZnUxV0RIcnJ5N3NlcXZaS04xSFdHblRaSWR2Wk9QRGZrbldOWjFhX1RzdnkzVHhwcmJNblRsOEdsNGVxazk0Tkpyal9zbURxZlkxb2l0X2tmaFJkM3lBN0J3cENoNXZPWXlqMkRnRXhMN3E5dmlISl9OQzg3bHc3?oc=5"
+      },
+      {
+        "source": "CNBC",
+        "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9CSGRTLXljZ0RLanF5SVJ1TW1fUHVLM0EzcHduNS1uRDdJelFxbmc4X2lMWGlsZXltNEZ5djZMV2tpY0VreG5OekhjTUNGeW1ZRExIRzRna1NpMzNKM0VtSNIBZkFVX3lxTE9mbDd4SUhRdlBub2lPMGRLZ1dkOTBIcWd3X0tNSDB3WGdSRjJfMDJRY0VFWjRIZE16ZU1USWh1cFZhdm04VTYyUHRLWDRGNGtDLUZFcVBVamV1TDdXZVgyb2lFY2gwUQ?oc=5"
       }
     ]
   },
