@@ -105,6 +105,21 @@
     ]
   },
   {
+    "company": "Walt Disney",
+    "date": "2026-09-30",
+    "number": 300,
+    "roles": "HR And Tech",
+    "id": 1792704581729,
+    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQMi02eF93cXk4RV84QVd5RkhERlJmVTVZbzB2OTlnSHdaLXhDUzEydUFyU1ZZbEN2Yy0yODdwTzM4aVYyXy1HR29wdWV1M0NxT3JsRWFzS0FPbHlzLTJ0bGcxS19sbU1RT1NBWGN0YXVCb1FMdk9PSThFdWhkRGZVSFdld251Q19ncTB3TDVxSXRMaXc?oc=5",
+    "source": "Yahoo Finance",
+    "links": [
+      {
+        "source": "Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQMi02eF93cXk4RV84QVd5RkhERlJmVTVZbzB2OTlnSHdaLXhDUzEydUFyU1ZZbEN2Yy0yODdwTzM4aVYyXy1HR29wdWV1M0NxT3JsRWFzS0FPbHlzLTJ0bGcxS19sbU1RT1NBWGN0YXVCb1FMdk9PSThFdWhkRGZVSFdld251Q19ncTB3TDVxSXRMaXc?oc=5"
+      }
+    ]
+  },
+  {
     "company": "Disney",
     "date": "2026-09-29",
     "number": 300,
