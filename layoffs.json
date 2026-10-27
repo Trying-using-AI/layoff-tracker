@@ -30,6 +30,21 @@
     ]
   },
   {
+    "company": "Amazon",
+    "date": "2026-10-23",
+    "number": null,
+    "roles": "Unknown",
+    "id": 1793134622546,
+    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQRl9PRXVZRmhCb1VrcDZlbTFRTVJjRllMMU1pZzBfSGhjZ2oteS1YNlo0NHllbkk3cjY0RmpBYWFpT0E5RzlPbmdDTC15REpwcF9wSmhNajRTaDdrTXFvVDF0NlZwUnVySDR5b1FGdXcwRkJJcDRxcUpQUEhDUkVlaTJ3cWJlQlpUR09v?oc=5",
+    "source": "TechRepublic",
+    "links": [
+      {
+        "source": "TechRepublic",
+        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQRl9PRXVZRmhCb1VrcDZlbTFRTVJjRllMMU1pZzBfSGhjZ2oteS1YNlo0NHllbkk3cjY0RmpBYWFpT0E5RzlPbmdDTC15REpwcF9wSmhNajRTaDdrTXFvVDF0NlZwUnVySDR5b1FGdXcwRkJJcDRxcUpQUEhDUkVlaTJ3cWJlQlpUR09v?oc=5"
+      }
+    ]
+  },
+  {
     "company": "Automattic",
     "date": "2026-10-21",
     "number": null,
