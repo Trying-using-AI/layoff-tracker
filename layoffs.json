@@ -120,6 +120,21 @@
     ]
   },
   {
+    "company": "Amazon",
+    "date": "2026-10-07",
+    "number": 1000,
+    "roles": "Unknown",
+    "id": 1793791844070,
+    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPRTNVUGI3MHhleV9RQXBqYkxXZzJweVVmbUdNa2ctTXhJNVNYSjRSS1V4RlRxT3VqUmxCb1dmY1hqMEVHX0ZONFpZbV9PQ0VJTjJ5N1BXejFXMEhUTm1Ka18yRHdwbk9wSUR6ejFyZjZLUjhFanItdXlVRTgwb0FSeTZ1ZmEtQ24yakhRX1NMeDVseERTbWJRcXdkM1oxQ3F6?oc=5",
+    "source": "Yahoo Finance",
+    "links": [
+      {
+        "source": "Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPRTNVUGI3MHhleV9RQXBqYkxXZzJweVVmbUdNa2ctTXhJNVNYSjRSS1V4RlRxT3VqUmxCb1dmY1hqMEVHX0ZONFpZbV9PQ0VJTjJ5N1BXejFXMEhUTm1Ka18yRHdwbk9wSUR6ejFyZjZLUjhFanItdXlVRTgwb0FSeTZ1ZmEtQ24yakhRX1NMeDVseERTbWJRcXdkM1oxQ3F6?oc=5"
+      }
+    ]
+  },
+  {
     "company": "Klaviyo",
     "date": "2026-10-01",
     "number": null,
