@@ -15,6 +15,21 @@
     ]
   },
   {
+    "company": "Google",
+    "date": "2026-11-05",
+    "number": null,
+    "roles": "Unknown",
+    "id": 1793893585887,
+    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQeE5sSkV6dF9ycm0zLVg5QVNYcXNybnFWX0YxZkQ2dGNKRHJ5bnhWR1E4UnFraDU1MWxfSkZiUzJiUzkxUkFBcm9KcWU4ODBDYW54NW5EelJEYUNQdXhfcWZtNnB5VEtlQmZCY0tleFNNQXFCeW1fVjFHdzNvR290d2lHRXNfV0dlTkEwcXFfc25LeVhRU0pv?oc=5",
+    "source": "Yahoo Finance",
+    "links": [
+      {
+        "source": "Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQeE5sSkV6dF9ycm0zLVg5QVNYcXNybnFWX0YxZkQ2dGNKRHJ5bnhWR1E4UnFraDU1MWxfSkZiUzJiUzkxUkFBcm9KcWU4ODBDYW54NW5EelJEYUNQdXhfcWZtNnB5VEtlQmZCY0tleFNNQXFCeW1fVjFHdzNvR290d2lHRXNfV0dlTkEwcXFfc25LeVhRU0pv?oc=5"
+      }
+    ]
+  },
+  {
     "company": "Microsoft",
     "date": "2026-10-26",
     "number": null,
@@ -576,6 +591,10 @@
       {
         "source": "Business Insider",
         "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQRUFmVWdfY2RhbjJwSF92eVlnaDRoajl5VkU2T292Qk9NRGNEcUNHWUdMRHFoMlB6MmdYMTVYc0x3bnZPdkIwTXg5LUpqZ2twODNUOVRGYk9LbGtOUERQdFRmakR6aTBzQzdnalRJNXpEazltZm1Bekxqbnp4clpCUzY0RHNmQVlZZkhJNzFyUjk0Wlk?oc=5"
+      },
+      {
+        "source": "HR Executive",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPendFeHpPeXN5aTdSRi1XeTZ2MjQzY2VJWmlkaGpxTXdJcWFnUGNtb1F4NWk1b25IS3k2akY3MDM3SFJFM3dkdHNZYkRkV3dHSGtXQmY1UkZ5MW5KV19JNGVzN0ZHMGh5NV8yemI5eno0ZkZOUWVTLXZCamZRTGJDdTF3WVRwTEpmSm50YmFqd1Zsc3JtNXc?oc=5"
       }
     ]
   },
