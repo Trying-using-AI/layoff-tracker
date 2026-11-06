@@ -15,6 +15,21 @@
     ]
   },
   {
+    "company": "Canva",
+    "date": "2026-11-06",
+    "number": null,
+    "roles": "Unknown",
+    "id": 1793958617098,
+    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOTnN1ZC13WFlSWkF0QV9qT0N1TVFITFppdVlWcHVnaHhmU2RzcTVPNlNBMWgtZWx6Q09HLU9pQ2pWN0EtUEhyMFQxbzlfUEw4T214emlvdm9Cc2hNZUh5MkNVZEV0bFJ4MWVtNzdQUXZ4cHV1bHhLY044bmhNRTFqMDdiUWZqeGhueWRDbm5IUUw?oc=5",
+    "source": "The Federal",
+    "links": [
+      {
+        "source": "The Federal",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOTnN1ZC13WFlSWkF0QV9qT0N1TVFITFppdVlWcHVnaHhmU2RzcTVPNlNBMWgtZWx6Q09HLU9pQ2pWN0EtUEhyMFQxbzlfUEw4T214emlvdm9Cc2hNZUh5MkNVZEV0bFJ4MWVtNzdQUXZ4cHV1bHhLY044bmhNRTFqMDdiUWZqeGhueWRDbm5IUUw?oc=5"
+      }
+    ]
+  },
+  {
     "company": "Google",
     "date": "2026-11-05",
     "number": null,
@@ -26,6 +41,10 @@
       {
         "source": "Yahoo Finance",
         "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQeE5sSkV6dF9ycm0zLVg5QVNYcXNybnFWX0YxZkQ2dGNKRHJ5bnhWR1E4UnFraDU1MWxfSkZiUzJiUzkxUkFBcm9KcWU4ODBDYW54NW5EelJEYUNQdXhfcWZtNnB5VEtlQmZCY0tleFNNQXFCeW1fVjFHdzNvR290d2lHRXNfV0dlTkEwcXFfc25LeVhRU0pv?oc=5"
+      },
+      {
+        "source": "24/7 Wall St.",
+        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPOXN1N3phSm1ZN09KVUJFVWxGQUxkRHlXaTduVzVDNV9nRWlDcXhXMTlSZ292SUw4dDhIejRQNmlYTmtvWG1qaDBxMkcycnBFdkJRcWtaQUNOS2E3QktKMFA4ZWZQcHJBVl9YaF9GR284eXZYWFMzVk8xcGk0VjZOV2FtZDN5MmtyZUE?oc=5"
       }
     ]
   },
