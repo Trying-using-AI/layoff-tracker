@@ -117,6 +117,21 @@
     ]
   },
   {
+    "company": "Netflix and eBay",
+    "date": "2026-10-23",
+    "number": null,
+    "roles": "Unknown",
+    "id": 1794310827803,
+    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOUW5XSnVQalZxRXIwOVpIMHktM05nX3llWHpqTEstSURZMDYyQlhNeWE0eUhlQ2NTZnFQdDJsUGVqSnNVMWRyTzIxM0lkTmpYdGNhTXZrVnhzUFR3WVpQb19wYUx1ajg2UWFoVHdoREFVc0lZLVFwb2ZsTXdFOTZuZXh0OTlOZlZl?oc=5",
+    "source": "Newsweek",
+    "links": [
+      {
+        "source": "Newsweek",
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOUW5XSnVQalZxRXIwOVpIMHktM05nX3llWHpqTEstSURZMDYyQlhNeWE0eUhlQ2NTZnFQdDJsUGVqSnNVMWRyTzIxM0lkTmpYdGNhTXZrVnhzUFR3WVpQb19wYUx1ajg2UWFoVHdoREFVc0lZLVFwb2ZsTXdFOTZuZXh0OTlOZlZl?oc=5"
+      }
+    ]
+  },
+  {
     "company": "Automattic",
     "date": "2026-10-21",
     "number": null,
