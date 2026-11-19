@@ -15,6 +15,36 @@
     ]
   },
   {
+    "company": "Intel",
+    "date": "2026-11-18",
+    "number": null,
+    "roles": "Unknown",
+    "id": 1795080237565,
+    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNaTBvT0pWSDBxZzhYeTFTVTJtcXdoYWY3YlJGQW9kMVdKeFhzSGpWUkpVY2phdXBwN05KR2lwbEQzamhOamlkSDBxWUdOVzlXRkxmbmJiUHI4MUJJLXZFakhfUHZ5YVo1YTlXU1NFekczZ1hHUmROa0tRdWZRTXowOE81cW10SkNRTkE?oc=5",
+    "source": "Business Insider",
+    "links": [
+      {
+        "source": "Business Insider",
+        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNaTBvT0pWSDBxZzhYeTFTVTJtcXdoYWY3YlJGQW9kMVdKeFhzSGpWUkpVY2phdXBwN05KR2lwbEQzamhOamlkSDBxWUdOVzlXRkxmbmJiUHI4MUJJLXZFakhfUHZ5YVo1YTlXU1NFekczZ1hHUmROa0tRdWZRTXowOE81cW10SkNRTkE?oc=5"
+      }
+    ]
+  },
+  {
+    "company": "Intel Corporation",
+    "date": "2026-11-18",
+    "number": null,
+    "roles": "Unknown",
+    "id": 1795080370372,
+    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQTDhsZWl5UzI3S0tpMVFXWHQ0Z21MZ0gxWEV2YW41STI3dlhRc09sX1VfeHNoamFXbkVuNWJhVG9iSTdCdDA4RmhQSVlxaGpKRUE4M0JncUxESnhRNk1ORTBIR0VaTGUzN24xaDZFWmpXN3dBQWE2bi03dkkxS1A4U2V0aVJLV1JZcmdHMEhjUVlDb2RLUV9MLTZtZ0JUcFY5SjMxMm9XSXpHWkNqUzRVWQ?oc=5",
+    "source": "TradingView",
+    "links": [
+      {
+        "source": "TradingView",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQTDhsZWl5UzI3S0tpMVFXWHQ0Z21MZ0gxWEV2YW41STI3dlhRc09sX1VfeHNoamFXbkVuNWJhVG9iSTdCdDA4RmhQSVlxaGpKRUE4M0JncUxESnhRNk1ORTBIR0VaTGUzN24xaDZFWmpXN3dBQWE2bi03dkkxS1A4U2V0aVJLV1JZcmdHMEhjUVlDb2RLUV9MLTZtZ0JUcFY5SjMxMm9XSXpHWkNqUzRVWQ?oc=5"
+      }
+    ]
+  },
+  {
     "company": "Disney",
     "date": "2026-11-17",
     "number": null,
@@ -26,6 +56,10 @@
       {
         "source": "Business Insider",
         "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQNEx1ZTAwX0F5bUotSzNiVVVtRThEbmRCcWVBNV8wNWRweXZvU2Y1TloyQjMtNDBYT3pUcXNzT2ZMXzVONG43TkJScGRsZlVsczVlQlpPcURsR0p6TFNHSWVyc2wwZnFSV0hsVVVzc2Jzc2ozS3J1eXlwQVZrdzc5OWp6Smt0NmI3R0pBSDVabDFELXRNWC1EZ1dFZWJpMXRLUjRzMkQ1cU8?oc=5"
+      },
+      {
+        "source": "Fast Company",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNMkdrYlBmb2hZYVZoUGZOcUtNQnAwbmhoMk9EWU53VVduZ0VvdGV1WVZjbkdjRVpHWjI4WTJpeGMtWWhIOVZpdndoWmU2NC1RMGNiSmVWM2FUdTBnMUFzMU5sSDRXaEFFYnprUWU5UXhvY09ucDVtMS1SblhqWTRTVUI1dTVnamFMNEVfTVg3RHhvWU1pOXEwV3puYw?oc=5"
       }
     ]
   },
@@ -1179,6 +1213,10 @@
       {
         "source": "Seattle Red",
         "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE0ydzVMQUEwZ0g5WEdtMnRDSjI1aG1CUDdtdHlhaFVTUUM1UTV2blhBbS1PbzVtR0JfYVV0MUxuTmxMaGM0WjAtSGJPMTNabDBtdzg5bVF1RE84NENubXQ3Rm9fcGREZ2ljeG9YVFhMeGl5ZXBqWlBfbmRURVM?oc=5"
+      },
+      {
+        "source": "GeekWire",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQanJhLTQxZHp3UEZhNXNYMmVLa0cxNzRfakZndU92WVIxeVN5UEtBdFFycXNSVU92QmFZclpHWGltYmZ0Mmx6dGlkWTdrMjFvdzlmODBZbzYtNXdRb3JfWEUyN0NpWjNhVXoxTkU1UEtiRGJNSTVia0I5WUlna1dyZno1WFkyYUpKVHJ3OWdmcjdEZ1lwZ0NzWldibEw3eGpMUzJ1YjM1Zy16VXdOejNjTmc5VGJtVWJ2R3lrQUNn?oc=5"
       }
     ]
   },
