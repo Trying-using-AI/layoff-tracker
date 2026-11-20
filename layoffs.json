@@ -15,6 +15,21 @@
     ]
   },
   {
+    "company": "Crunchbase",
+    "date": "2026-11-20",
+    "number": null,
+    "roles": "Unknown",
+    "id": 1795165590880,
+    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPSXFTM3Nub05uOTBldGl5N3A3bUN2MnhSYlpieHdFbjNfdzZLR0NLeF9id3ZOMUhPWG14ankyTEtWU0JWdTBtUlRhcDZNZGhRbXRVWFlwWnZjc25xdEJzRlF3Vm5jZDBMMlMtRWZGWDlyRlBYcF9IUWVpbjdMWHVXVEYwS1BhSXVLR2kxcjdHZjV6aVhN?oc=5",
+    "source": "Yahoo Finance",
+    "links": [
+      {
+        "source": "Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPSXFTM3Nub05uOTBldGl5N3A3bUN2MnhSYlpieHdFbjNfdzZLR0NLeF9id3ZOMUhPWG14ankyTEtWU0JWdTBtUlRhcDZNZGhRbXRVWFlwWnZjc25xdEJzRlF3Vm5jZDBMMlMtRWZGWDlyRlBYcF9IUWVpbjdMWHVXVEYwS1BhSXVLR2kxcjdHZjV6aVhN?oc=5"
+      }
+    ]
+  },
+  {
     "company": "Intel",
     "date": "2026-11-18",
     "number": null,
