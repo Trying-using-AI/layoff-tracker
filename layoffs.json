@@ -196,6 +196,21 @@
     ]
   },
   {
+    "company": "Marriott",
+    "date": "2026-10-28",
+    "number": null,
+    "roles": "corporate",
+    "id": 1795295006862,
+    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE8tNm9EaEZBZDRBc3ZSWmFzRkJ6ZmNGekhPekR3Q1U4QlFESnJNMkE3QzRzeWU5ZEJtYUFlRzNiZUVyV0ZqRUt1R29QNFAwb0p4ZXQxcURyVWwxRENnRTR5aHpRT01pb1RuR0VUUmhiWXR4MEt2?oc=5",
+    "source": "Skift",
+    "links": [
+      {
+        "source": "Skift",
+        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE8tNm9EaEZBZDRBc3ZSWmFzRkJ6ZmNGekhPekR3Q1U4QlFESnJNMkE3QzRzeWU5ZEJtYUFlRzNiZUVyV0ZqRUt1R29QNFAwb0p4ZXQxcURyVWwxRENnRTR5aHpRT01pb1RuR0VUUmhiWXR4MEt2?oc=5"
+      }
+    ]
+  },
+  {
     "company": "Microsoft",
     "date": "2026-10-26",
     "number": null,
@@ -222,6 +237,10 @@
       {
         "source": "TechRepublic",
         "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQRl9PRXVZRmhCb1VrcDZlbTFRTVJjRllMMU1pZzBfSGhjZ2oteS1YNlo0NHllbkk3cjY0RmpBYWFpT0E5RzlPbmdDTC15REpwcF9wSmhNajRTaDdrTXFvVDF0NlZwUnVySDR5b1FGdXcwRkJJcDRxcUpQUEhDUkVlaTJ3cWJlQlpUR09v?oc=5"
+      },
+      {
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOSVoyUXFMZHNCb0FHRDhzSkdTOXA3c3NBWTdPZEpNc1h0RV9DSG02YWh3QXI4Y3J4TGpJczQ5TUpPRkhuVllUQ3VqcEM4VUZpdUlfRjctcE5LLTNqZlVFcGFvcnhOckZrUEhkQjRvYVJvTFFSZUdvcHFQTGZqb0RLTmhzdUtaczVBR3laYTZXclZUeml4R0l0aFYybmZmVGtNT3hQT1Flc0w5cm00UHl5TDFhT0NEaDZuaW9BbG1CWjU?oc=5"
       }
     ]
   },
@@ -591,6 +610,21 @@
       {
         "source": "Business Insider",
         "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOZnRSVm5TT0VWcEZteEhmZmFEcFNYdnRKcUM2WDE4eUQxbEN2Y0ZTOENZOFBWbVFqSHBSR1BONnRMZ2Nkb2JWWGtMVFpLcEpxZ2prRG9IZUpTeXFXMjdWeEJlRzBueFNGN1FGYmJDM01lTExUZ2JmeUs1bWVzTmQ1bkZvTTVMUWxQaUtpS29aaWNNTVdrT2dCX05RSlQwREw0c09j?oc=5"
+      }
+    ]
+  },
+  {
+    "company": "Even Healthcare",
+    "date": "2026-08-27",
+    "number": null,
+    "roles": "Unknown",
+    "id": 1795294995559,
+    "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQeUVlOVhwbWZqaEZFUHc3WERHTzY4cjFVYlBPVGhZak4zajFkWDdyc2VZRTFXNW5xTFdDT0tLcE5EdlZSYzRJb1V3dTllbjFiS3VRT21VMXR0aUJjLW9nNjBSc3JBTUxJTWpMMXBVcVpSUFhQTzBDZFlDQ1ZYUHNacFQ2TTY2eGhIY1pldDZJdkVDN3luTlNXLVBObnFKdXhnaVE3dlFSQkpzZVV3b2o2b1FmM2RJMzRlX2R5bkRrc3NyRXQ50gHMAUFVX3lxTFBMZWxRQ2lfVWtOTGVmTV8zQm1pN2R0eUJucVRJVGJQdm5WTVhLSnFTYzB5ZzVMaVJwYldtOW1tQVhrY29rdklHdnRub2g5UE5nZE84YnJBMVp5UHA4aGxWOEwxTmtMVlR2VTBBNHd6cFMzX0Z5aFRJMW5JVmlFRkpObDJXSEFwd05pMkgta09oMlduSkFLT3NHa1BBYkR5Zy1laUxBdk16bGpySTQ4SFlIb3dpdXpMeHUzX0tQMzhLVXc1RzdrVHlWNXhYSw?oc=5",
+    "source": "NDTV Profit",
+    "links": [
+      {
+        "source": "NDTV Profit",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQeUVlOVhwbWZqaEZFUHc3WERHTzY4cjFVYlBPVGhZak4zajFkWDdyc2VZRTFXNW5xTFdDT0tLcE5EdlZSYzRJb1V3dTllbjFiS3VRT21VMXR0aUJjLW9nNjBSc3JBTUxJTWpMMXBVcVpSUFhQTzBDZFlDQ1ZYUHNacFQ2TTY2eGhIY1pldDZJdkVDN3luTlNXLVBObnFKdXhnaVE3dlFSQkpzZVV3b2o2b1FmM2RJMzRlX2R5bkRrc3NyRXQ50gHMAUFVX3lxTFBMZWxRQ2lfVWtOTGVmTV8zQm1pN2R0eUJucVRJVGJQdm5WTVhLSnFTYzB5ZzVMaVJwYldtOW1tQVhrY29rdklHdnRub2g5UE5nZE84YnJBMVp5UHA4aGxWOEwxTmtMVlR2VTBBNHd6cFMzX0Z5aFRJMW5JVmlFRkpObDJXSEFwd05pMkgta09oMlduSkFLT3NHa1BBYkR5Zy1laUxBdk16bGpySTQ4SFlIb3dpdXpMeHUzX0tQMzhLVXc1RzdrVHlWNXhYSw?oc=5"
       }
     ]
   },
@@ -1066,6 +1100,21 @@
       {
         "source": "Silicon Prairie News",
         "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOMXpYaXhMZWwxWTEtaDBmMG5VaTFKU0hCcGdIRHJTYnFjRE5kVUtBYkhyR1N4UDg0UGF1QUFTa01MdXEtRWdKanJRakVFbGRPZE50MGhUcnNORE5WcHhKRFpwT3k0WmRjaS1RcHZhV3FkUktDRU5KRjBWdEpIa1ZvUjB3YTd3VkxsNWxDX0t6N01WVTlHVktUbVdzbTkyNUhqSTlYSXhxUzRhazBSRHZUcjdWcjVtZEk?oc=5"
+      }
+    ]
+  },
+  {
+    "company": "Amperity",
+    "date": "2026-06-25",
+    "number": null,
+    "roles": "Unknown",
+    "id": 1795294881865,
+    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPcHdsQUU4czlXOVFrUlJ5dEtJUUctdnhPcW1EN21Pc2xRUm9RZmUxaWtxR0tESWZwb2wtekNueW5XdU8wcGZZYUx0UktPY0c3V2ZpX2FER2hKZ2tsRHI5S0pyN0hIQ2lyXy1vNDV3U1NheGRVYVFNLWptYUY1alRwVGJVZ2E2WjZWV0JXekpGMTlpR0Q5R24xaTJHUkRuNENRdGtuaUZySzBnWEFFcmYtQ2JtVW5lMVpsMU1MVmJLT1FQeVBsRG9mdA?oc=5",
+    "source": "GeekWire",
+    "links": [
+      {
+        "source": "GeekWire",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPcHdsQUU4czlXOVFrUlJ5dEtJUUctdnhPcW1EN21Pc2xRUm9RZmUxaWtxR0tESWZwb2wtekNueW5XdU8wcGZZYUx0UktPY0c3V2ZpX2FER2hKZ2tsRHI5S0pyN0hIQ2lyXy1vNDV3U1NheGRVYVFNLWptYUY1alRwVGJVZ2E2WjZWV0JXekpGMTlpR0Q5R24xaTJHUkRuNENRdGtuaUZySzBnWEFFcmYtQ2JtVW5lMVpsMU1MVmJLT1FQeVBsRG9mdA?oc=5"
       }
     ]
   },
