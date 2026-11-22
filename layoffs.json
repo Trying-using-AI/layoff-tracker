@@ -30,6 +30,21 @@
     ]
   },
   {
+    "company": "Cisco",
+    "date": "2026-11-20",
+    "number": null,
+    "roles": "Unknown",
+    "id": 1795369627920,
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1yU0hJZUNzS3JkSjBldl9VWjVjSGZxdXlhejAxaEtXdTRnc3k5dzRQMU9MQXlnOEdUNkltUkpuSktHeV8xUXVTWUlWdkxsWThBOUNSU1BBUWw2bFJuQ1BEQVhPUHlaOTA?oc=5",
+    "source": "CTech",
+    "links": [
+      {
+        "source": "CTech",
+        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1yU0hJZUNzS3JkSjBldl9VWjVjSGZxdXlhejAxaEtXdTRnc3k5dzRQMU9MQXlnOEdUNkltUkpuSktHeV8xUXVTWUlWdkxsWThBOUNSU1BBUWw2bFJuQ1BEQVhPUHlaOTA?oc=5"
+      }
+    ]
+  },
+  {
     "company": "Salesforce",
     "date": "2026-11-19",
     "number": null,
@@ -1515,6 +1530,10 @@
       {
         "source": "Startup Fortune",
         "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQVGhCMHN6UGFTLVNUOFphY0ZrZF80eXlOamlnZTVVSzVFS2xqanJGeXNBbW5jTHMxY3g4RUV1aFpuM0N1V1NhZ0lINUh5SXdCZ3R6dU9BOTRsSVRNVmszXzdxaW1VZ2FVbVc3NFRWckw3RHg4UlFlbXlPR1J4QnlBZEhUeGU5T2VlZV9ONg?oc=5"
+      },
+      {
+        "source": "Startup Fortune",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOUFFiZ0FVMkhxV29zMExtZGN0clB4RFdIb0VWQ21MZnBKYjlQa1FKS1pqSTRGcHJnNmhmZ1dMLURyd2MzcTQxbVJBVUxNR0t1cTMwYms3dk14eFBoa3NvbmxhNF9TU1IxdkdoeE1FQ21wdHZoMHB4aWc3T3FfWTJnRlpseDNWcEU?oc=5"
       }
     ]
   },
