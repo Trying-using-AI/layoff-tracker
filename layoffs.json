@@ -15,6 +15,21 @@
     ]
   },
   {
+    "company": "Google",
+    "date": "2026-11-24",
+    "number": 30,
+    "roles": "Cloud division",
+    "id": 1795584241896,
+    "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9WYXNZNk1zU3piX1FuUXM1UVl2MU1vZWd0VjBhT3ZOVFFvN3I4QnZFdXh3MGtPUm1ZbWQ4cDRLNEd4OGlGUUV0MGk4V1FBSVVsN1E?oc=5",
+    "source": "Instagram",
+    "links": [
+      {
+        "source": "Instagram",
+        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9WYXNZNk1zU3piX1FuUXM1UVl2MU1vZWd0VjBhT3ZOVFFvN3I4QnZFdXh3MGtPUm1ZbWQ4cDRLNEd4OGlGUUV0MGk4V1FBSVVsN1E?oc=5"
+      }
+    ]
+  },
+  {
     "company": "Crunchbase",
     "date": "2026-11-20",
     "number": null,
